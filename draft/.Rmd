@@ -6,156 +6,498 @@ output: html_document
 ```{r global}
 
 library(data.table)
-library(ffanalytics)
+library(ggplot2)
 
-scrape <- FALSE
+snake <- matrix(, nrow = 12, ncol = 15)
+
+snake[,1] <- seq(1,12)
+
+for (i in 2:15){
+  
+  if(i %% 2 == 0){
+  snake[,i] <- rev(seq(max(snake[,i-1])+1,max(snake[,i-1])+12))
+  } else {snake[,i] <- seq(max(snake[,i-1])+1,max(snake[,i-1])+12)}
+  
+}
 
 ```
 
 ```{r data_pull}
 
-d <- scrape_data()
+load(file = "input/.RData")
 
 ```
 
-```{r points_settings}
 
-rules <-
-  list(
+```{r}
 
-pass =
-  list(
-    pass_att = 0
-    ,pass_comp = 0
-    ,pass_inc = 0
-    ,pass_yds = 0.04
-    ,pass_tds = 4
-    ,pass_int = -1
-    ,pass_40_yds = 0
-    ,pass_300_yds = 0
-    ,pass_350_yds = 0
-    ,pass_400_yds = 0
-  )
+g <- p[avg_type == "weighted"&rank <900&position %in% c("QB","WR","TE","RB"),]
 
-,rush =
-  list(
-    all_pos = TRUE
-    ,rush_yds = 0.1
-    ,rush_att = 0
-    ,rush_40_yds = 0
-    ,rush_tds = 6
-    ,rush_100_yds = 0
-    ,rush_150_yds = 0
-    ,rush_200_yds = 0
+ggplot(
+  g
+  ,aes(
+    x = -rank
+    ,y = points
+    ,group = position
+    ,color = position
   )
-  
-,rec = 
-  list(
-    all_pos = TRUE
-    ,rec = 0
-    ,rec_yds = 0.1
-    ,rec_tds = 6
-    ,rec_40_yds = 0
-    ,rec_100_yds = 0
-    ,rec_150_yds = 0
-    ,rec_200_yds = 0
-  )
-  
-,misc = 
-  list(
-    all_pos = TRUE
-    ,fumbles_lost = 0 
-    ,fumbles_total = 0
-    ,sacks = 1
-    ,two_pts = 0
-  )
-  
-,kick =
-  list(
-    xp = 1.0
-    ,fg_0019 = 3.0
-    ,fg_2029 = 3.0
-    ,fg_3039 = 3.0
-    ,fg_4049 = 4.0
-    ,fg_50 = 5.0
-    ,fg_miss = 0.0
-  )
-  
-,ret =
-  list(
-    all_pos = TRUE
-    ,return_tds = 6
-    ,return_yds = 0
-  )
-  
-,idp =
-  list(
-    all_pos = TRUE
-    ,idp_solo = 1
-    ,idp_asst = 0.5
-    ,idp_sack = 2
-    ,idp_int = 3,idp_fum_force = 3
-    ,idp_fum_rec = 2
-    ,idp_pd = 1
-    ,idp_td = 6
-    ,idp_safety = 2
-  )
-  
-,dst = 
-  list(
-    dst_fum_rec = 2
-    ,dst_int = 2
-    ,dst_safety = 2
-    ,dst_sacks = 1
-    ,dst_td = 6
-    ,dst_blk = 1.5
-    ,dst_ret_yds = 0
-    ,dst_pts_allowed = 0
-  )
-  
-,pts_bracket =
-  list(
-    list(threshold = 0, points = 7)
-    ,list(threshold = 6, points = 4)
-    ,list(threshold = 20, points = 1)
-    ,list(threshold = 27, points = 0)
-    ,list(threshold = 34, points = -1)
-    ,list(threshold = 99, points = -4)
-  )
+) + 
+geom_pointrange(
+  aes(
+    ymin=floor
+    ,ymax=ceiling
+    )
+) 
 
+```
+
+```{r}
+
+g <- p[rank < 24&avg_type == "weighted",]
+
+ggplot(
+  g
+  ,aes(
+    x = -rank
+    ,y = points
+    ,group = position
+    ,color = position
+  )
+) + 
+geom_pointrange(
+  aes(
+    ymin=floor
+    ,ymax=ceiling
+    )
+) + 
+geom_text(
+  aes(label=last_name)
+  ,hjust = 0
+  ,vjust = 2
 )
 
 ```
 
+# Risk-Adjusted Points
 
 ```{r}
 
-p <- projections_table(d,scoring_rules = rules)
+p[
+  rank > 0&rank < 50
+  ,a1 := 0
+]
 
-p <- p %>% add_ecr() %>% add_risk() 
+p[
+  rank >= 50&rank <= 100
+  ,a1 := 1/50*(rank-50) 
+]
 
-p <- p %>% add_player_info()
+p[
+  rank > 100
+  ,a1 := 1 
+]
 
-yahoo <- yahoo_draft()
+p[
+  rank > 0&rank < 50
+  ,a2 := 1 - 1/50*(rank-1)
+]
+
+p[
+  rank >= 50
+  ,a2 := 0 
+]
+
+p[
+  rank > 0&rank < 50
+  ,a3 := 1/50*(rank-1)
+]
+
+p[
+  rank >= 50&rank <= 100
+  ,a3 := 1 - 1/50*(rank-50) 
+]
+
+p[
+  rank > 100
+  ,a3 := 0 
+]
+
+
+p[ ,points_ra := a1*ceiling + a2*floor + a3*points]
+
+
+```
+
+# Draft Frame
+
+```{r}
+
+draft <- 
+  p[
+    avg_type == "weighted"
+    ,.(
+    id
+    ,rank
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,floor
+    ,points_ra
+    ,ceiling
+    )
+  ]
+
+draft[
+  yahoo
+  ,`:=`(adp = i.adp)
+  ,on = "id"
+]
+
+draft <- draft[order(adp),]
+
+draft[,drafted:=0]
+
+draft[rank < 24,drafted:=1]
+
+
+```
+
+# Availability Likelihood
+
+```{r}
+
+current_pick <- 25
+
+player_ids <- draft[drafted == 0,.(id,"adp" = round(adp),position)]
+
+adp <- player_ids[,adp]
+
+adp[is.na(adp)] <- 200
+
+adp[adp < current_pick] <- current_pick
+
+adp <- adp - current_pick + 1
+
+
+N <- player_ids[,.N]
+
+avail <- matrix(0, nrow = N, ncol = 181-current_pick)
+
+dimnames(avail) <- list(paste0(player_ids[,id]),paste0("pick.",seq(current_pick,180,1)))
+
+for (i in 1:N){
+  
+  for(j in 1:(181-current_pick)){
+  
+  avail[i,j] <- 1 - ppois(q = j-1, lambda = adp[i])
+  
+  }
+  
+}
+
+avail[, 1] <- 1
+
+```
+
+# Number of Players Drafted by Position and Pick
+
+
+```{r}
+
+avail_fr <- data.table(cbind("id" = rownames(avail),avail))
+
+avail_fr[
+  draft
+  ,`:=`(
+    position = position
+    ,first_name = i.first_name
+    ,last_name = i.last_name
+    ,adp = adp
+    ,points_ra = points_ra
+  )
+  ,on = "id"
+]
+
+avail_fr[1:12,.(pick.25,pick.26,pick.27,pick.28,first_name,last_name,position)]
+
+avail_fr[,sum(1-as.numeric(pick.37)),by = position]
+
+avail_fr[,sum(1-as.numeric(pick.73)),by = position][,sum(V1)]
+
+
+  
+qbid <- player_ids[position=="QB",id]
+
+rbid <- player_ids[position=="RB",id]
+
+wrid <- player_ids[position=="WR",id]
+
+teid <- player_ids[position=="TE",id]
+
+dstid <- player_ids[position=="DST",id]
+
+kid <- player_ids[position=="K",id]
+
+
+pos_accum <- matrix(0, nrow = 6, ncol = 181-current_pick)
+
+colnames(pos_accum) <- paste0("pick.",seq(1,181-current_pick))
+
+rownames(pos_accum) <- c("WR",  "QB",  "TE",  "RB",  "DST", "K")
+
+
+pos_accum["QB",] <- apply(avail[qbid,],MARGIN = 2,FUN = function(x){sum(as.numeric(1-x))})
+
+pos_accum["RB",] <- apply(avail[rbid,],MARGIN = 2,FUN = function(x){sum(as.numeric(1-x))})
+
+pos_accum["WR",] <- apply(avail[wrid,],MARGIN = 2,FUN = function(x){sum(as.numeric(1-x))})
+
+pos_accum["TE",] <- apply(avail[teid,],MARGIN = 2,FUN = function(x){sum(as.numeric(1-x))})
+
+pos_accum["DST",] <- apply(avail[dstid,],MARGIN = 2,FUN = function(x){sum(as.numeric(1-x))})
+
+pos_accum["K",] <- apply(avail[kid,],MARGIN = 2,FUN = function(x){sum(as.numeric(1-x))})
+
+pos_accum["QB",1] <- draft[drafted ==1&position=="QB",.N]
+
+pos_accum["RB",1] <- draft[drafted ==1&position=="RB",.N]
+
+pos_accum["WR",1] <- draft[drafted ==1&position=="WR",.N]
+
+pos_accum["TE",1] <- draft[drafted ==1&position=="TE",.N]
+
+pos_accum["DST",1] <- draft[drafted ==1&position=="DST",.N]
+
+pos_accum["K",1] <- draft[drafted ==1&position=="K",.N]
+
+for (i in 2:(181-current_pick)){
+  pos_accum[,i] <- pos_accum[,i-1] + 1*pos_accum[,i]/sum(pos_accum[,i])
+}
+
+
+
+
+te <- dnbinom(x = seq(0,1),prob = 1/2, size = 1.2)/sum(dnbinom(x = seq(0,1),prob = 1/2, size = 1.2))
+
+qb <- dnbinom(x = seq(0,1),prob = 1/2, size = 1)/sum(dnbinom(x = seq(0,1),prob = 1/2, size = 1))
+
+rb <- dnbinom(x = seq(0,3),prob = 3/4, size = 2.4)/sum(dnbinom(x = seq(0,3),prob = 3/4, size = 2.4))
+
+wr <- dnbinom(x = seq(0,4),prob = 2/3, size = 2.4)/sum(dnbinom(x = seq(0,4),prob = 2/3, size = 2.4))
+
+
+pos_accum_12 <- pos_accum/12
+
+plot(1-pexp(pos_accum_12["QB",],rate = 1/2), type = 'l')
+lines(1-pexp(pos_accum_12["RB",],rate = 1/2))
+lines(1-pexp(pos_accum_12["WR",],rate = 1/2))
+
+
+
 
 ```
 
 
-```{r}
-
-ggplot(p[p$rank < 25&p$avg_type == "weighted",], aes(x=-rank, y=points,group=position,color=position)) + 
-geom_pointrange(aes(ymin=floor, ymax=ceiling)) +geom_text(aes(label=last_name),hjust=0, vjust=5)
-
-```
+# Starting Likelihood
 
 ```{r}
 
-p$points_weighted <- (p$floor/p$ceiling)*p$points
 
-graph <-   p[p$rank < 25&p$avg_type == "weighted",]
+avail[
+  position == "QB"
+  , starting :=  1- ppois(position_rank,lambda = 12)
+#  , starting :=  1- pnbinom(q= position_rank,size = 1,prob = 1/4)
+]
 
-ggplot(p[p$rank < 12&p$avg_type == "weighted",], aes(x=-rank, y=points_weighted,group=position,color=position)) + 
-geom_pointrange(aes(ymin=floor, ymax=ceiling)) +geom_text(aes(label=last_name),hjust=0, vjust=5)
+avail[
+  position == "RB"
+   , starting :=  1- ppois(position_rank,lambda = 30)
+  #  , starting :=  1- pnbinom(q= position_rank,size = 2,prob = 3/5)
+]
+
+avail[
+  position == "WR"
+  ,starting :=  1- ppois(position_rank,lambda = 30)
+#   , starting :=  1- pnbinom(q= position_rank,size = 2,prob = 2/5)
+]
+
+avail[
+  position == "TE"
+  ,starting :=  1- ppois(position_rank,lambda = 19)
+#  ,starting :=  1- pnbinom(q= position_rank,size = 1,prob = 1/10)
+]
+
+avail[
+  position == "K"
+#  ,starting :=  1- ppois(position_rank,lambda = 30)
+  , starting := 1
+]
+
+avail[
+  position == "DST"
+#  ,starting :=  1- ppois(position_rank,lambda = 30)
+  , starting := 1
+]
+
+avail[,points_weighted_starting := points_weighted*starting]
+
+
+pos <- matrix(0, nrow = 6, ncol = 180)
+
+colnames(pos) <- paste0("pick.",seq(1,180))
+
+rownames(pos) <- avail[,unique(position)]
+
+for (i in 1:180){
+  
+  for(j in c("QB","RB","WR","TE","DST","K")){
+
+nm <- paste0("pick.",i)  
+
+pr <- as.numeric(unlist(avail[position == j,..nm]))
+                                
+val <- pr * avail[position == j,points_weighted_starting]
+
+val <- val[order(-val)]
+
+val <- mean(val[1:5])
+  
+pos[j, i] <- val 
+
+  }
+
+}
+
+
+oc1 <- matrix(0, nrow = 6, ncol = 180)
+
+colnames(oc1) <- paste0("pick.",seq(1,180))
+
+rownames(oc1) <- avail[,unique(position)]
+
+for (i in 1:180){
+  
+  dp <- which(snake == i, arr.ind = T)[1]
+  rd <- which(snake == i, arr.ind = T)[2]
+  
+  oc1[,i] <- 
+    (
+      if(rd == 15){0}else{0} +
+      (if(rd < 15){pos[,snake[dp,rd+1]]}else{0}) + 
+      (if(rd < 14){pos[,snake[dp,rd+2]]}else{0}) + 
+      (if(rd < 13){pos[,snake[dp,rd+3]]}else{0}) + 
+      (if(rd < 12){pos[,snake[dp,rd+4]]}else{0}) + 
+      (if(rd < 11){pos[,snake[dp,rd+5]]}else{0}) + 
+      (if(rd < 10){pos[,snake[dp,rd+6]]}else{0}) + 
+      (if(rd < 9){pos[,snake[dp,rd+7]]}else{0}) +
+      (if(rd < 8){pos[,snake[dp,rd+8]]}else{0}) +
+      (if(rd < 7){pos[,snake[dp,rd+9]]}else{0}) +
+      (if(rd < 6){pos[,snake[dp,rd+10]]}else{0}) +
+      (if(rd < 5){pos[,snake[dp,rd+11]]}else{0}) +
+      (if(rd < 4){pos[,snake[dp,rd+12]]}else{0}) +
+      (if(rd < 3){pos[,snake[dp,rd+13]]}else{0}) +
+      (if(rd < 2){pos[,snake[dp,rd+14]]}else{0}) 
+    )
+
+}
+
+
+oc2 <- matrix(0, nrow = 6, ncol = 180)
+
+colnames(oc2) <- paste0("pick.",seq(1,180))
+
+rownames(oc2) <- avail[,unique(position)]
+
+for (i in 1:180){
+  
+  for(j in c("QB","RB","WR","TE","DST","K")){
+
+oc2[j,i] <- sum(pos[ c("QB","RB","WR","TE","DST","K") != j,i])  
+
+
+}
+
+}
+
+val <- matrix(0, nrow = 6, ncol = 180)
+
+colnames(val) <- paste0("pick.",seq(1,180))
+
+rownames(val) <- avail[,unique(position)]
+
+  
+for(j in c("QB","RB","WR","TE","DST","K")){
+
+val[j,] <- pos[j,] - (oc1[j,] + oc2[j,])   
+
+
+}
+
+
+plot(unlist(val["QB",1:180]), type = 'l',col = "cyan",  lty = 6)
+lines(unlist(val["WR",1:180]), type = 'l',col = "red", lty = 2)
+lines(unlist(val["TE",1:180]), type = 'l',col = "blue", lty = 3)
+lines(unlist(val["DST",1:180]), type = 'l',col = "green",  lty = 4)
+lines(unlist(val["K",1:180]), type = 'l',col ="yellow", lty = 5)
+lines(unlist(val["RB",1:180]), type = 'l',  lty = 1)
+abline(v=snake[2,])
+
+
+
+# 1 RB
+# 2 RB
+# 3 RB
+# 4 WR
+# 5 WR
+# 6 WR
+# 7 WR
+# 8 WR
+# 9 TE
+# 10 QB
+# 11 TE
+# 12 QB ?
+# 13 QB ? (only to f with pple) 
+# 14 DST
+# 15 K
+
+# plot(unlist(pos["WR",1:180]), type = 'l',col = "red",  lty = 2)
+# lines(unlist(pos["RB",1:180]), type = 'l',  lty = 1)
+# abline(v=snake[2,])
+
+
+
+
+# for (i in 1:180){
+#   
+#   dp <- which(snake == i, arr.ind = T)[1]
+#   rd <- which(snake == i, arr.ind = T)[2]
+#   
+#   for (j in c("QB","RB","WR","TE","DST","K")){
+#   
+#   oc[,i] <- 
+#     pos[,i] - 
+#     (
+#       if(rd == 15){0}else{0} +
+#       (if(rd < 15){pos[,snake[dp,rd+1]]}else{0}) + 
+#       (if(rd < 14){pos[,snake[dp,rd+2]]}else{0}) + 
+#       (if(rd < 13){pos[,snake[dp,rd+3]]}else{0}) + 
+#       (if(rd < 12){pos[,snake[dp,rd+4]]}else{0}) + 
+#       (if(rd < 11){pos[,snake[dp,rd+5]]}else{0}) + 
+#       (if(rd < 10){pos[,snake[dp,rd+6]]}else{0}) + 
+#       (if(rd < 9){pos[,snake[dp,rd+7]]}else{0}) +
+#       (if(rd < 8){pos[,snake[dp,rd+8]]}else{0}) +
+#       (if(rd < 7){pos[,snake[dp,rd+9]]}else{0}) +
+#       (if(rd < 6){pos[,snake[dp,rd+10]]}else{0}) +
+#       (if(rd < 5){pos[,snake[dp,rd+11]]}else{0}) +
+#       (if(rd < 4){pos[,snake[dp,rd+12]]}else{0}) +
+#       (if(rd < 3){pos[,snake[dp,rd+13]]}else{0}) +
+#       (if(rd < 2){pos[,snake[dp,rd+14]]}else{0}) 
+#     )
+#   
+#   }
+#   
+# }
 
 
 ```
