@@ -1,0 +1,69 @@
+---
+title: "Fantasy Football"
+output: html_document
+---
+
+WORK IN PROGRESS
+
+
+```{r global}
+
+library(data.table)
+library(ggplot2)
+library(plotly)
+
+source("../../.R")
+
+```
+
+```{r data_pull}
+
+load(file = "../../.RData")
+
+```
+
+# Estimated Draft by Position and Pick
+
+```{r}
+
+yahoo[,pos_order := 1:.N,by=pos]
+
+g <- yahoo[pos_order < 50,]
+
+g2 <- yahoo[pos_order < 50, pos_order := pos_order + 2]
+
+gg <-
+ggplot(
+  g
+  ,aes(
+    x = adp
+    ,y = pos_order
+    ,group = pos
+    ,color = pos
+    ,label = player
+  )
+) + 
+geom_line() +
+geom_line(
+  data = g2
+    ,aes(
+    x = adp
+    ,y = pos_order
+    ,group = pos
+    ,color = pos
+    ,label = player
+  )
+  ,linetype = "dashed"
+) +
+ylab(
+  "Number of Players Drafted by Position"
+) +
+xlab(
+  "Draft Pick"
+)  
+
+ggplotly(gg, tooltip = c("player","y","x","group"))
+
+```
+
+
