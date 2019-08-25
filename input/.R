@@ -37,9 +37,10 @@ src1 <-
   "FantasyPros" # has projections
   ,"FantasySharks" # has projections
 #  ,"FFToday" # errors out august 16th
-  ,"FleaFlicker" # has projections
+#  ,"FleaFlicker" # no wk1 projections
+#  ,"ESPN"
   ,"NumberFire" # has projections
-  ,"Yahoo" # has projections
+#  ,"Yahoo" # no wk1 projections
   ,"FantasyFootballNerd"
   ,"NFL" # has projections
 #  ,"RTSports"
@@ -48,6 +49,13 @@ src1 <-
 
 
 # data scrape ----
+
+d <- 
+  scrape_data(
+    src = src
+    ,week = 0
+    ,pos = c("QB","WR","RB","TE","DST")
+  )
 
 d1 <- 
   scrape_data(
@@ -69,14 +77,6 @@ d3 <-
     ,week = 3
     ,pos = c("QB","WR","RB","TE","DST")
   )
-
-d <- 
-  scrape_data(
-    src = src
-    ,week = 0
-    ,pos = c("QB","WR","RB","TE","DST")
-  )
-
 
 # save raw data ----
 

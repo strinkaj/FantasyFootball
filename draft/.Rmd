@@ -98,4 +98,95 @@ ggplotly(gg, tooltip = c("player","y","x","group"))
 
 ```
 
+# Availability Likelihood by Average Draft Position
+
+```{r}
+
+
+a <- data.frame(matrix(NA, nrow = 180, ncol = 6))
+
+for (i in seq(1,181,36)){
+
+a[,which(seq(1,181,36) == i)] <- (1 - ppois(q = seq(1,180), lambda = i))
+
+}
+
+colnames(a) <- c(paste0("ADP ",seq(1,181,36)))
+
+a$x  <- seq(1,180)
+
+g <- melt(a,id = "x")
+
+gg <-
+ggplot(
+  g
+  ,aes(
+    x = x
+    ,y = value
+    ,group = variable
+    ,color = variable
+    ,text = 
+      paste0(
+        "Player with "
+        ,variable,
+        " likelihood of being available after draft pick "
+        ,x
+        ,": "
+        ,round(value,2)
+      )
+  )
+) + 
+geom_line()+
+ylab(
+  "Likelihood of Being Available in the Draft"
+) +
+xlab(
+  "Draft Pick"
+)  
+
+ggplotly(gg, tooltip = c("text"))
+
+```
+
+
+# Starting Likelihood by Players on Roster by Position
+
+```{r}
+
+
+s <- data.frame(cbind("RB" = rb(seq(1,6)),"WR" = wr(seq(1,6)), "TE" = te(seq(1,6)), "QB" = qb(seq(1,6))))
+
+s$x  <- seq(1,6)
+
+g <- melt(s,id = "x")
+
+gg <-
+ggplot(
+  g
+  ,aes(
+    x = x
+    ,y = value
+    ,group = variable
+    ,color = variable
+    ,text = 
+      paste0(
+        variable
+        ,"- the likelihood of the number "
+        ,x
+        ," player drafted to the roster starting: "
+        ,round(value,2)
+      )
+  )
+) + 
+geom_line()+
+ylab(
+  "Likelihood of Starting"
+) +
+xlab(
+  "nth Roster Position"
+)  
+
+ggplotly(gg, tooltip = c("text"))
+
+```
 
