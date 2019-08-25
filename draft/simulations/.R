@@ -753,8 +753,8 @@ pos_best[
 ]
 
 pos_choice(current_pick = 119,pos_accum = pos_accum,pos_best = pos_best)
-#QB
-choice <- "QB"
+#WR
+choice <- "WR"
 
 pos_accum[choice] <- pos_accum[choice] + 1
 
@@ -826,8 +826,8 @@ pos_best[
 ]
 
 pos_choice(current_pick = 122,pos_accum = pos_accum,pos_best = pos_best)
-#WR
-choice <- "WR"
+#QB
+choice <- "QB"
 
 pos_accum[choice] <- pos_accum[choice] + 1
 
@@ -900,8 +900,8 @@ pos_best[
 ]
 
 pos_choice(current_pick = 143,pos_accum = pos_accum,pos_best = pos_best)
-#RB
-choice <- "RB"
+#DST
+choice <- "DST"
 
 pos_accum[choice] <- pos_accum[choice] + 1
 
@@ -973,8 +973,8 @@ pos_best[
 ]
 
 pos_choice(current_pick = 146,pos_accum = pos_accum,pos_best = pos_best)
-#DST
-choice <- "DST"
+#RB
+choice <- "RB"
 
 pos_accum[choice] <- pos_accum[choice] + 1
 

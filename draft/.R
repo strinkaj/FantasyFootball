@@ -305,8 +305,8 @@ draft[
     weights[[1]](current_pick)*floor +
     weights[[2]](current_pick)*points +
     weights[[3]](current_pick)*ceiling +
-    weights[[4]](current_pick)*(ceiling+(points_wk1+points_wk2+points_wk3))/2 +
-    weights[[5]](current_pick)*(points_wk1+points_wk2+points_wk3) +
+    weights[[4]](current_pick)*(ceiling+(points_wk1+points_wk2+points_wk3)*16/3)/2 +
+    weights[[5]](current_pick)*(points_wk1+points_wk2+points_wk3)*16/3 +
     weights[[6]](current_pick)*points_wk1
 ]
 
