@@ -8,6 +8,7 @@
 
 library(rhandsontable)
 library(shiny)
+library(data.table)
 
 source("../../.R")
 
@@ -76,12 +77,6 @@ editTable <- function(DF, outdir=getwd(), outfilename="table"){
           ,strict = TRUE
         ) %>%
         hot_col(
-          col = "team"
-          ,type = "autocomplete"
-          ,source = unique(p$team)
-          ,strict = TRUE
-        ) %>%
-        hot_col(
           col = "position"
           ,type = "autocomplete"
           ,source = unique(p$position)
@@ -111,7 +106,6 @@ draft_input <-
       ,"dp" = 0
       ,"first_name" = ""
       ,"last_name" = ""
-      ,"team" = ""
       ,"position" = ""
     )
   )

@@ -476,7 +476,6 @@ draft[
     .(
     first_name
     ,last_name
-    ,team
     ,position
   )
 ]
