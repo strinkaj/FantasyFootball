@@ -37,16 +37,14 @@ src1 <-
   "FantasyPros" # has projections
   ,"FantasySharks" # has projections
 #  ,"FFToday" # errors out august 16th
-#  ,"FleaFlicker" # no wk1 projections
-#  ,"ESPN"
+  ,"FleaFlicker" # no wk1 projections
   ,"NumberFire" # has projections
-#  ,"Yahoo" # no wk1 projections
-  ,"FantasyFootballNerd"
+  ,"Yahoo" # no wk1 projections
+  ,"FantasyFootballNerd" # has projections
   ,"NFL" # has projections
 #  ,"RTSports"
 #  ,"Walterfootball"
   )
-
 
 # data scrape ----
 
@@ -80,7 +78,9 @@ d3 <-
 
 # save raw data ----
 
-save(d,d1,d2,d3,player_table,file = paste0(Sys.Date(),".RData"))
+# save(d,d1,d2,d3,player_table,file = paste0(Sys.Date(),".RData"))
+save(d1,d2,d3,player_table,file = paste0(Sys.Date(),".RData"))
+
 
 # set leauge rules ---- 
 
@@ -190,9 +190,9 @@ rules <-
 
 # make projections ---- 
 
-p <- projections_table(d,scoring_rules = rules)
-
-p <- p %>% add_player_info()
+# p <- projections_table(d,scoring_rules = rules)
+# 
+# p <- p %>% add_player_info()
 
 p1 <- projections_table(d1,scoring_rules = rules)
 
@@ -246,31 +246,32 @@ yahoo[
   ,id := dst_id
 ]
 
-p[
-  p1[avg_type == "robust",]
-  ,points_wk1 := i.points
-  ,on = "id"
-]
-
-p[
-  p2[avg_type == "robust",]
-  ,points_wk2 := i.points
-  ,on = "id"
-]
-
-p[
-  p3[avg_type == "robust",]
-  ,points_wk3 := i.points
-  ,on = "id"
-]
+# p[
+#   p1[avg_type == "robust",]
+#   ,points_wk1 := i.points
+#   ,on = "id"
+# ]
+# 
+# p[
+#   p2[avg_type == "robust",]
+#   ,points_wk2 := i.points
+#   ,on = "id"
+# ]
+# 
+# p[
+#   p3[avg_type == "robust",]
+#   ,points_wk3 := i.points
+#   ,on = "id"
+# ]
 
 
 # save data ---- 
 
-save(p,p1,p2,p3,yahoo, file = ".RData")
+#save(p,p1,p2,p3,yahoo, file = ".RData")
+save(p1,p2,p3,yahoo, file = ".RData")
 save(p,yahoo, file = "../draft/.RData")
 
-fwrite(p,"p.csv")
+#fwrite(p,"p.csv")
 
 fwrite(p1,"p1.csv")
 

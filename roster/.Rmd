@@ -1,0 +1,77 @@
+---
+title: "Fantasy Football Roster"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r global, warning = FALSE, message = FALSE}
+
+library(data.table)
+library(ggplot2)
+library(plotly)
+
+knitr::opts_chunk$set(
+  echo = TRUE
+  ,warning = FALSE
+  ,message = FALSE
+  ,error = TRUE
+)
+
+```
+
+```{r data_pull}
+
+load(file = "../input/.RData")
+
+p1 <- p1[order(-points),]
+
+p1[,rank := 1:.N]
+
+```
+
+# Expected Points (Week) 
+
+```{r}
+
+g <- 
+  p1[
+    avg_type == "weighted"
+    & position %in% c("QB","WR","TE","RB")
+    ,
+  ]
+
+g$name <- paste0(g$first_name," ",g$last_name)
+
+g$points <- round(g$points,0)
+
+gg <-
+ggplot(
+  g
+  ,aes(
+    x = rank
+    ,y = points
+    ,group = position
+    ,color = position
+    ,label = name
+  )
+) + 
+geom_pointrange(
+  aes(
+    ymin = floor
+    ,ymax = ceiling
+  )
+) 
+
+ggplotly(gg, tooltip = c("name","y","group"))
+
+```
+
+
+
+
+
+
+
+
+
