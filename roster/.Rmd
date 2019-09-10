@@ -24,9 +24,9 @@ knitr::opts_chunk$set(
 
 load(file = "../input/.RData")
 
-p1 <- p1[order(-points),]
+p2 <- p2[order(-points),]
 
-p1[,rank := 1:.N]
+p2[,rank := 1:.N]
 
 ```
 
@@ -35,7 +35,7 @@ p1[,rank := 1:.N]
 ```{r}
 
 g <- 
-  p1[
+  p2[
     avg_type == "weighted"
     & position %in% c("QB","WR","TE","RB")
     ,
