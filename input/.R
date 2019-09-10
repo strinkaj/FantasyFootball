@@ -81,6 +81,7 @@ d3 <-
 # save(d,d1,d2,d3,player_table,file = paste0(Sys.Date(),".RData"))
 save(d1,d2,d3,player_table,file = paste0(Sys.Date(),".RData"))
 
+# load(paste0(Sys.Date(),".RData"))
 
 # set leauge rules ---- 
 
@@ -198,9 +199,9 @@ rules <-
 # 
 # p <- p %>% add_player_info()
 
-p1 <- projections_table(d1,scoring_rules = rules)
-
-p1 <- p1 %>% add_player_info()
+# p1 <- projections_table(d1,scoring_rules = rules)
+# 
+# p1 <- p1 %>% add_player_info()
 
 p2 <- projections_table(d2,scoring_rules = rules)
 
@@ -210,46 +211,60 @@ p3 <- projections_table(d3,scoring_rules = rules)
 
 p3 <- p3 %>% add_player_info()
 
-p <- data.table(p)
+p4 <- projections_table(d4,scoring_rules = rules)
 
-p1 <- data.table(p1)
+p4 <- p4 %>% add_player_info()
+
+p5 <- projections_table(d5,scoring_rules = rules)
+
+p5 <- p5 %>% add_player_info()
+
+
+# p <- data.table(p)
+# 
+# p1 <- data.table(p1)
 
 p2 <- data.table(p2)
 
 p3 <- data.table(p3)
 
-yahoo <- yahoo_draft()
+p4 <- data.table(p4)
 
-yahoo <- data.table(yahoo)
+p5 <- data.table(p5)
 
-dst_relate <- 
-  data.table(
-  cbind(
-  "yahoo" =
-    c("Chi","LAR","Jax","Bal","Min","LAC","Cle","Hou","NE","Atl","NO","Car","SF","GB","Det","Dal","Pit","Ten","KC","NYJ","Phi","Den","Sea","Ind","Buf","NYG","Ari","Cin","LAR","Oak","TB","Mia","Was")
-  ,"name" =
-    c("CHI","LAR","JAC","BAL","MIN","LAC","CLE","HOU","NEP","ATL","NOS","CAR","SFO","GBP","DET","DAL","PIT","TEN","KCC","NYJ","PHI","DEN","SEA","IND","BUF","NYG","ARI","CIN","LAR","OAK","TBB","MIA","WAS")
-  )
-)
 
-yahoo[
-  dst_relate
-  ,other_name := i.name
-  ,on = c(team = "yahoo")
-]
-
-yahoo[
-  p[pos == "DST",]
-  ,dst_id := i.id
-  ,on = c(other_name = "team")
-]
-
-yahoo[
-  pos == "DEF"
-  &is.na(id)
-  ,id := dst_id
-]
-
+# yahoo <- yahoo_draft()
+# 
+# yahoo <- data.table(yahoo)
+# 
+# dst_relate <- 
+#   data.table(
+#   cbind(
+#   "yahoo" =
+#     c("Chi","LAR","Jax","Bal","Min","LAC","Cle","Hou","NE","Atl","NO","Car","SF","GB","Det","Dal","Pit","Ten","KC","NYJ","Phi","Den","Sea","Ind","Buf","NYG","Ari","Cin","LAR","Oak","TB","Mia","Was")
+#   ,"name" =
+#     c("CHI","LAR","JAC","BAL","MIN","LAC","CLE","HOU","NEP","ATL","NOS","CAR","SFO","GBP","DET","DAL","PIT","TEN","KCC","NYJ","PHI","DEN","SEA","IND","BUF","NYG","ARI","CIN","LAR","OAK","TBB","MIA","WAS")
+#   )
+# )
+# 
+# yahoo[
+#   dst_relate
+#   ,other_name := i.name
+#   ,on = c(team = "yahoo")
+# ]
+# 
+# yahoo[
+#   p[pos == "DST",]
+#   ,dst_id := i.id
+#   ,on = c(other_name = "team")
+# ]
+# 
+# yahoo[
+#   pos == "DEF"
+#   &is.na(id)
+#   ,id := dst_id
+# ]
+# 
 # p[
 #   p1[avg_type == "robust",]
 #   ,points_wk1 := i.points
@@ -272,15 +287,18 @@ yahoo[
 # save data ---- 
 
 #save(p,p1,p2,p3,yahoo, file = ".RData")
-save(p1,p2,p3,yahoo, file = ".RData")
-save(p,yahoo, file = "../draft/.RData")
+save(p2,p3,p4,p5, file = ".RData")
+# save(p,yahoo, file = "../draft/.RData")
 
 #fwrite(p,"p.csv")
 
-fwrite(p1,"p1.csv")
+#fwrite(p1,"p1.csv")
 
 fwrite(p2,"p2.csv")
 
 fwrite(p3,"p3.csv")
 
-fwrite(yahoo,"yahoo.csv")
+fwrite(p4,"p4.csv")
+
+fwrite(p5,"p5.csv")
+
