@@ -1,0 +1,236 @@
+id,yahoo_id,player,team,pos,adp,avg_round,percent_drafted,other_name
+13604,30972,Saquon Barkley,NYG,RB,1.2,1,100%,NYG
+13132,30180,Alvin Kamara,NO,RB,2.6,1,100%,NOS
+13130,30121,Christian McCaffrey,Car,RB,3.5,1,100%,CAR
+12625,29238,Ezekiel Elliott,Dal,RB,4.6,1.1,100%,DAL
+11232,26650,DeAndre Hopkins,Hou,WR,6.9,1.1,100%,HOU
+12171,28474,David Johnson,Ari,RB,7.4,1.1,100%,ARI
+13610,31005,Nick Chubb,Cle,RB,8.5,1.3,100%,CLE
+11675,27581,Davante Adams,GB,WR,9.7,1.3,100%,GBP
+13146,30218,James Conner,Pit,RB,10.2,1.5,100%,PIT
+11192,26671,Le'Veon Bell,NYJ,RB,10.3,1.5,100%,NYJ
+10271,24793,Julio Jones,Atl,WR,12.1,1.8,100%,ATL
+12652,29281,Michael Thomas,NO,WR,13.5,1.9,100%,NOS
+11679,27540,Odell Beckham Jr.,Cle,WR,14.2,2,100%,CLE
+11244,26686,Travis Kelce,KC,TE,15.9,2.1,100%,KCC
+13128,30154,Dalvin Cook,Min,RB,16.1,2.2,100%,MIN
+13116,30123,Patrick Mahomes,KC,QB,16.6,2.2,100%,KCC
+13156,30175,JuJu Smith-Schuster,Pit,WR,16.8,2.1,100%,PIT
+13131,30161,Joe Mixon,Cin,RB,19.4,2.4,100%,CIN
+12150,28398,Todd Gurley II,LAR,RB,19.7,2.5,100%,LAR
+12801,29399,Tyreek Hill,KC,WR,20.7,2.5,99%,KCC
+13299,30259,George Kittle,SF,TE,22.9,2.8,100%,SFO
+11671,27535,Mike Evans,TB,WR,23.6,3,100%,TBB
+9988,24171,Antonio Brown,Oak,WR,24.6,3,100%,OAK
+11886,28115,Damien Williams,KC,RB,25.4,3.1,100%,KCC
+11222,26699,Keenan Allen,LAC,WR,28.2,3.4,100%,LAC
+11247,26658,Zach Ertz,Phi,TE,28.5,3.4,100%,PHI
+13319,30295,Aaron Jones,GB,RB,30,3.5,100%,GBP
+11938,27277,Adam Thielen,Min,WR,30.2,3.6,100%,MIN
+13612,31013,Kerryon Johnson,Det,RB,32.1,3.8,100%,DET
+12175,28392,Amari Cooper,Dal,WR,32.2,3.8,100%,DAL
+11660,27631,Devonta Freeman,Atl,RB,32.4,3.8,100%,ATL
+13129,30117,Leonard Fournette,Jax,RB,34.7,4.1,100%,JAC
+12186,28534,Stefon Diggs,Min,WR,35.1,4.1,100%,MIN
+12626,29279,Derrick Henry,Ten,RB,35.1,4,100%,TEN
+13234,30256,Marlon Mack,Ind,RB,35.2,4.1,100%,IND
+10729,25802,T.Y. Hilton,Ind,WR,38.2,4.4,100%,IND
+12151,28403,Melvin Gordon III,LAC,RB,38.2,4.3,100%,LAC
+11228,26664,Robert Woods,LAR,WR,39.7,4.5,100%,LAR
+13113,30125,Deshaun Watson,Hou,QB,40.2,4.6,100%,HOU
+11674,27548,Brandin Cooks,LAR,WR,41.6,4.7,100%,LAR
+7836,7200,Aaron Rodgers,GB,QB,42.8,4.9,100%,GBP
+13163,30197,Chris Godwin,TB,WR,42.9,4.8,100%,TBB
+9662,9496,Julian Edelman,NE,WR,43,4.9,100%,NEP
+14073,31856,Josh Jacobs,Oak,RB,48.4,5.4,100%,OAK
+10276,24815,Mark Ingram II,Bal,RB,48.5,5.4,100%,BAL
+14071,31905,David Montgomery,Chi,RB,50.1,5.6,100%,CHI
+13590,30971,Baker Mayfield,Cle,QB,50.1,5.6,100%,CLE
+13607,31001,Sony Michel,NE,RB,50.3,5.6,100%,NEP
+13277,30209,Kenny Golladay,Det,WR,50.5,5.6,100%,DET
+13188,30132,O.J. Howard,TB,TE,52.1,5.9,100%,TBB
+13364,30362,Chris Carson,Sea,RB,54.1,6,100%,SEA
+10695,25711,Andrew Luck,Ind,QB,54.9,6.1,53%,IND
+12187,28457,Tyler Lockett,Sea,WR,57.7,6.3,100%,SEA
+13189,30136,Evan Engram,NYG,TE,58.1,6.4,100%,NYG
+13614,31379,Phillip Lindsay,Den,RB,58.3,6.5,100%,DEN
+12676,29269,Hunter Henry,LAC,TE,59.2,6.5,100%,LAC
+9099,8780,Matt Ryan,Atl,QB,60,6.7,100%,ATL
+13154,30120,Mike Williams,LAC,WR,60.7,6.7,100%,LAC
+12650,29288,Tyler Boyd,Cin,WR,63.8,7,100%,CIN
+11678,27589,Allen Robinson II,Chi,WR,64.2,7,100%,CHI
+,chicago,Chicago,Chi,DEF,64.8,7.2,100%,CHI
+13164,30182,Cooper Kupp,LAR,WR,65.4,7.1,100%,LAR
+9474,9353,Jared Cook,NO,TE,66.6,7.3,100%,NOS
+10703,25785,Russell Wilson,Sea,QB,68.2,7.5,100%,SEA
+13629,30996,Calvin Ridley,Atl,WR,68.9,7.5,100%,ATL
+4925,5479,Drew Brees,NO,QB,69.3,7.6,100%,NOS
+11680,27591,Jarvis Landry,Cle,WR,71.3,7.8,100%,CLE
+,la-rams,Los Angeles,LAR,DEF,75.7,8.3,100%,LAR
+12610,29236,Carson Wentz,Phi,QB,75.8,8.3,100%,PHI
+10722,25755,Alshon Jeffery,Phi,WR,76.1,8.3,100%,PHI
+10273,24788,Cam Newton,Car,QB,77,8.3,100%,CAR
+12152,28461,Tevin Coleman,SF,RB,77.6,8.4,100%,SFO
+10868,25881,Greg Zuerlein,LAR,K,78.4,8.6,100%,LAR
+13635,30994,D.J. Moore,Car,WR,78.6,8.5,100%,CAR
+,jacksonville,Jacksonville,Jax,DEF,79.7,8.7,100%,JAC
+10261,24791,A.J. Green,Cin,WR,80.1,8.6,99%,CIN
+12157,28465,Duke Johnson Jr.,Hou,RB,80.3,8.7,60%,HOU
+10960,26561,Josh Gordon,NE,WR,81.3,8.8,62%,NEP
+11747,27658,James White,NE,RB,81.7,8.8,100%,NEP
+13290,30232,Tarik Cohen,Chi,RB,82.1,8.9,100%,CHI
+12930,29785,Robby Anderson,NYJ,WR,83.1,9,100%,NYJ
+11257,26678,Vance McDonald,Pit,TE,83.7,9,100%,PIT
+12630,29307,Kenyan Drake,Mia,RB,84.5,9.1,100%,MIA
+13192,30142,David Njoku,Cle,TE,85.7,9.2,100%,CLE
+10976,26534,Justin Tucker,Bal,K,86.9,9.4,100%,BAL
+14079,31885,Miles Sanders,Phi,RB,87.6,9.4,95%,PHI
+13354,30346,Harrison Butker,KC,K,89.3,9.6,100%,KCC
+14056,31833,Kyler Murray,Ari,QB,89.6,9.6,99%,ARI
+,minnesota,Minnesota,Min,DEF,91.4,9.8,100%,MIN
+11695,27538,Eric Ebron,Ind,TE,92.3,9.9,98%,IND
+12647,29255,Will Fuller V,Hou,WR,93.2,10,100%,HOU
+,baltimore,Baltimore,Bal,DEF,93.7,10,100%,BAL
+8359,7867,Stephen Gostkowski,NE,K,95.7,10.2,100%,NEP
+12611,29235,Jared Goff,LAR,QB,95.8,10.3,99%,LAR
+13633,31017,Christian Kirk,Ari,WR,96,10.3,100%,ARI
+10708,25807,Lamar Miller,Hou,RB,96.4,10.4,52%,HOU
+13158,30223,Dede Westbrook,Jax,WR,97.9,10.5,98%,JAC
+13153,30118,Corey Davis,Ten,WR,99,10.6,99%,TEN
+12634,29384,Jordan Howard,Phi,RB,100.1,10.8,89%,PHI
+11670,27532,Sammy Watkins,KC,WR,100.3,10.7,99%,KCC
+11390,26804,Latavius Murray,NO,RB,101.1,10.8,99%,NOS
+,la-chargers,Los Angeles,LAC,DEF,101.4,10.8,99%,LAC
+13157,30153,Curtis Samuel,Car,WR,101.8,10.9,90%,CAR
+13605,31029,Derrius Guice,Was,RB,102.1,10.9,98%,WAS
+13404,30423,Austin Ekeler,LAC,RB,102.8,11,90%,LAC
+5848,5228,Tom Brady,NE,QB,103.9,11,81%,NEP
+13593,31002,Lamar Jackson,Bal,QB,104.2,11.1,94%,BAL
+,cleveland,Cleveland,Cle,DEF,104.2,11.1,99%,CLE
+12956,29754,Wil Lutz,NO,K,105.9,11.3,100%,NOS
+12677,29315,Austin Hooper,Atl,TE,106.4,11.3,98%,ATL
+12658,29274,Sterling Shepard,NYG,WR,106.6,11.4,98%,NYG
+13617,31041,Royce Freeman,Den,RB,109.7,11.7,96%,DEN
+12860,29792,Ka'imi Fairbairn,Hou,K,110.5,11.7,99%,HOU
+7393,6762,Larry Fitzgerald,Ari,WR,111.1,11.9,92%,ARI
+13608,30997,Rashaad Penny,Sea,RB,111.3,11.9,92%,SEA
+7401,6770,Ben Roethlisberger,Pit,QB,111.8,11.9,95%,PIT
+6997,6405,Jason Witten,Dal,TE,113.9,11.9,7%,DAL
+8416,7924,Delanie Walker,Ten,TE,114.9,12.2,96%,TEN
+14080,31906,Devin Singletary,Buf,RB,115.1,12.3,37%,BUF
+10738,25876,Marvin Jones Jr.,Det,WR,115.2,12.3,92%,DET
+12140,28389,Jameis Winston,TB,QB,115.3,12.3,95%,TBB
+13378,30552,Matt Breida,SF,RB,115.7,12.4,70%,SFO
+13634,31014,Dante Pettis,SF,WR,116.1,12.4,67%,SFO
+12620,29369,Dak Prescott,Dal,QB,116.4,12.4,91%,DAL
+13138,30199,Kareem Hunt,Cle,RB,116.4,12.3,46%,CLE
+14085,31960,Tony Pollard,Dal,RB,116.7,12.5,26%,DAL
+9448,9317,LeSean McCoy,KC,RB,116.8,12.4,57%,KCC
+7394,6763,Philip Rivers,LAC,QB,118,12.5,91%,LAC
+10699,25798,Nick Foles,Jax,QB,118.5,12.4,4%,JAC
+9918,24057,Emmanuel Sanders,Den,WR,118.8,12.6,60%,DEN
+,new-england,New England,NE,DEF,118.8,12.6,89%,NEP
+,houston,Houston,Hou,DEF,118.9,12.6,96%,HOU
+14087,31902,Darrell Henderson Jr.,LAR,RB,119.1,12.7,80%,LAR
+10312,24830,Kyle Rudolph,Min,TE,119.5,12.7,90%,MIN
+13671,31056,Mark Andrews,Bal,TE,119.6,12.7,86%,BAL
+11761,27624,Jerick McKinnon,SF,RB,119.6,12.8,19%,SFO
+11644,27564,Derek Carr,Oak,QB,119.8,12.5,9%,OAK
+9431,9265,Matthew Stafford,Det,QB,120.7,12.6,6%,DET
+11182,26813,Rex Burkhead,NE,RB,121,12.8,2%,NEP
+13662,31073,Keke Coutee,Hou,WR,121.6,13.1,39%,HOU
+10308,24851,Randall Cobb,Dal,WR,121.6,12.7,3%,DAL
+13646,31051,Michael Gallup,Dal,WR,121.7,12.9,37%,DAL
+8673,8263,Ted Ginn Jr.,NO,WR,121.7,12.7,3%,NOS
+8658,8261,Adrian Peterson,Was,RB,121.8,13,29%,WAS
+9075,8826,DeSean Jackson,Phi,WR,122.3,12.9,44%,PHI
+9902,24017,Rob Gronkowski,NE,TE,122.4,12.9,3%,NEP
+14101,31864,N'Keal Harry,NE,WR,122.6,12.9,14%,NEP
+9831,24035,Golden Tate,NYG,WR,123.1,13.2,23%,NYG
+13630,31010,Courtland Sutton,Den,WR,123.2,13.2,33%,DEN
+14284,32046,Darwin Thompson,KC,RB,123.3,13.4,17%,KCC
+13631,31030,James Washington,Pit,WR,123.4,13.1,12%,PIT
+13793,31144,Marquez Valdes-Scantling,GB,WR,123.5,13.2,51%,GBP
+8687,8285,Greg Olsen,Car,TE,123.9,13.1,65%,CAR
+13115,30115,Mitchell Trubisky,Chi,QB,124.3,13.2,71%,CHI
+,green-bay,Green Bay,GB,DEF,124.3,13.1,3%,GBP
+11657,27585,Carlos Hyde,Hou,RB,124.3,13.3,14%,HOU
+,atlanta,Atlanta,Atl,DEF,124.5,12.9,3%,ATL
+,carolina,Carolina,Car,DEF,124.6,13,3%,CAR
+14113,31888,Mecole Hardman,KC,WR,124.8,13.4,5%,KCC
+11250,26644,Tyler Eifert,Cin,TE,125,13.1,3%,CIN
+12505,29070,Adam Humphries,Ten,WR,125.2,13.2,2%,TEN
+11677,27618,Donte Moncrief,Pit,WR,125.3,13.3,47%,PIT
+9884,23997,Demaryius Thomas,NE,WR,125.4,13.2,2%,NEP
+13645,31061,Tre'Quan Smith,NO,WR,125.5,13.2,2%,NOS
+8742,8447,Mason Crosby,GB,K,125.5,13.3,85%,GBP
+14102,31896,DK Metcalf,Sea,WR,125.6,13.3,14%,SEA
+,7520,Robbie Gould,SF,K,125.6,13.3,79%,SFO
+13134,30202,D'Onta Foreman,Ind,RB,125.7,13.4,2%,IND
+12205,28429,Devin Funchess,Ind,WR,125.9,13.3,26%,IND
+14136,31868,Deebo Samuel,SF,WR,126,13.4,3%,SFO
+13622,31074,Nyheim Hines,Ind,RB,126.2,13.3,30%,IND
+11454,26878,C.J. Anderson,Det,RB,126.2,13.7,3%,DET
+11705,27789,Trey Burton,Chi,TE,126.4,13.4,90%,CHI
+14075,31919,Damien Harris,NE,RB,126.4,13.7,6%,NEP
+13620,31221,Justin Jackson,LAC,RB,126.5,14.3,7%,LAC
+14112,31891,Parris Campbell,Ind,WR,126.5,13.6,2%,IND
+12181,28408,Nelson Agholor,Phi,WR,126.5,13.2,4%,PHI
+10700,25812,Kirk Cousins,Min,QB,126.6,13.3,41%,MIN
+,new-orleans,New Orleans,NO,DEF,126.6,13.5,86%,NOS
+13613,31135,Jaylen Samuels,Pit,RB,126.7,13.6,21%,PIT
+12391,28691,Tyrell Williams,Oak,WR,126.7,13.4,9%,OAK
+14086,31945,Justice Hill,Bal,RB,126.8,14.2,5%,BAL
+12665,29719,Geronimo Allison,GB,WR,127,13.6,33%,GBP
+13592,30973,Sam Darnold,NYJ,QB,127,13.4,6%,NYJ
+11227,26767,Kenny Stills,Hou,WR,127,13.4,4%,HOU
+9925,24070,Jimmy Graham,GB,TE,127.1,13.4,45%,GBP
+10723,25793,Mohamed Sanu,Atl,WR,127.1,13.3,13%,ATL
+2842,3727,Adam Vinatieri,Ind,K,127.1,13.4,56%,IND
+12637,29560,Peyton Barber,TB,RB,127.2,13.6,21%,TBB
+11239,26701,Marquise Goodwin,SF,WR,127.2,13.4,6%,SFO
+12261,28482,Ty Montgomery,NYJ,RB,127.2,13.9,2%,NYJ
+14105,31857,Marquise Brown,Bal,WR,127.2,13.3,21%,BAL
+13621,31100,Kalen Ballage,Mia,RB,127.5,13.9,22%,MIA
+12164,28514,Mike Davis,Chi,RB,127.7,13.4,10%,CHI
+,detroit,Detroit,Det,DEF,127.8,13.4,2%,DET
+14137,31852,Noah Fant,Den,TE,128.2,13.5,6%,DEN
+14138,31840,T.J. Hockenson,Det,TE,128.3,13.5,39%,DET
+13606,31008,Ronald Jones II,TB,RB,128.3,14,22%,TBB
+13639,31021,Anthony Miller,Chi,WR,128.7,13.9,16%,CHI
+10389,24936,Dion Lewis,Ten,RB,129,13.8,19%,TEN
+12176,28402,DeVante Parker,Mia,WR,129,13.7,2%,MIA
+12263,28592,Darren Waller,Oak,TE,129.2,13.7,6%,OAK
+11760,27590,Jimmy Garoppolo,SF,QB,129.4,13.8,61%,SFO
+14223,31934,Alexander Mattison,Min,RB,129.4,14.7,4%,MIN
+12184,28493,Jamison Crowder,NYJ,WR,129.5,13.7,10%,NYJ
+,pittsburgh,Pittsburgh,Pit,DEF,129.6,13.5,19%,PIT
+13768,31096,Ito Smith,Atl,RB,129.7,14.4,4%,ATL
+11783,27619,John Brown,Buf,WR,130.1,13.7,17%,BUF
+,dallas,Dallas,Dal,DEF,130.4,13.8,50%,DAL
+11947,27120,Brandon McManus,Den,K,130.5,13.6,4%,DEN
+8930,8565,Matt Prater,Det,K,130.6,13.9,34%,DET
+,ny-jets,New York,NYJ,DEF,130.7,14,2%,NYJ
+13589,30977,Josh Allen,Buf,QB,131,14.1,17%,BUF
+,kansas-city,Kansas City,KC,DEF,131,13.6,27%,KCC
+,philadelphia,Philadelphia,Phi,DEF,131.4,13.8,57%,PHI
+,san-francisco,San Francisco,SF,DEF,131.4,13.8,5%,SFO
+6789,6243,Matt Bryant,Atl,K,131.7,13.9,6%,ATL
+11936,28188,Chris Boswell,Pit,K,131.9,13.7,7%,PIT
+13679,31077,Chris Herndon,NYJ,TE,132.4,14.2,14%,NYJ
+11248,26708,Jordan Reed,Was,TE,133.1,14.1,53%,WAS
+13674,31019,Dallas Goedert,Phi,TE,134.6,14.1,9%,PHI
+11516,27299,Jack Doyle,Ind,TE,134.7,14.3,44%,IND
+12437,28378,Jason Myers,Sea,K,135,14.1,49%,SEA
+,denver,Denver,Den,DEF,135.6,14.3,69%,DEN
+13980,31366,Michael Badgley,LAC,K,135.8,14.3,53%,LAC
+,seattle,Seattle,Sea,DEF,136.3,14.3,40%,SEA
+13909,27369,Brett Maher,Dal,K,136.8,14.4,59%,DAL
+9694,9526,Graham Gano,Car,K,138.5,14.6,7%,CAR
+,tennessee,Tennessee,Ten,DEF,139,14.4,4%,TEN
+13241,29949,Aldrick Rosas,NYG,K,139.2,14.8,18%,NYG
+,buffalo,Buffalo,Buf,DEF,139.3,14.7,56%,BUF
+13303,30266,Jake Elliott,Phi,K,139.3,14.7,46%,PHI
+10506,25427,Dan Bailey,Min,K,141.1,15.1,16%,MIN
+,indianapolis,Indianapolis,Ind,DEF,142.5,14.9,18%,IND
+11339,26264,Giorgio Tavecchio,Atl,K,144,15.4,20%,ATL

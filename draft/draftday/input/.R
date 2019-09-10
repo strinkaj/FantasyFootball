@@ -1,6 +1,6 @@
   
   ## --
-  ## draft day data input app
+  ## weekly roster input app
   ##
   ## --
   
