@@ -38,7 +38,7 @@ input <- readRDS("current.rds")
   
     ui <- shinyUI(fluidPage(
   
-      titlePanel("Draft Pick Entries"),
+      titlePanel("Current Roster"),
       sidebarLayout(
         sidebarPanel(
           helpText("Enter and Save"),
@@ -145,4 +145,4 @@ d[
   )
 ]
 
-d[(team != "FA")&(drafted == 0|dp == 2)&(position == "WR"|position == "RB"|position == "TE"),][order(-ceiling),]
+d[(team != "FA")&(drafted == 0|dp == 8)&(position == "WR"|position == "RB"|position == "TE"),][order(-ceiling),][1:24,.(dp,first_name,last_name,position,team,floor,ceiling)]
