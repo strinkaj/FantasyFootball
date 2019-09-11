@@ -38,7 +38,7 @@ input <- readRDS("current.rds")
   
     ui <- shinyUI(fluidPage(
   
-      titlePanel("Draft Pick Entries"),
+      titlePanel("Current Roster"),
       sidebarLayout(
         sidebarPanel(
           helpText("Enter and Save"),
