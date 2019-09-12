@@ -145,4 +145,62 @@ d[
   )
 ]
 
-d[(team != "FA")&(drafted == 0|dp == 8)&(position == "WR"|position == "RB"|position == "TE"),][order(-ceiling),][1:24,.(dp,first_name,last_name,position,team,floor,ceiling)]
+d[
+  (team != "FA")
+  &(drafted == 0|dp == 8)
+  &(position == "WR"|position == "TE")
+,][
+  order(-(1.5*ceiling+points+0.5*floor)/3)
+,][
+  1:24
+  ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,position
+    ,team
+    ,"10%" = round(floor,0)
+    ,"avg" = round(points,0)
+    ,"90%" = round(ceiling,0)
+  )
+]
+
+d[
+  (team != "FA")
+  &(drafted == 0|dp == 8)
+  &(position == "RB")
+,][
+  order(-(1.5*ceiling+points+0.5*floor)/3)
+,][
+  1:24
+  ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,position
+    ,team
+    ,"10%" = round(floor,0)
+    ,"avg" = round(points,0)
+    ,"90%" = round(ceiling,0)
+  )
+]
+
+d[
+  (team != "FA")
+  &(drafted == 0|dp == 8)
+  &(position == "DST")
+,][
+  order(-(1.5*ceiling+points+0.5*floor)/3)
+,][
+  1:10
+  ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,position
+    ,team
+    ,"10%" = round(floor,0)
+    ,"avg" = round(points,0)
+    ,"90%" = round(ceiling,0)
+  )
+]
