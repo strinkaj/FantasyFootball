@@ -151,11 +151,26 @@ d[
 &(position == "WR"|position == "TE")&(last_name != "Morris")
 ,
 ][
+order(-floor),
+][
+1:14
+,.(dp,first_name,last_name,team,position,floor,points,ceiling)
+]
+
+d[
+(team != "FA")
+&(drafted == 0|dp == 2)
+&(position == "WR"|position == "TE")&(last_name != "Morris")
+,
+][
 order(-ceiling),
 ][
 1:14
 ,.(dp,first_name,last_name,team,position,floor,points,ceiling)
 ]
+
+
+
 
 d[
 (team != "FA")
