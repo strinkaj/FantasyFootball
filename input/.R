@@ -36,7 +36,7 @@ src1 <-
   ,"FantasyData"
   ,"FantasyPros" # has projections
   ,"FantasySharks" # has projections
-  ,"FFToday" # errors out august 16th
+#  ,"FFToday" # errors out august 16th
   ,"FleaFlicker" # no wk1 projections
   ,"NumberFire" # has projections
   ,"Yahoo" # no wk1 projections
@@ -65,6 +65,13 @@ src1 <-
 d2 <- 
   scrape_data(
     src = src1
+    ,week = 2
+    ,pos = c("QB","WR","RB","TE","DST")
+    )
+
+d2_yahoo <- 
+  scrape_data(
+    src = "Yahoo"
     ,week = 2
     ,pos = c("QB","WR","RB","TE","DST")
     )
@@ -107,7 +114,7 @@ rules <-
         ,pass_inc = 0
         ,pass_yds = 0.04
         ,pass_tds = 4
-        ,pass_int = -1
+        ,pass_int = -2
         ,pass_40_yds = 0
         ,pass_300_yds = 0
         ,pass_350_yds = 0
@@ -129,7 +136,7 @@ rules <-
     ,rec = 
       list(
         all_pos = TRUE
-        ,rec = 0.5
+        ,rec = 1
         ,rec_yds = 0.1
         ,rec_tds = 6
         ,rec_40_yds = 0
@@ -217,6 +224,10 @@ p2 <- projections_table(d2,scoring_rules = rules)
 
 p2 <- p2 %>% add_player_info()
 
+p2_yahoo <- projections_table(d2_yahoo,scoring_rules = rules)
+
+p2_yahoo <- p2_yahoo %>% add_player_info()
+
 p3 <- projections_table(d3,scoring_rules = rules)
 
 p3 <- p3 %>% add_player_info()
@@ -234,6 +245,8 @@ p5 <- p5 %>% add_player_info()
 # p1 <- data.table(p1)
 
 p2 <- data.table(p2)
+
+p2_yahoo <- data.table(p2_yahoo)
 
 p3 <- data.table(p3)
 
@@ -297,6 +310,8 @@ p5 <- data.table(p5)
 #save(p,p1,p2,p3,yahoo, file = ".RData")
 #save(p1,p2,p3,yahoo, file = ".RData")
 #save(p,yahoo, file = "../draft/.RData")
+#save(p2, file = ".RData")
+
 save(p2,p3,p4,p5, file = ".RData")
 
 #fwrite(p,"p.csv")
@@ -311,4 +326,4 @@ fwrite(p4,"p4.csv")
 
 fwrite(p5,"p5.csv")
 
-# fwrite(yahoo,"yahoo.csv")
+fwrite(p2_yahoo,"yahoo.csv")

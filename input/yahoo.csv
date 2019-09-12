@@ -1,236 +1,1630 @@
-id,yahoo_id,player,team,pos,adp,avg_round,percent_drafted,other_name
-13604,30972,Saquon Barkley,NYG,RB,1.2,1,100%,NYG
-13132,30180,Alvin Kamara,NO,RB,2.6,1,100%,NOS
-13130,30121,Christian McCaffrey,Car,RB,3.5,1,100%,CAR
-12625,29238,Ezekiel Elliott,Dal,RB,4.6,1.1,100%,DAL
-11232,26650,DeAndre Hopkins,Hou,WR,6.9,1.1,100%,HOU
-12171,28474,David Johnson,Ari,RB,7.4,1.1,100%,ARI
-13610,31005,Nick Chubb,Cle,RB,8.5,1.3,100%,CLE
-11675,27581,Davante Adams,GB,WR,9.7,1.3,100%,GBP
-13146,30218,James Conner,Pit,RB,10.2,1.5,100%,PIT
-11192,26671,Le'Veon Bell,NYJ,RB,10.3,1.5,100%,NYJ
-10271,24793,Julio Jones,Atl,WR,12.1,1.8,100%,ATL
-12652,29281,Michael Thomas,NO,WR,13.5,1.9,100%,NOS
-11679,27540,Odell Beckham Jr.,Cle,WR,14.2,2,100%,CLE
-11244,26686,Travis Kelce,KC,TE,15.9,2.1,100%,KCC
-13128,30154,Dalvin Cook,Min,RB,16.1,2.2,100%,MIN
-13116,30123,Patrick Mahomes,KC,QB,16.6,2.2,100%,KCC
-13156,30175,JuJu Smith-Schuster,Pit,WR,16.8,2.1,100%,PIT
-13131,30161,Joe Mixon,Cin,RB,19.4,2.4,100%,CIN
-12150,28398,Todd Gurley II,LAR,RB,19.7,2.5,100%,LAR
-12801,29399,Tyreek Hill,KC,WR,20.7,2.5,99%,KCC
-13299,30259,George Kittle,SF,TE,22.9,2.8,100%,SFO
-11671,27535,Mike Evans,TB,WR,23.6,3,100%,TBB
-9988,24171,Antonio Brown,Oak,WR,24.6,3,100%,OAK
-11886,28115,Damien Williams,KC,RB,25.4,3.1,100%,KCC
-11222,26699,Keenan Allen,LAC,WR,28.2,3.4,100%,LAC
-11247,26658,Zach Ertz,Phi,TE,28.5,3.4,100%,PHI
-13319,30295,Aaron Jones,GB,RB,30,3.5,100%,GBP
-11938,27277,Adam Thielen,Min,WR,30.2,3.6,100%,MIN
-13612,31013,Kerryon Johnson,Det,RB,32.1,3.8,100%,DET
-12175,28392,Amari Cooper,Dal,WR,32.2,3.8,100%,DAL
-11660,27631,Devonta Freeman,Atl,RB,32.4,3.8,100%,ATL
-13129,30117,Leonard Fournette,Jax,RB,34.7,4.1,100%,JAC
-12186,28534,Stefon Diggs,Min,WR,35.1,4.1,100%,MIN
-12626,29279,Derrick Henry,Ten,RB,35.1,4,100%,TEN
-13234,30256,Marlon Mack,Ind,RB,35.2,4.1,100%,IND
-10729,25802,T.Y. Hilton,Ind,WR,38.2,4.4,100%,IND
-12151,28403,Melvin Gordon III,LAC,RB,38.2,4.3,100%,LAC
-11228,26664,Robert Woods,LAR,WR,39.7,4.5,100%,LAR
-13113,30125,Deshaun Watson,Hou,QB,40.2,4.6,100%,HOU
-11674,27548,Brandin Cooks,LAR,WR,41.6,4.7,100%,LAR
-7836,7200,Aaron Rodgers,GB,QB,42.8,4.9,100%,GBP
-13163,30197,Chris Godwin,TB,WR,42.9,4.8,100%,TBB
-9662,9496,Julian Edelman,NE,WR,43,4.9,100%,NEP
-14073,31856,Josh Jacobs,Oak,RB,48.4,5.4,100%,OAK
-10276,24815,Mark Ingram II,Bal,RB,48.5,5.4,100%,BAL
-14071,31905,David Montgomery,Chi,RB,50.1,5.6,100%,CHI
-13590,30971,Baker Mayfield,Cle,QB,50.1,5.6,100%,CLE
-13607,31001,Sony Michel,NE,RB,50.3,5.6,100%,NEP
-13277,30209,Kenny Golladay,Det,WR,50.5,5.6,100%,DET
-13188,30132,O.J. Howard,TB,TE,52.1,5.9,100%,TBB
-13364,30362,Chris Carson,Sea,RB,54.1,6,100%,SEA
-10695,25711,Andrew Luck,Ind,QB,54.9,6.1,53%,IND
-12187,28457,Tyler Lockett,Sea,WR,57.7,6.3,100%,SEA
-13189,30136,Evan Engram,NYG,TE,58.1,6.4,100%,NYG
-13614,31379,Phillip Lindsay,Den,RB,58.3,6.5,100%,DEN
-12676,29269,Hunter Henry,LAC,TE,59.2,6.5,100%,LAC
-9099,8780,Matt Ryan,Atl,QB,60,6.7,100%,ATL
-13154,30120,Mike Williams,LAC,WR,60.7,6.7,100%,LAC
-12650,29288,Tyler Boyd,Cin,WR,63.8,7,100%,CIN
-11678,27589,Allen Robinson II,Chi,WR,64.2,7,100%,CHI
-,chicago,Chicago,Chi,DEF,64.8,7.2,100%,CHI
-13164,30182,Cooper Kupp,LAR,WR,65.4,7.1,100%,LAR
-9474,9353,Jared Cook,NO,TE,66.6,7.3,100%,NOS
-10703,25785,Russell Wilson,Sea,QB,68.2,7.5,100%,SEA
-13629,30996,Calvin Ridley,Atl,WR,68.9,7.5,100%,ATL
-4925,5479,Drew Brees,NO,QB,69.3,7.6,100%,NOS
-11680,27591,Jarvis Landry,Cle,WR,71.3,7.8,100%,CLE
-,la-rams,Los Angeles,LAR,DEF,75.7,8.3,100%,LAR
-12610,29236,Carson Wentz,Phi,QB,75.8,8.3,100%,PHI
-10722,25755,Alshon Jeffery,Phi,WR,76.1,8.3,100%,PHI
-10273,24788,Cam Newton,Car,QB,77,8.3,100%,CAR
-12152,28461,Tevin Coleman,SF,RB,77.6,8.4,100%,SFO
-10868,25881,Greg Zuerlein,LAR,K,78.4,8.6,100%,LAR
-13635,30994,D.J. Moore,Car,WR,78.6,8.5,100%,CAR
-,jacksonville,Jacksonville,Jax,DEF,79.7,8.7,100%,JAC
-10261,24791,A.J. Green,Cin,WR,80.1,8.6,99%,CIN
-12157,28465,Duke Johnson Jr.,Hou,RB,80.3,8.7,60%,HOU
-10960,26561,Josh Gordon,NE,WR,81.3,8.8,62%,NEP
-11747,27658,James White,NE,RB,81.7,8.8,100%,NEP
-13290,30232,Tarik Cohen,Chi,RB,82.1,8.9,100%,CHI
-12930,29785,Robby Anderson,NYJ,WR,83.1,9,100%,NYJ
-11257,26678,Vance McDonald,Pit,TE,83.7,9,100%,PIT
-12630,29307,Kenyan Drake,Mia,RB,84.5,9.1,100%,MIA
-13192,30142,David Njoku,Cle,TE,85.7,9.2,100%,CLE
-10976,26534,Justin Tucker,Bal,K,86.9,9.4,100%,BAL
-14079,31885,Miles Sanders,Phi,RB,87.6,9.4,95%,PHI
-13354,30346,Harrison Butker,KC,K,89.3,9.6,100%,KCC
-14056,31833,Kyler Murray,Ari,QB,89.6,9.6,99%,ARI
-,minnesota,Minnesota,Min,DEF,91.4,9.8,100%,MIN
-11695,27538,Eric Ebron,Ind,TE,92.3,9.9,98%,IND
-12647,29255,Will Fuller V,Hou,WR,93.2,10,100%,HOU
-,baltimore,Baltimore,Bal,DEF,93.7,10,100%,BAL
-8359,7867,Stephen Gostkowski,NE,K,95.7,10.2,100%,NEP
-12611,29235,Jared Goff,LAR,QB,95.8,10.3,99%,LAR
-13633,31017,Christian Kirk,Ari,WR,96,10.3,100%,ARI
-10708,25807,Lamar Miller,Hou,RB,96.4,10.4,52%,HOU
-13158,30223,Dede Westbrook,Jax,WR,97.9,10.5,98%,JAC
-13153,30118,Corey Davis,Ten,WR,99,10.6,99%,TEN
-12634,29384,Jordan Howard,Phi,RB,100.1,10.8,89%,PHI
-11670,27532,Sammy Watkins,KC,WR,100.3,10.7,99%,KCC
-11390,26804,Latavius Murray,NO,RB,101.1,10.8,99%,NOS
-,la-chargers,Los Angeles,LAC,DEF,101.4,10.8,99%,LAC
-13157,30153,Curtis Samuel,Car,WR,101.8,10.9,90%,CAR
-13605,31029,Derrius Guice,Was,RB,102.1,10.9,98%,WAS
-13404,30423,Austin Ekeler,LAC,RB,102.8,11,90%,LAC
-5848,5228,Tom Brady,NE,QB,103.9,11,81%,NEP
-13593,31002,Lamar Jackson,Bal,QB,104.2,11.1,94%,BAL
-,cleveland,Cleveland,Cle,DEF,104.2,11.1,99%,CLE
-12956,29754,Wil Lutz,NO,K,105.9,11.3,100%,NOS
-12677,29315,Austin Hooper,Atl,TE,106.4,11.3,98%,ATL
-12658,29274,Sterling Shepard,NYG,WR,106.6,11.4,98%,NYG
-13617,31041,Royce Freeman,Den,RB,109.7,11.7,96%,DEN
-12860,29792,Ka'imi Fairbairn,Hou,K,110.5,11.7,99%,HOU
-7393,6762,Larry Fitzgerald,Ari,WR,111.1,11.9,92%,ARI
-13608,30997,Rashaad Penny,Sea,RB,111.3,11.9,92%,SEA
-7401,6770,Ben Roethlisberger,Pit,QB,111.8,11.9,95%,PIT
-6997,6405,Jason Witten,Dal,TE,113.9,11.9,7%,DAL
-8416,7924,Delanie Walker,Ten,TE,114.9,12.2,96%,TEN
-14080,31906,Devin Singletary,Buf,RB,115.1,12.3,37%,BUF
-10738,25876,Marvin Jones Jr.,Det,WR,115.2,12.3,92%,DET
-12140,28389,Jameis Winston,TB,QB,115.3,12.3,95%,TBB
-13378,30552,Matt Breida,SF,RB,115.7,12.4,70%,SFO
-13634,31014,Dante Pettis,SF,WR,116.1,12.4,67%,SFO
-12620,29369,Dak Prescott,Dal,QB,116.4,12.4,91%,DAL
-13138,30199,Kareem Hunt,Cle,RB,116.4,12.3,46%,CLE
-14085,31960,Tony Pollard,Dal,RB,116.7,12.5,26%,DAL
-9448,9317,LeSean McCoy,KC,RB,116.8,12.4,57%,KCC
-7394,6763,Philip Rivers,LAC,QB,118,12.5,91%,LAC
-10699,25798,Nick Foles,Jax,QB,118.5,12.4,4%,JAC
-9918,24057,Emmanuel Sanders,Den,WR,118.8,12.6,60%,DEN
-,new-england,New England,NE,DEF,118.8,12.6,89%,NEP
-,houston,Houston,Hou,DEF,118.9,12.6,96%,HOU
-14087,31902,Darrell Henderson Jr.,LAR,RB,119.1,12.7,80%,LAR
-10312,24830,Kyle Rudolph,Min,TE,119.5,12.7,90%,MIN
-13671,31056,Mark Andrews,Bal,TE,119.6,12.7,86%,BAL
-11761,27624,Jerick McKinnon,SF,RB,119.6,12.8,19%,SFO
-11644,27564,Derek Carr,Oak,QB,119.8,12.5,9%,OAK
-9431,9265,Matthew Stafford,Det,QB,120.7,12.6,6%,DET
-11182,26813,Rex Burkhead,NE,RB,121,12.8,2%,NEP
-13662,31073,Keke Coutee,Hou,WR,121.6,13.1,39%,HOU
-10308,24851,Randall Cobb,Dal,WR,121.6,12.7,3%,DAL
-13646,31051,Michael Gallup,Dal,WR,121.7,12.9,37%,DAL
-8673,8263,Ted Ginn Jr.,NO,WR,121.7,12.7,3%,NOS
-8658,8261,Adrian Peterson,Was,RB,121.8,13,29%,WAS
-9075,8826,DeSean Jackson,Phi,WR,122.3,12.9,44%,PHI
-9902,24017,Rob Gronkowski,NE,TE,122.4,12.9,3%,NEP
-14101,31864,N'Keal Harry,NE,WR,122.6,12.9,14%,NEP
-9831,24035,Golden Tate,NYG,WR,123.1,13.2,23%,NYG
-13630,31010,Courtland Sutton,Den,WR,123.2,13.2,33%,DEN
-14284,32046,Darwin Thompson,KC,RB,123.3,13.4,17%,KCC
-13631,31030,James Washington,Pit,WR,123.4,13.1,12%,PIT
-13793,31144,Marquez Valdes-Scantling,GB,WR,123.5,13.2,51%,GBP
-8687,8285,Greg Olsen,Car,TE,123.9,13.1,65%,CAR
-13115,30115,Mitchell Trubisky,Chi,QB,124.3,13.2,71%,CHI
-,green-bay,Green Bay,GB,DEF,124.3,13.1,3%,GBP
-11657,27585,Carlos Hyde,Hou,RB,124.3,13.3,14%,HOU
-,atlanta,Atlanta,Atl,DEF,124.5,12.9,3%,ATL
-,carolina,Carolina,Car,DEF,124.6,13,3%,CAR
-14113,31888,Mecole Hardman,KC,WR,124.8,13.4,5%,KCC
-11250,26644,Tyler Eifert,Cin,TE,125,13.1,3%,CIN
-12505,29070,Adam Humphries,Ten,WR,125.2,13.2,2%,TEN
-11677,27618,Donte Moncrief,Pit,WR,125.3,13.3,47%,PIT
-9884,23997,Demaryius Thomas,NE,WR,125.4,13.2,2%,NEP
-13645,31061,Tre'Quan Smith,NO,WR,125.5,13.2,2%,NOS
-8742,8447,Mason Crosby,GB,K,125.5,13.3,85%,GBP
-14102,31896,DK Metcalf,Sea,WR,125.6,13.3,14%,SEA
-,7520,Robbie Gould,SF,K,125.6,13.3,79%,SFO
-13134,30202,D'Onta Foreman,Ind,RB,125.7,13.4,2%,IND
-12205,28429,Devin Funchess,Ind,WR,125.9,13.3,26%,IND
-14136,31868,Deebo Samuel,SF,WR,126,13.4,3%,SFO
-13622,31074,Nyheim Hines,Ind,RB,126.2,13.3,30%,IND
-11454,26878,C.J. Anderson,Det,RB,126.2,13.7,3%,DET
-11705,27789,Trey Burton,Chi,TE,126.4,13.4,90%,CHI
-14075,31919,Damien Harris,NE,RB,126.4,13.7,6%,NEP
-13620,31221,Justin Jackson,LAC,RB,126.5,14.3,7%,LAC
-14112,31891,Parris Campbell,Ind,WR,126.5,13.6,2%,IND
-12181,28408,Nelson Agholor,Phi,WR,126.5,13.2,4%,PHI
-10700,25812,Kirk Cousins,Min,QB,126.6,13.3,41%,MIN
-,new-orleans,New Orleans,NO,DEF,126.6,13.5,86%,NOS
-13613,31135,Jaylen Samuels,Pit,RB,126.7,13.6,21%,PIT
-12391,28691,Tyrell Williams,Oak,WR,126.7,13.4,9%,OAK
-14086,31945,Justice Hill,Bal,RB,126.8,14.2,5%,BAL
-12665,29719,Geronimo Allison,GB,WR,127,13.6,33%,GBP
-13592,30973,Sam Darnold,NYJ,QB,127,13.4,6%,NYJ
-11227,26767,Kenny Stills,Hou,WR,127,13.4,4%,HOU
-9925,24070,Jimmy Graham,GB,TE,127.1,13.4,45%,GBP
-10723,25793,Mohamed Sanu,Atl,WR,127.1,13.3,13%,ATL
-2842,3727,Adam Vinatieri,Ind,K,127.1,13.4,56%,IND
-12637,29560,Peyton Barber,TB,RB,127.2,13.6,21%,TBB
-11239,26701,Marquise Goodwin,SF,WR,127.2,13.4,6%,SFO
-12261,28482,Ty Montgomery,NYJ,RB,127.2,13.9,2%,NYJ
-14105,31857,Marquise Brown,Bal,WR,127.2,13.3,21%,BAL
-13621,31100,Kalen Ballage,Mia,RB,127.5,13.9,22%,MIA
-12164,28514,Mike Davis,Chi,RB,127.7,13.4,10%,CHI
-,detroit,Detroit,Det,DEF,127.8,13.4,2%,DET
-14137,31852,Noah Fant,Den,TE,128.2,13.5,6%,DEN
-14138,31840,T.J. Hockenson,Det,TE,128.3,13.5,39%,DET
-13606,31008,Ronald Jones II,TB,RB,128.3,14,22%,TBB
-13639,31021,Anthony Miller,Chi,WR,128.7,13.9,16%,CHI
-10389,24936,Dion Lewis,Ten,RB,129,13.8,19%,TEN
-12176,28402,DeVante Parker,Mia,WR,129,13.7,2%,MIA
-12263,28592,Darren Waller,Oak,TE,129.2,13.7,6%,OAK
-11760,27590,Jimmy Garoppolo,SF,QB,129.4,13.8,61%,SFO
-14223,31934,Alexander Mattison,Min,RB,129.4,14.7,4%,MIN
-12184,28493,Jamison Crowder,NYJ,WR,129.5,13.7,10%,NYJ
-,pittsburgh,Pittsburgh,Pit,DEF,129.6,13.5,19%,PIT
-13768,31096,Ito Smith,Atl,RB,129.7,14.4,4%,ATL
-11783,27619,John Brown,Buf,WR,130.1,13.7,17%,BUF
-,dallas,Dallas,Dal,DEF,130.4,13.8,50%,DAL
-11947,27120,Brandon McManus,Den,K,130.5,13.6,4%,DEN
-8930,8565,Matt Prater,Det,K,130.6,13.9,34%,DET
-,ny-jets,New York,NYJ,DEF,130.7,14,2%,NYJ
-13589,30977,Josh Allen,Buf,QB,131,14.1,17%,BUF
-,kansas-city,Kansas City,KC,DEF,131,13.6,27%,KCC
-,philadelphia,Philadelphia,Phi,DEF,131.4,13.8,57%,PHI
-,san-francisco,San Francisco,SF,DEF,131.4,13.8,5%,SFO
-6789,6243,Matt Bryant,Atl,K,131.7,13.9,6%,ATL
-11936,28188,Chris Boswell,Pit,K,131.9,13.7,7%,PIT
-13679,31077,Chris Herndon,NYJ,TE,132.4,14.2,14%,NYJ
-11248,26708,Jordan Reed,Was,TE,133.1,14.1,53%,WAS
-13674,31019,Dallas Goedert,Phi,TE,134.6,14.1,9%,PHI
-11516,27299,Jack Doyle,Ind,TE,134.7,14.3,44%,IND
-12437,28378,Jason Myers,Sea,K,135,14.1,49%,SEA
-,denver,Denver,Den,DEF,135.6,14.3,69%,DEN
-13980,31366,Michael Badgley,LAC,K,135.8,14.3,53%,LAC
-,seattle,Seattle,Sea,DEF,136.3,14.3,40%,SEA
-13909,27369,Brett Maher,Dal,K,136.8,14.4,59%,DAL
-9694,9526,Graham Gano,Car,K,138.5,14.6,7%,CAR
-,tennessee,Tennessee,Ten,DEF,139,14.4,4%,TEN
-13241,29949,Aldrick Rosas,NYG,K,139.2,14.8,18%,NYG
-,buffalo,Buffalo,Buf,DEF,139.3,14.7,56%,BUF
-13303,30266,Jake Elliott,Phi,K,139.3,14.7,46%,PHI
-10506,25427,Dan Bailey,Min,K,141.1,15.1,16%,MIN
-,indianapolis,Indianapolis,Ind,DEF,142.5,14.9,18%,IND
-11339,26264,Giorgio Tavecchio,Atl,K,144,15.4,20%,ATL
+id,first_name,last_name,team,position,age,exp,pos,avg_type,points,pos_rank,drop_off,sd_pts,floor,ceiling,tier
+4397,Roosevelt,Nix,PIT,RB,27,5,RB,average,0,110,,,0,0,
+4397,Roosevelt,Nix,PIT,RB,27,5,RB,robust,0,110,,0,0,0,
+4397,Roosevelt,Nix,PIT,RB,27,5,RB,weighted,0,109,,,0,0,
+4925,Drew,Brees,NOS,QB,40,18,QB,average,19.72,22,0.719999999999999,,19.72,19.72,22
+4925,Drew,Brees,NOS,QB,40,18,QB,robust,19.72,22,0.719999999999999,0,19.72,19.72,22
+4925,Drew,Brees,NOS,QB,40,18,QB,weighted,19.72,22,0.719999999999999,,19.72,19.72,22
+5848,Tom,Brady,NEP,QB,42,19,QB,average,23.41,4,0.114999999999998,,23.41,23.41,4
+5848,Tom,Brady,NEP,QB,42,19,QB,robust,23.41,4,0.114999999999998,0,23.41,23.41,4
+5848,Tom,Brady,NEP,QB,42,19,QB,weighted,23.41,4,0.114999999999998,,23.41,23.41,4
+6589,Josh,McCown,PHI,QB,40,17,QB,average,0,35,0,,0,0,
+6589,Josh,McCown,PHI,QB,40,17,QB,robust,0,35,0,0,0,0,
+6589,Josh,McCown,PHI,QB,40,17,QB,weighted,0,35,0,,0,0,
+6997,Jason,Witten,DAL,TE,37,16,TE,average,5.7,32,0.5,,5.7,5.7,32
+6997,Jason,Witten,DAL,TE,37,16,TE,robust,5.7,32,0.5,0,5.7,5.7,32
+6997,Jason,Witten,DAL,TE,37,16,TE,weighted,5.7,32,0.5,,5.7,5.7,32
+7391,Eli,Manning,NYG,QB,38,15,QB,average,16.51,31,7.98,,16.51,16.51,31
+7391,Eli,Manning,NYG,QB,38,15,QB,robust,16.51,31,7.98,0,16.51,16.51,31
+7391,Eli,Manning,NYG,QB,38,15,QB,weighted,16.51,31,7.98,,16.51,16.51,31
+7393,Larry,Fitzgerald,ARI,WR,36,15,WR,average,13.17,32,0.0850000000000009,,13.17,13.17,32
+7393,Larry,Fitzgerald,ARI,WR,36,15,WR,robust,13.17,32,0.0850000000000009,0,13.17,13.17,32
+7393,Larry,Fitzgerald,ARI,WR,36,15,WR,weighted,13.17,32,0.0850000000000009,,13.17,13.17,32
+7394,Philip,Rivers,LAC,QB,38,15,QB,average,20.56,17,0.204999999999998,,20.56,20.56,17
+7394,Philip,Rivers,LAC,QB,38,15,QB,robust,20.56,17,0.204999999999998,0,20.56,20.56,17
+7394,Philip,Rivers,LAC,QB,38,15,QB,weighted,20.56,17,0.204999999999998,,20.56,20.56,17
+7401,Ben,Roethlisberger,PIT,QB,37,15,QB,average,21.29,12,0.110000000000003,,21.29,21.29,12
+7401,Ben,Roethlisberger,PIT,QB,37,15,QB,robust,21.29,12,0.110000000000003,0,21.29,21.29,12
+7401,Ben,Roethlisberger,PIT,QB,37,15,QB,weighted,21.29,12,0.110000000000003,,21.29,21.29,12
+7422,Ben,Watson,NEP,TE,39,15,TE,average,0,79,,,0,0,
+7422,Ben,Watson,NEP,TE,39,15,TE,robust,0,79,,0,0,0,
+7422,Ben,Watson,NEP,TE,39,15,TE,weighted,0,80,,,0,0,
+7480,Matt,Schaub,ATL,QB,38,15,QB,average,0,35,0,,0,0,
+7480,Matt,Schaub,ATL,QB,38,15,QB,robust,0,35,0,0,0,0,
+7480,Matt,Schaub,ATL,QB,38,15,QB,weighted,0,35,0,,0,0,
+7813,Alex,Smith,WAS,QB,35,14,QB,average,0,35,0,,0,0,
+7813,Alex,Smith,WAS,QB,35,14,QB,robust,0,35,0,0,0,0,
+7813,Alex,Smith,WAS,QB,35,14,QB,weighted,0,35,0,,0,0,
+7836,Aaron,Rodgers,GBP,QB,36,14,QB,average,21.32,11,0.0749999999999993,,21.32,21.32,11
+7836,Aaron,Rodgers,GBP,QB,36,14,QB,robust,21.32,11,0.0749999999999993,0,21.32,21.32,11
+7836,Aaron,Rodgers,GBP,QB,36,14,QB,weighted,21.32,11,0.0749999999999957,,21.32,21.32,11
+7877,Frank,Gore,BUF,RB,36,14,RB,average,5.26,62,0.495,,5.26,5.26,
+7877,Frank,Gore,BUF,RB,36,14,RB,robust,5.26,62,0.495,0,5.26,5.26,
+7877,Frank,Gore,BUF,RB,36,14,RB,weighted,5.26,62,0.495,,5.26,5.26,
+7942,Darren,Sproles,PHI,RB,36,14,RB,average,8.98,43,0.234999999999999,,8.98,8.98,43
+7942,Darren,Sproles,PHI,RB,36,14,RB,robust,8.98,43,0.234999999999999,0,8.98,8.98,43
+7942,Darren,Sproles,PHI,RB,36,14,RB,weighted,8.98,43,0.234999999999999,,8.98,8.98,43
+8062,Ryan,Fitzpatrick,MIA,QB,37,14,QB,average,18.01,28,0.690000000000001,,18.01,18.01,28
+8062,Ryan,Fitzpatrick,MIA,QB,37,14,QB,robust,18.01,28,0.690000000000001,0,18.01,18.01,28
+8062,Ryan,Fitzpatrick,MIA,QB,37,14,QB,weighted,18.01,28,0.690000000000001,,18.01,18.01,28
+8247,Vernon,Davis,WAS,TE,35,13,TE,average,6.66,28,0.425000000000001,,6.66,6.66,28
+8247,Vernon,Davis,WAS,TE,35,13,TE,robust,6.66,28,0.425000000000001,0,6.66,6.66,28
+8247,Vernon,Davis,WAS,TE,35,13,TE,weighted,6.66,28,0.425000000000001,,6.66,6.66,28
+8269,Marcedes,Lewis,GBP,TE,35,13,TE,average,3.46,48,0.135,,3.46,3.46,
+8269,Marcedes,Lewis,GBP,TE,35,13,TE,robust,3.46,48,0.135,0,3.46,3.46,
+8269,Marcedes,Lewis,GBP,TE,35,13,TE,weighted,3.46,48,0.135,,3.46,3.46,
+8416,Delanie,Walker,TEN,TE,35,13,TE,average,10.88,6,0.755000000000001,,10.88,10.88,6
+8416,Delanie,Walker,TEN,TE,35,13,TE,robust,10.88,6,0.755000000000001,0,10.88,10.88,6
+8416,Delanie,Walker,TEN,TE,35,13,TE,weighted,10.88,6,0.755000000000001,,10.88,10.88,6
+8658,Adrian,Peterson,WAS,RB,34,12,RB,average,10.13,35,0.0400000000000009,,10.13,10.13,35
+8658,Adrian,Peterson,WAS,RB,34,12,RB,robust,10.13,35,0.0400000000000009,0,10.13,10.13,35
+8658,Adrian,Peterson,WAS,RB,34,12,RB,weighted,10.13,35,0.0400000000000009,,10.13,10.13,35
+8673,Ted,Ginn Jr.,NOS,WR,34,12,WR,average,5.35,88,0.170000000000001,,5.35,5.35,
+8673,Ted,Ginn Jr.,NOS,WR,34,12,WR,robust,5.35,88,0.170000000000001,0,5.35,5.35,
+8673,Ted,Ginn Jr.,NOS,WR,34,12,WR,weighted,5.35,88,0.170000000000001,Inf,5.35,5.35,
+8687,Greg,Olsen,CAR,TE,34,12,TE,average,9.61,11,0.43,,9.61,9.61,11
+8687,Greg,Olsen,CAR,TE,34,12,TE,robust,9.61,11,0.43,0,9.61,9.61,11
+8687,Greg,Olsen,CAR,TE,34,12,TE,weighted,9.61,11,0.43,,9.61,9.61,11
+8712,Drew,Stanton,CLE,QB,35,12,QB,average,0,35,0,,0,0,
+8712,Drew,Stanton,CLE,QB,35,12,QB,robust,0,35,0,0,0,0,
+8712,Drew,Stanton,CLE,QB,35,12,QB,weighted,0,35,0,,0,0,
+8944,Matt,Moore,KCC,QB,35,12,QB,average,0,35,0,,0,0,
+8944,Matt,Moore,KCC,QB,35,12,QB,robust,0,35,0,0,0,0,
+8944,Matt,Moore,KCC,QB,35,12,QB,weighted,0,35,0,,0,0,
+9064,Joe,Flacco,DEN,QB,34,11,QB,average,14.39,32,11.948,,14.39,14.39,32
+9064,Joe,Flacco,DEN,QB,34,11,QB,robust,14.39,32,11.948,0,14.39,14.39,32
+9064,Joe,Flacco,DEN,QB,34,11,QB,weighted,14.39,32,11.948,,14.39,14.39,32
+9073,Chad,Henne,KCC,QB,34,11,QB,average,0,35,0,,0,0,
+9073,Chad,Henne,KCC,QB,34,11,QB,robust,0,35,0,0,0,0,
+9073,Chad,Henne,KCC,QB,34,11,QB,weighted,0,35,0,,0,0,
+9075,DeSean,Jackson,PHI,WR,33,11,WR,average,12.57,37,0.125,,12.57,12.57,37
+9075,DeSean,Jackson,PHI,WR,33,11,WR,robust,12.57,37,0.125,0,12.57,12.57,37
+9075,DeSean,Jackson,PHI,WR,33,11,WR,weighted,12.57,37,0.125,,12.57,12.57,37
+9099,Matt,Ryan,ATL,QB,34,11,QB,average,23.27,6,0.190000000000001,,23.27,23.27,6
+9099,Matt,Ryan,ATL,QB,34,11,QB,robust,23.27,6,0.190000000000001,0,23.27,23.27,6
+9099,Matt,Ryan,ATL,QB,34,11,QB,weighted,23.27,6,0.190000000000001,,23.27,23.27,6
+9200,Matt,Slater,NEP,WR,34,11,WR,average,0,155,,,0,0,
+9200,Matt,Slater,NEP,WR,34,11,WR,robust,0,155,,0,0,0,
+9200,Matt,Slater,NEP,WR,34,11,WR,weighted,0,157,,,0,0,
+9207,Josh,Johnson,DET,QB,33,11,QB,average,0,35,0,,0,0,
+9207,Josh,Johnson,DET,QB,33,11,QB,robust,0,35,0,0,0,0,
+9207,Josh,Johnson,DET,QB,33,11,QB,weighted,0,35,0,,0,0,
+9308,Danny,Amendola,DET,WR,34,11,WR,average,10.19,50,0.325000000000001,,10.19,10.19,
+9308,Danny,Amendola,DET,WR,34,11,WR,robust,10.19,50,0.325000000000001,0,10.19,10.19,
+9308,Danny,Amendola,DET,WR,34,11,WR,weighted,10.19,50,0.325000000000001,,10.19,10.19,
+9427,Michael,Crabtree,ARI,WR,32,10,WR,average,4.61,95,0.155,,4.61,4.61,
+9427,Michael,Crabtree,ARI,WR,32,10,WR,robust,4.61,95,0.155,0,4.61,4.61,
+9427,Michael,Crabtree,ARI,WR,32,10,WR,weighted,4.61,95,0.155,,4.61,4.61,
+9431,Matthew,Stafford,DET,QB,31,10,QB,average,18.95,24,0.219999999999999,,18.95,18.95,24
+9431,Matthew,Stafford,DET,QB,31,10,QB,robust,18.95,24,0.219999999999999,0,18.95,18.95,24
+9431,Matthew,Stafford,DET,QB,31,10,QB,weighted,18.95,24,0.219999999999999,,18.95,18.95,24
+9448,LeSean,McCoy,KCC,RB,31,10,RB,average,14.2,24,0.300000000000001,,14.2,14.2,24
+9448,LeSean,McCoy,KCC,RB,31,10,RB,robust,14.2,24,0.300000000000001,0,14.2,14.2,24
+9448,LeSean,McCoy,KCC,RB,31,10,RB,weighted,14.2,24,0.300000000000001,,14.2,14.2,24
+9474,Jared,Cook,NOS,TE,32,10,TE,average,9.13,13,0.0999999999999979,,9.13,9.13,13
+9474,Jared,Cook,NOS,TE,32,10,TE,robust,9.13,13,0.0999999999999979,0,9.13,9.13,13
+9474,Jared,Cook,NOS,TE,32,10,TE,weighted,9.13,13,0.0999999999999996,,9.13,9.13,13
+9662,Julian,Edelman,NEP,WR,33,10,WR,average,16.99,12,0.625,,16.99,16.99,12
+9662,Julian,Edelman,NEP,WR,33,10,WR,robust,16.99,12,0.625,0,16.99,16.99,12
+9662,Julian,Edelman,NEP,WR,33,10,WR,weighted,16.99,12,0.625,,16.99,16.99,12
+9706,Chase,Daniel,CHI,QB,33,10,QB,average,0,35,0,,0,0,
+9706,Chase,Daniel,CHI,QB,33,10,QB,robust,0,35,0,0,0,0,
+9706,Chase,Daniel,CHI,QB,33,10,QB,weighted,0,35,0,,0,0,
+9714,Brian,Hoyer,IND,QB,34,10,QB,average,0,35,0,,0,0,
+9714,Brian,Hoyer,IND,QB,34,10,QB,robust,0,35,0,0,0,0,
+9714,Brian,Hoyer,IND,QB,34,10,QB,weighted,0,35,0,,0,0,
+9831,Golden,Tate,NYG,WR,31,9,WR,average,0,155,,,0,0,
+9831,Golden,Tate,NYG,WR,31,9,WR,robust,0,155,,0,0,0,
+9831,Golden,Tate,NYG,WR,31,9,WR,weighted,0,157,,,0,0,
+9884,Demaryius,Thomas,NEP,WR,32,9,WR,average,8.39,61,0.199999999999999,,8.39,8.39,
+9884,Demaryius,Thomas,NEP,WR,32,9,WR,robust,8.39,61,0.199999999999999,0,8.39,8.39,
+9884,Demaryius,Thomas,NEP,WR,32,9,WR,weighted,8.39,61,0.199999999999999,,8.39,8.39,
+9899,Colt,McCoy,WAS,QB,33,9,QB,average,0,35,,,0,0,
+9899,Colt,McCoy,WAS,QB,33,9,QB,robust,0,35,,0,0,0,
+9899,Colt,McCoy,WAS,QB,33,9,QB,weighted,0,35,,,0,0,
+9912,Ed,Dickson,SEA,TE,32,9,TE,average,0,79,,,0,0,
+9912,Ed,Dickson,SEA,TE,32,9,TE,robust,0,79,,0,0,0,
+9912,Ed,Dickson,SEA,TE,32,9,TE,weighted,0,80,,,0,0,
+9918,Emmanuel,Sanders,DEN,WR,32,9,WR,average,10.33,47,0.130000000000001,,10.33,10.33,
+9918,Emmanuel,Sanders,DEN,WR,32,9,WR,robust,10.33,47,0.130000000000001,0,10.33,10.33,
+9918,Emmanuel,Sanders,DEN,WR,32,9,WR,weighted,10.33,47,0.130000000000001,,10.33,10.33,
+9921,Andre,Roberts,BUF,WR,31,9,WR,average,0.91,148,0.16,,0.91,0.91,
+9921,Andre,Roberts,BUF,WR,31,9,WR,robust,0.91,148,0.16,0,0.91,0.91,
+9921,Andre,Roberts,BUF,WR,31,9,WR,weighted,0.91,150,0.16,,0.91,0.91,
+9925,Jimmy,Graham,GBP,TE,33,9,TE,average,9.12,14,0.450000000000001,,9.12,9.12,14
+9925,Jimmy,Graham,GBP,TE,33,9,TE,robust,9.12,14,0.450000000000001,0,9.12,9.12,14
+9925,Jimmy,Graham,GBP,TE,33,9,TE,weighted,9.12,14,0.449999999999999,,9.12,9.12,14
+9988,Antonio,Brown,NEP,WR,31,9,WR,average,15.36,17,0.355000000000002,,15.36,15.36,17
+9988,Antonio,Brown,NEP,WR,31,9,WR,robust,15.36,17,0.355000000000002,0,15.36,15.36,17
+9988,Antonio,Brown,NEP,WR,31,9,WR,weighted,15.36,17,0.355000000000002,,15.36,15.36,17
+9992,Joe,Webb,HOU,QB,33,9,QB,average,0,35,,,0,0,
+9992,Joe,Webb,HOU,QB,33,9,QB,robust,0,35,,0,0,0,
+9992,Joe,Webb,HOU,QB,33,9,QB,weighted,0,35,,,0,0,
+10123,Logan,Paulsen,HOU,TE,32,9,TE,average,0.42,77,0.34,,0.42,0.42,
+10123,Logan,Paulsen,HOU,TE,32,9,TE,robust,0.42,77,0.34,0,0.42,0.42,
+10123,Logan,Paulsen,HOU,TE,32,9,TE,weighted,0.42,78,0.34,Inf,0.42,0.42,
+10261,A.J.,Green,CIN,WR,31,8,WR,average,0,155,0,,0,0,
+10261,A.J.,Green,CIN,WR,31,8,WR,robust,0,155,0,0,0,0,
+10261,A.J.,Green,CIN,WR,31,8,WR,weighted,0,157,0,,0,0,
+10262,Blaine,Gabbert,TBB,QB,30,8,QB,average,0,35,0,,0,0,35
+10262,Blaine,Gabbert,TBB,QB,30,8,QB,robust,0,35,0,0,0,0,35
+10262,Blaine,Gabbert,TBB,QB,30,8,QB,weighted,0,35,0,,0,0,35
+10271,Julio,Jones,ATL,WR,30,8,WR,average,20.49,1,0.940000000000005,,20.49,20.49,1
+10271,Julio,Jones,ATL,WR,30,8,WR,robust,20.49,1,0.940000000000005,0,20.49,20.49,1
+10271,Julio,Jones,ATL,WR,30,8,WR,weighted,20.49,1,0.940000000000005,,20.49,20.49,1
+10273,Cam,Newton,CAR,QB,30,8,QB,average,23.07,8,0.875,,23.07,23.07,8
+10273,Cam,Newton,CAR,QB,30,8,QB,robust,23.07,8,0.875,0,23.07,23.07,8
+10273,Cam,Newton,CAR,QB,30,8,QB,weighted,23.07,8,0.875,Inf,23.07,23.07,8
+10276,Mark,Ingram,BAL,RB,30,8,RB,average,13.74,26,0.915000000000001,,13.74,13.74,26
+10276,Mark,Ingram,BAL,RB,30,8,RB,robust,13.74,26,0.915000000000001,0,13.74,13.74,26
+10276,Mark,Ingram,BAL,RB,30,8,RB,weighted,13.74,26,0.915000000000001,,13.74,13.74,26
+10308,Randall,Cobb,DAL,WR,29,8,WR,average,10.2,49,0.0799999999999983,,10.2,10.2,
+10308,Randall,Cobb,DAL,WR,29,8,WR,robust,10.2,49,0.0799999999999983,0,10.2,10.2,
+10308,Randall,Cobb,DAL,WR,29,8,WR,weighted,10.2,49,0.0799999999999983,,10.2,10.2,
+10312,Kyle,Rudolph,MIN,TE,30,8,TE,average,7.79,20,0.264999999999999,,7.79,7.79,20
+10312,Kyle,Rudolph,MIN,TE,30,8,TE,robust,7.79,20,0.264999999999999,0,7.79,7.79,20
+10312,Kyle,Rudolph,MIN,TE,30,8,TE,weighted,7.79,20,0.264999999999999,,7.79,7.79,20
+10313,Andy,Dalton,CIN,QB,32,8,QB,average,20.93,15,0.244999999999997,,20.93,20.93,15
+10313,Andy,Dalton,CIN,QB,32,8,QB,robust,20.93,15,0.244999999999997,0,20.93,20.93,15
+10313,Andy,Dalton,CIN,QB,32,8,QB,weighted,20.93,15,0.244999999999997,,20.93,20.93,15
+10354,Luke,Stocker,ATL,TE,31,8,TE,average,1.32,61,0.01,,1.32,1.32,
+10354,Luke,Stocker,ATL,TE,31,8,TE,robust,1.32,61,0.01,0,1.32,1.32,
+10354,Luke,Stocker,ATL,TE,31,8,TE,weighted,1.32,61,0.0100000000000002,,1.32,1.32,
+10368,Taiwan,Jones,HOU,RB,31,8,RB,average,0.83,97,0.04,,0.83,0.83,
+10368,Taiwan,Jones,HOU,RB,31,8,RB,robust,0.83,97,0.04,0,0.83,0.83,
+10368,Taiwan,Jones,HOU,RB,31,8,RB,weighted,0.83,96,0.04,Inf,0.83,0.83,
+10369,Bilal,Powell,NYJ,RB,31,8,RB,average,1.82,84,0.12,,1.82,1.82,
+10369,Bilal,Powell,NYJ,RB,31,8,RB,robust,1.82,84,0.12,0,1.82,1.82,
+10369,Bilal,Powell,NYJ,RB,31,8,RB,weighted,1.82,83,0.12,,1.82,1.82,
+10378,Anthony,Sherman,KCC,RB,31,8,RB,average,0,110,0,,0,0,
+10378,Anthony,Sherman,KCC,RB,31,8,RB,robust,0,110,0,0,0,0,
+10378,Anthony,Sherman,KCC,RB,31,8,RB,weighted,0,109,0,,0,0,
+10389,Dion,Lewis,TEN,RB,29,8,RB,average,11.43,31,0.955,,11.43,11.43,31
+10389,Dion,Lewis,TEN,RB,29,8,RB,robust,11.43,31,0.955,0,11.43,11.43,31
+10389,Dion,Lewis,TEN,RB,29,8,RB,weighted,11.43,31,0.955,,11.43,11.43,31
+10398,Lee,Smith,BUF,TE,32,8,TE,average,0,79,0,,0,0,
+10398,Lee,Smith,BUF,TE,32,8,TE,robust,0,79,0,0,0,0,
+10398,Lee,Smith,BUF,TE,32,8,TE,weighted,0,80,0,,0,0,
+10409,Charles,Clay,ARI,TE,30,8,TE,average,2.5,53,0.48,,2.5,2.5,
+10409,Charles,Clay,ARI,TE,30,8,TE,robust,2.5,53,0.48,0,2.5,2.5,
+10409,Charles,Clay,ARI,TE,30,8,TE,weighted,2.5,53,0.48,,2.5,2.5,
+10410,Dwayne,Harris,OAK,WR,32,8,WR,average,1,145,0.0549999999999999,,1,1,
+10410,Dwayne,Harris,OAK,WR,32,8,WR,robust,1,145,0.0549999999999999,0,1,1,
+10410,Dwayne,Harris,OAK,WR,32,8,WR,weighted,1,147,0.0549999999999999,,1,1,
+10413,Tyrod,Taylor,LAC,QB,30,8,QB,average,0,35,0,,0,0,
+10413,Tyrod,Taylor,LAC,QB,30,8,QB,robust,0,35,0,0,0,0,
+10413,Tyrod,Taylor,LAC,QB,30,8,QB,weighted,0,35,0,,0,0,
+10432,Virgil,Green,LAC,TE,31,8,TE,average,3.82,43,0.23,,3.82,3.82,
+10432,Virgil,Green,LAC,TE,31,8,TE,robust,3.82,43,0.23,0,3.82,3.82,
+10432,Virgil,Green,LAC,TE,31,8,TE,weighted,3.82,43,0.23,,3.82,3.82,
+10514,Nick,Bellore,SEA,RB,30,8,RB,average,0,110,0,,0,0,
+10514,Nick,Bellore,SEA,RB,30,8,RB,robust,0,110,0,0,0,0,
+10514,Nick,Bellore,SEA,RB,30,8,RB,weighted,0,109,0,,0,0,
+10696,Robert,Griffin III,BAL,QB,29,7,QB,average,0,35,0,,0,0,
+10696,Robert,Griffin III,BAL,QB,29,7,QB,robust,0,35,0,0,0,0,
+10696,Robert,Griffin III,BAL,QB,29,7,QB,weighted,0,35,0,,0,0,
+10697,Ryan,Tannehill,TEN,QB,31,7,QB,average,0,35,0,,0,0,
+10697,Ryan,Tannehill,TEN,QB,31,7,QB,robust,0,35,0,0,0,0,
+10697,Ryan,Tannehill,TEN,QB,31,7,QB,weighted,0,35,0,,0,0,
+10699,Nick,Foles,JAC,QB,30,7,QB,average,0,35,0,,0,0,
+10699,Nick,Foles,JAC,QB,30,7,QB,robust,0,35,0,0,0,0,
+10699,Nick,Foles,JAC,QB,30,7,QB,weighted,0,35,0,,0,0,
+10700,Kirk,Cousins,MIN,QB,31,7,QB,average,19.85,20,0.0700000000000003,,19.85,19.85,20
+10700,Kirk,Cousins,MIN,QB,31,7,QB,robust,19.85,20,0.0700000000000003,0,19.85,19.85,20
+10700,Kirk,Cousins,MIN,QB,31,7,QB,weighted,19.85,20,0.0700000000000003,,19.85,19.85,20
+10703,Russell,Wilson,SEA,QB,31,7,QB,average,23.09,7,0.370000000000001,,23.09,23.09,7
+10703,Russell,Wilson,SEA,QB,31,7,QB,robust,23.09,7,0.370000000000001,0,23.09,23.09,7
+10703,Russell,Wilson,SEA,QB,31,7,QB,weighted,23.09,7,0.370000000000001,,23.09,23.09,7
+10708,Lamar,Miller,HOU,RB,28,7,RB,average,0,110,0,,0,0,
+10708,Lamar,Miller,HOU,RB,28,7,RB,robust,0,110,0,0,0,0,
+10708,Lamar,Miller,HOU,RB,28,7,RB,weighted,0,109,0,,0,0,
+10722,Alshon,Jeffery,PHI,WR,29,7,WR,average,13.84,27,0.0500000000000007,,13.84,13.84,27
+10722,Alshon,Jeffery,PHI,WR,29,7,WR,robust,13.84,27,0.0500000000000007,0,13.84,13.84,27
+10722,Alshon,Jeffery,PHI,WR,29,7,WR,weighted,13.84,27,0.0500000000000007,,13.84,13.84,27
+10723,Mohamed,Sanu,ATL,WR,30,7,WR,average,10.59,43,0.0549999999999997,,10.59,10.59,
+10723,Mohamed,Sanu,ATL,WR,30,7,WR,robust,10.59,43,0.0549999999999997,0,10.59,10.59,
+10723,Mohamed,Sanu,ATL,WR,30,7,WR,weighted,10.59,43,0.0549999999999997,Inf,10.59,10.59,
+10729,T.Y.,Hilton,IND,WR,30,7,WR,average,16.1,15,0.720000000000001,,16.1,16.1,15
+10729,T.Y.,Hilton,IND,WR,30,7,WR,robust,16.1,15,0.720000000000001,0,16.1,16.1,15
+10729,T.Y.,Hilton,IND,WR,30,7,WR,weighted,16.1,15,0.720000000000001,,16.1,16.1,15
+10734,Jarius,Wright,CAR,WR,30,7,WR,average,5.39,87,0.105,,5.39,5.39,
+10734,Jarius,Wright,CAR,WR,30,7,WR,robust,5.39,87,0.105,0,5.39,5.39,
+10734,Jarius,Wright,CAR,WR,30,7,WR,weighted,5.39,87,0.105,Inf,5.39,5.39,
+10737,Travis,Benjamin,LAC,WR,30,7,WR,average,3.83,102,0.0249999999999999,,3.83,3.83,
+10737,Travis,Benjamin,LAC,WR,30,7,WR,robust,3.83,102,0.0249999999999999,0,3.83,3.83,
+10737,Travis,Benjamin,LAC,WR,30,7,WR,weighted,3.83,102,0.0250000000000004,,3.83,3.83,
+10738,Marvin,Jones,DET,WR,29,7,WR,average,10.05,51,0.440000000000001,,10.05,10.05,
+10738,Marvin,Jones,DET,WR,29,7,WR,robust,10.05,51,0.440000000000001,0,10.05,10.05,
+10738,Marvin,Jones,DET,WR,29,7,WR,weighted,10.05,51,0.440000000000001,,10.05,10.05,
+10838,Rhett,Ellison,NYG,TE,31,7,TE,average,3.37,49,0.145,,3.37,3.37,
+10838,Rhett,Ellison,NYG,TE,31,7,TE,robust,3.37,49,0.145,0,3.37,3.37,
+10838,Rhett,Ellison,NYG,TE,31,7,TE,weighted,3.37,49,0.145,,3.37,3.37,
+10932,Brandon,Bolden,NEP,RB,29,7,RB,average,0,110,0,,0,0,
+10932,Brandon,Bolden,NEP,RB,29,7,RB,robust,0,110,0,0,0,0,
+10932,Brandon,Bolden,NEP,RB,29,7,RB,weighted,0,109,0,,0,0,
+10935,Alex,Tanney,NYG,QB,32,7,QB,average,0,35,0,,0,0,
+10935,Alex,Tanney,NYG,QB,32,7,QB,robust,0,35,0,0,0,0,
+10935,Alex,Tanney,NYG,QB,32,7,QB,weighted,0,35,0,,0,0,
+10940,Derek,Carrier,OAK,TE,29,7,TE,average,0,79,0,,0,0,
+10940,Derek,Carrier,OAK,TE,29,7,TE,robust,0,79,0,0,0,0,
+10940,Derek,Carrier,OAK,TE,29,7,TE,weighted,0,80,0,,0,0,
+10948,Case,Keenum,WAS,QB,31,7,QB,average,20.26,19,0.415000000000003,,20.26,20.26,19
+10948,Case,Keenum,WAS,QB,31,7,QB,robust,20.26,19,0.415000000000003,0,20.26,20.26,19
+10948,Case,Keenum,WAS,QB,31,7,QB,weighted,20.26,19,0.415000000000003,,20.26,20.26,19
+10960,Josh,Gordon,NEP,WR,28,7,WR,average,17.37,10,0.220000000000002,,17.37,17.37,10
+10960,Josh,Gordon,NEP,WR,28,7,WR,robust,17.37,10,0.220000000000002,0,17.37,17.37,10
+10960,Josh,Gordon,NEP,WR,28,7,WR,weighted,17.37,10,0.219999999999999,,17.37,17.37,10
+10973,Cole,Beasley,BUF,WR,30,7,WR,average,7.41,70,0.0949999999999998,,7.41,7.41,
+10973,Cole,Beasley,BUF,WR,30,7,WR,robust,7.41,70,0.0949999999999998,0,7.41,7.41,
+10973,Cole,Beasley,BUF,WR,30,7,WR,weighted,7.41,70,0.0949999999999998,Inf,7.41,7.41,
+10983,Chris,Hogan,CAR,WR,31,8,WR,average,5.05,91,0.130000000000001,,5.05,5.05,
+10983,Chris,Hogan,CAR,WR,31,8,WR,robust,5.05,91,0.130000000000001,0,5.05,5.05,
+10983,Chris,Hogan,CAR,WR,31,8,WR,weighted,5.05,91,0.130000000000001,,5.05,5.05,
+10985,Jamize,Olawale,DAL,RB,30,7,RB,average,0,110,0,,0,0,
+10985,Jamize,Olawale,DAL,RB,30,7,RB,robust,0,110,0,0,0,0,
+10985,Jamize,Olawale,DAL,RB,30,7,RB,weighted,0,109,0,,0,0,
+11007,Garrett,Celek,SFO,TE,31,7,TE,average,0,79,0,,0,0,
+11007,Garrett,Celek,SFO,TE,31,7,TE,robust,0,79,0,0,0,0,
+11007,Garrett,Celek,SFO,TE,31,7,TE,weighted,0,80,0,,0,0,
+11076,Jermaine,Kearse,DET,WR,29,7,WR,average,0,155,0,,0,0,
+11076,Jermaine,Kearse,DET,WR,29,7,WR,robust,0,155,0,0,0,0,
+11076,Jermaine,Kearse,DET,WR,29,7,WR,weighted,0,157,0,,0,0,
+11100,Patrick,DiMarco,BUF,RB,30,8,RB,average,0,110,0,,0,0,
+11100,Patrick,DiMarco,BUF,RB,30,8,RB,robust,0,110,0,0,0,0,
+11100,Patrick,DiMarco,BUF,RB,30,8,RB,weighted,0,109,0,,0,0,
+11101,James,Develin,NEP,RB,31,9,RB,average,1.33,90,0.085,,1.33,1.33,
+11101,James,Develin,NEP,RB,31,9,RB,robust,1.33,90,0.085,0,1.33,1.33,
+11101,James,Develin,NEP,RB,31,9,RB,weighted,1.33,89,0.085,,1.33,1.33,
+11104,Josh,Bellamy,NYJ,WR,30,7,WR,average,2.36,116,0.0499999999999998,,2.36,2.36,
+11104,Josh,Bellamy,NYJ,WR,30,7,WR,robust,2.36,116,0.0499999999999998,0,2.36,2.36,
+11104,Josh,Bellamy,NYJ,WR,30,7,WR,weighted,2.36,117,0.0499999999999998,,2.36,2.36,
+11150,Geno,Smith,SEA,QB,29,6,QB,average,0,35,0,,0,0,
+11150,Geno,Smith,SEA,QB,29,6,QB,robust,0,35,0,0,0,0,
+11150,Geno,Smith,SEA,QB,29,6,QB,weighted,0,35,0,,0,0,
+11151,Matt,Barkley,BUF,QB,29,6,QB,average,0,35,0,,0,0,
+11151,Matt,Barkley,BUF,QB,29,6,QB,robust,0,35,0,0,0,0,
+11151,Matt,Barkley,BUF,QB,29,6,QB,weighted,0,35,0,,0,0,
+11152,Mike,Glennon,OAK,QB,30,6,QB,average,0,35,0,,0,0,
+11152,Mike,Glennon,OAK,QB,30,6,QB,robust,0,35,0,0,0,0,
+11152,Mike,Glennon,OAK,QB,30,6,QB,weighted,0,35,0,,0,0,
+11177,Kenjon,Barner,ATL,RB,30,6,RB,average,0.34,103,0.02,,0.34,0.34,
+11177,Kenjon,Barner,ATL,RB,30,6,RB,robust,0.34,103,0.02,0,0.34,0.34,
+11177,Kenjon,Barner,ATL,RB,30,6,RB,weighted,0.34,102,0.02,,0.34,0.34,
+11182,Rex,Burkhead,NEP,RB,29,6,RB,average,6.76,58,0.920000000000001,,6.76,6.76,
+11182,Rex,Burkhead,NEP,RB,29,6,RB,robust,6.76,58,0.920000000000001,0,6.76,6.76,
+11182,Rex,Burkhead,NEP,RB,29,6,RB,weighted,6.76,58,0.920000000000001,Inf,6.76,6.76,
+11186,Chris,Thompson,WAS,RB,29,6,RB,average,9.95,39,0.335000000000001,,9.95,9.95,39
+11186,Chris,Thompson,WAS,RB,29,6,RB,robust,9.95,39,0.335000000000001,0,9.95,9.95,39
+11186,Chris,Thompson,WAS,RB,29,6,RB,weighted,9.95,39,0.335000000000001,,9.95,9.95,39
+11188,Theo,Riddick,DEN,RB,28,6,RB,average,0,110,0,,0,0,
+11188,Theo,Riddick,DEN,RB,28,6,RB,robust,0,110,0,0,0,0,
+11188,Theo,Riddick,DEN,RB,28,6,RB,weighted,0,109,0,,0,0,
+11192,Le'Veon,Bell,NYJ,RB,27,6,RB,average,20.37,5,2.425,,20.37,20.37,5
+11192,Le'Veon,Bell,NYJ,RB,27,6,RB,robust,20.37,5,2.425,0,20.37,20.37,5
+11192,Le'Veon,Bell,NYJ,RB,27,6,RB,weighted,20.37,5,2.425,,20.37,20.37,5
+11193,Giovani,Bernard,CIN,RB,28,6,RB,average,10.07,37,0.109999999999999,,10.07,10.07,37
+11193,Giovani,Bernard,CIN,RB,28,6,RB,robust,10.07,37,0.109999999999999,0,10.07,10.07,37
+11193,Giovani,Bernard,CIN,RB,28,6,RB,weighted,10.07,37,0.109999999999999,,10.07,10.07,37
+11199,Spencer,Ware,IND,RB,28,6,RB,average,0,110,0,,0,0,
+11199,Spencer,Ware,IND,RB,28,6,RB,robust,0,110,0,0,0,0,
+11199,Spencer,Ware,IND,RB,28,6,RB,weighted,0,109,0,,0,0,
+11213,Tavon,Austin,DAL,WR,28,6,WR,average,3.01,111,0.335,,3.01,3.01,
+11213,Tavon,Austin,DAL,WR,28,6,WR,robust,3.01,111,0.335,0,3.01,3.01,
+11213,Tavon,Austin,DAL,WR,28,6,WR,weighted,3.01,112,0.335,,3.01,3.01,
+11222,Keenan,Allen,LAC,WR,27,6,WR,average,18.55,7,0.550000000000001,,18.55,18.55,7
+11222,Keenan,Allen,LAC,WR,27,6,WR,robust,18.55,7,0.550000000000001,0,18.55,18.55,7
+11222,Keenan,Allen,LAC,WR,27,6,WR,weighted,18.55,7,0.550000000000001,,18.55,18.55,7
+11225,Cordarrelle,Patterson,CHI,WR,28,6,WR,average,3.03,110,0.00999999999999979,,3.03,3.03,
+11225,Cordarrelle,Patterson,CHI,WR,28,6,WR,robust,3.03,110,0.00999999999999979,0,3.03,3.03,
+11225,Cordarrelle,Patterson,CHI,WR,28,6,WR,weighted,3.03,110,0.0100000000000002,,3.03,3.03,
+11227,Kenny,Stills,HOU,WR,27,6,WR,average,9.03,57,0.139999999999999,,9.03,9.03,
+11227,Kenny,Stills,HOU,WR,27,6,WR,robust,9.03,57,0.139999999999999,0,9.03,9.03,
+11227,Kenny,Stills,HOU,WR,27,6,WR,weighted,9.03,57,0.139999999999999,,9.03,9.03,
+11228,Robert,Woods,LAR,WR,27,6,WR,average,15.12,18,0.289999999999997,,15.12,15.12,18
+11228,Robert,Woods,LAR,WR,27,6,WR,robust,15.12,18,0.289999999999997,0,15.12,15.12,18
+11228,Robert,Woods,LAR,WR,27,6,WR,weighted,15.12,18,0.289999999999997,,15.12,15.12,18
+11232,DeAndre,Hopkins,HOU,WR,27,6,WR,average,19.03,5,0.304999999999996,,19.03,19.03,5
+11232,DeAndre,Hopkins,HOU,WR,27,6,WR,robust,19.03,5,0.304999999999996,0,19.03,19.03,5
+11232,DeAndre,Hopkins,HOU,WR,27,6,WR,weighted,19.03,5,0.305,,19.03,19.03,5
+11237,Russell,Shepard,NYG,WR,29,6,WR,average,0.72,150,0.135,,0.72,0.72,
+11237,Russell,Shepard,NYG,WR,29,6,WR,robust,0.72,150,0.135,0,0.72,0.72,
+11237,Russell,Shepard,NYG,WR,29,6,WR,weighted,0.72,152,0.135,,0.72,0.72,
+11239,Marquise,Goodwin,SFO,WR,29,6,WR,average,6.51,81,0.185,,6.51,6.51,
+11239,Marquise,Goodwin,SFO,WR,29,6,WR,robust,6.51,81,0.185,0,6.51,6.51,
+11239,Marquise,Goodwin,SFO,WR,29,6,WR,weighted,6.51,81,0.185,,6.51,6.51,
+11244,Travis,Kelce,KCC,TE,30,6,TE,average,20.91,1,6.82,,20.91,20.91,1
+11244,Travis,Kelce,KCC,TE,30,6,TE,robust,20.91,1,6.82,0,20.91,20.91,1
+11244,Travis,Kelce,KCC,TE,30,6,TE,weighted,20.91,1,6.82,,20.91,20.91,1
+11247,Zach,Ertz,PHI,TE,29,6,TE,average,15.14,2,2.585,,15.14,15.14,2
+11247,Zach,Ertz,PHI,TE,29,6,TE,robust,15.14,2,2.585,0,15.14,15.14,2
+11247,Zach,Ertz,PHI,TE,29,6,TE,weighted,15.14,2,2.585,Inf,15.14,15.14,2
+11248,Jordan,Reed,WAS,TE,29,6,TE,average,8.32,17,0.300000000000001,,8.32,8.32,17
+11248,Jordan,Reed,WAS,TE,29,6,TE,robust,8.32,17,0.300000000000001,0,8.32,8.32,17
+11248,Jordan,Reed,WAS,TE,29,6,TE,weighted,8.32,17,0.299999999999999,,8.32,8.32,17
+11250,Tyler,Eifert,CIN,TE,29,6,TE,average,7.51,22,0.0649999999999995,,7.51,7.51,22
+11250,Tyler,Eifert,CIN,TE,29,6,TE,robust,7.51,22,0.0649999999999995,0,7.51,7.51,22
+11250,Tyler,Eifert,CIN,TE,29,6,TE,weighted,7.51,22,0.0649999999999986,,7.51,7.51,22
+11252,Levine,Toilolo,SFO,TE,28,6,TE,average,1.68,56,0.275,,1.68,1.68,
+11252,Levine,Toilolo,SFO,TE,28,6,TE,robust,1.68,56,0.275,0,1.68,1.68,
+11252,Levine,Toilolo,SFO,TE,28,6,TE,weighted,1.68,56,0.275,Inf,1.68,1.68,
+11257,Vance,McDonald,PIT,TE,29,6,TE,average,8.94,15,0.58,,8.94,8.94,15
+11257,Vance,McDonald,PIT,TE,29,6,TE,robust,8.94,15,0.58,0,8.94,8.94,15
+11257,Vance,McDonald,PIT,TE,29,6,TE,weighted,8.94,15,0.580000000000002,,8.94,8.94,15
+11337,Darren,Fells,HOU,TE,33,7,TE,average,0.77,74,0.115,,0.77,0.77,
+11337,Darren,Fells,HOU,TE,33,7,TE,robust,0.77,74,0.115,0,0.77,0.77,
+11337,Darren,Fells,HOU,TE,33,7,TE,weighted,0.77,75,0.115,Inf,0.77,0.77,
+11367,Kyle,Juszczyk,SFO,RB,28,6,RB,average,3.4,73,0.21,,3.4,3.4,
+11367,Kyle,Juszczyk,SFO,RB,28,6,RB,robust,3.4,73,0.21,0,3.4,3.4,
+11367,Kyle,Juszczyk,SFO,RB,28,6,RB,weighted,3.4,72,0.21,Inf,3.4,3.4,
+11390,Latavius,Murray,NOS,RB,29,6,RB,average,9.97,38,0.0849999999999991,,9.97,9.97,38
+11390,Latavius,Murray,NOS,RB,29,6,RB,robust,9.97,38,0.0849999999999991,0,9.97,9.97,38
+11390,Latavius,Murray,NOS,RB,29,6,RB,weighted,9.97,38,0.0849999999999991,,9.97,9.97,38
+11399,Ryan,Griffin,NYJ,TE,29,6,TE,average,4.71,37,0.120000000000001,,4.71,4.71,37
+11399,Ryan,Griffin,NYJ,TE,29,6,TE,robust,4.71,37,0.120000000000001,0,4.71,4.71,37
+11399,Ryan,Griffin,NYJ,TE,29,6,TE,weighted,4.71,37,0.120000000000001,,4.71,4.71,37
+11441,Ryan,Griffin,TBB,QB,30,6,QB,average,0,35,0,,0,0,
+11441,Ryan,Griffin,TBB,QB,30,6,QB,robust,0,35,0,0,0,0,
+11441,Ryan,Griffin,TBB,QB,30,6,QB,weighted,0,35,0,,0,0,
+11448,Demetrius,Harris,CLE,TE,28,6,TE,average,1.3,62,0.01,,1.3,1.3,
+11448,Demetrius,Harris,CLE,TE,28,6,TE,robust,1.3,62,0.01,0,1.3,1.3,
+11448,Demetrius,Harris,CLE,TE,28,6,TE,weighted,1.3,63,0.01,,1.3,1.3,
+11454,C.J.,Anderson,DET,RB,28,6,RB,average,6.81,57,0.0250000000000004,,6.81,6.81,57
+11454,C.J.,Anderson,DET,RB,28,6,RB,robust,6.81,57,0.0250000000000004,0,6.81,6.81,57
+11454,C.J.,Anderson,DET,RB,28,6,RB,weighted,6.81,57,0.0250000000000004,,6.81,6.81,57
+11456,Jaron,Brown,SEA,WR,29,6,WR,average,1.45,134,0.0449999999999999,,1.45,1.45,
+11456,Jaron,Brown,SEA,WR,29,6,WR,robust,1.45,134,0.0449999999999999,0,1.45,1.45,
+11456,Jaron,Brown,SEA,WR,29,6,WR,weighted,1.45,136,0.0449999999999999,Inf,1.45,1.45,
+11474,Zach,Line,NOS,RB,29,6,RB,average,0,110,0,,0,0,
+11474,Zach,Line,NOS,RB,29,6,RB,robust,0,110,0,0,0,0,
+11474,Zach,Line,NOS,RB,29,6,RB,weighted,0,109,0,,0,0,
+11516,Jack,Doyle,IND,TE,29,6,TE,average,6.18,30,0.459999999999999,,6.18,6.18,30
+11516,Jack,Doyle,IND,TE,29,6,TE,robust,6.18,30,0.459999999999999,0,6.18,6.18,30
+11516,Jack,Doyle,IND,TE,29,6,TE,weighted,6.18,30,0.459999999999999,,6.18,6.18,30
+11529,Josh,Hill,NOS,TE,29,6,TE,average,3.62,44,0.065,,3.62,3.62,
+11529,Josh,Hill,NOS,TE,29,6,TE,robust,3.62,44,0.065,0,3.62,3.62,
+11529,Josh,Hill,NOS,TE,29,6,TE,weighted,3.62,44,0.0649999999999995,,3.62,3.62,
+11640,Teddy,Bridgewater,NOS,QB,27,5,QB,average,0,35,0,,0,0,
+11640,Teddy,Bridgewater,NOS,QB,27,5,QB,robust,0,35,0,0,0,0,
+11640,Teddy,Bridgewater,NOS,QB,27,5,QB,weighted,0,35,0,,0,0,
+11642,Blake,Bortles,LAR,QB,28,5,QB,average,0,35,0,,0,0,
+11642,Blake,Bortles,LAR,QB,28,5,QB,robust,0,35,0,0,0,0,
+11642,Blake,Bortles,LAR,QB,28,5,QB,weighted,0,35,0,,0,0,
+11643,A.J.,McCarron,HOU,QB,29,5,QB,average,0,35,0,,0,0,
+11643,A.J.,McCarron,HOU,QB,29,5,QB,robust,0,35,0,0,0,0,
+11643,A.J.,McCarron,HOU,QB,29,5,QB,weighted,0,35,0,,0,0,
+11644,Derek,Carr,OAK,QB,28,5,QB,average,20.81,16,0.305000000000003,,20.81,20.81,16
+11644,Derek,Carr,OAK,QB,28,5,QB,robust,20.81,16,0.305000000000003,0,20.81,20.81,16
+11644,Derek,Carr,OAK,QB,28,5,QB,weighted,20.81,16,0.305000000000003,,20.81,20.81,16
+11647,Logan,Thomas,DET,TE,28,5,TE,average,0,79,0,,0,0,
+11647,Logan,Thomas,DET,TE,28,5,TE,robust,0,79,0,0,0,0,
+11647,Logan,Thomas,DET,TE,28,5,TE,weighted,0,80,0,,0,0,
+11657,Carlos,Hyde,HOU,RB,29,5,RB,average,7.72,51,0.359999999999999,,7.72,7.72,51
+11657,Carlos,Hyde,HOU,RB,29,5,RB,robust,7.72,51,0.359999999999999,0,7.72,7.72,51
+11657,Carlos,Hyde,HOU,RB,29,5,RB,weighted,7.72,51,0.359999999999999,,7.72,7.72,51
+11659,De'Anthony,Thomas,KCC,WR,26,5,WR,average,0,155,0,,0,0,
+11659,De'Anthony,Thomas,KCC,WR,26,5,WR,robust,0,155,0,0,0,0,
+11659,De'Anthony,Thomas,KCC,WR,26,5,WR,weighted,0,157,0,,0,0,
+11660,Devonta,Freeman,ATL,RB,27,5,RB,average,14.86,19,0.260000000000002,,14.86,14.86,19
+11660,Devonta,Freeman,ATL,RB,27,5,RB,robust,14.86,19,0.260000000000002,0,14.86,14.86,19
+11660,Devonta,Freeman,ATL,RB,27,5,RB,weighted,14.86,19,0.260000000000002,,14.86,14.86,19
+11668,Isaiah,Crowell,OAK,RB,26,5,RB,average,0,110,0,,0,0,
+11668,Isaiah,Crowell,OAK,RB,26,5,RB,robust,0,110,0,0,0,0,
+11668,Isaiah,Crowell,OAK,RB,26,5,RB,weighted,0,109,0,,0,0,
+11670,Sammy,Watkins,KCC,WR,26,5,WR,average,19.28,4,0.315000000000001,,19.28,19.28,4
+11670,Sammy,Watkins,KCC,WR,26,5,WR,robust,19.28,4,0.315000000000001,0,19.28,19.28,4
+11670,Sammy,Watkins,KCC,WR,26,5,WR,weighted,19.28,4,0.314999999999998,,19.28,19.28,4
+11671,Mike,Evans,TBB,WR,26,5,WR,average,16.49,13,0.32,,16.49,16.49,13
+11671,Mike,Evans,TBB,WR,26,5,WR,robust,16.49,13,0.32,0,16.49,16.49,13
+11671,Mike,Evans,TBB,WR,26,5,WR,weighted,16.49,13,0.32,,16.49,16.49,13
+11672,Marqise,Lee,JAC,WR,28,5,WR,average,8.21,62,0.115000000000002,,8.21,8.21,
+11672,Marqise,Lee,JAC,WR,28,5,WR,robust,8.21,62,0.115000000000002,0,8.21,8.21,
+11672,Marqise,Lee,JAC,WR,28,5,WR,weighted,8.21,62,0.115000000000002,,8.21,8.21,
+11674,Brandin,Cooks,LAR,WR,26,5,WR,average,15.4,16,0.16,,15.4,15.4,16
+11674,Brandin,Cooks,LAR,WR,26,5,WR,robust,15.4,16,0.16,0,15.4,15.4,16
+11674,Brandin,Cooks,LAR,WR,26,5,WR,weighted,15.4,16,0.16,,15.4,15.4,16
+11675,Davante,Adams,GBP,WR,27,5,WR,average,18.11,8,0.479999999999997,,18.11,18.11,8
+11675,Davante,Adams,GBP,WR,27,5,WR,robust,18.11,8,0.479999999999997,0,18.11,18.11,8
+11675,Davante,Adams,GBP,WR,27,5,WR,weighted,18.11,8,0.48,,18.11,18.11,8
+11677,Donte,Moncrief,PIT,WR,26,5,WR,average,9.22,55,0.0999999999999996,,9.22,9.22,
+11677,Donte,Moncrief,PIT,WR,26,5,WR,robust,9.22,55,0.0999999999999996,0,9.22,9.22,
+11677,Donte,Moncrief,PIT,WR,26,5,WR,weighted,9.22,55,0.0999999999999996,,9.22,9.22,
+11678,Allen,Robinson,CHI,WR,26,5,WR,average,13.71,30,0.469999999999999,,13.71,13.71,30
+11678,Allen,Robinson,CHI,WR,26,5,WR,robust,13.71,30,0.469999999999999,0,13.71,13.71,30
+11678,Allen,Robinson,CHI,WR,26,5,WR,weighted,13.71,30,0.469999999999999,,13.71,13.71,30
+11679,Odell,Beckham,CLE,WR,27,5,WR,average,18.9,6,0.57,,18.9,18.9,6
+11679,Odell,Beckham,CLE,WR,27,5,WR,robust,18.9,6,0.57,0,18.9,18.9,6
+11679,Odell,Beckham,CLE,WR,27,5,WR,weighted,18.9,6,0.570000000000004,,18.9,18.9,6
+11680,Jarvis,Landry,CLE,WR,27,5,WR,average,12.33,39,0.455,,12.33,12.33,39
+11680,Jarvis,Landry,CLE,WR,27,5,WR,robust,12.33,39,0.455,0,12.33,12.33,39
+11680,Jarvis,Landry,CLE,WR,27,5,WR,weighted,12.33,39,0.455,,12.33,12.33,39
+11681,Paul,Richardson,WAS,WR,27,5,WR,average,9,58,0.25,,9,9,
+11681,Paul,Richardson,WAS,WR,27,5,WR,robust,9,58,0.25,0,9,9,
+11681,Paul,Richardson,WAS,WR,27,5,WR,weighted,9,58,0.25,,9,9,
+11686,T.J.,Jones,FA,WR,27,5,WR,average,0,155,0,,0,0,
+11686,T.J.,Jones,FA,WR,27,5,WR,robust,0,155,0,0,0,0,
+11686,T.J.,Jones,FA,WR,27,5,WR,weighted,0,157,0,,0,0,
+11695,Eric,Ebron,IND,TE,26,5,TE,average,6.81,25,0.085,,6.81,6.81,25
+11695,Eric,Ebron,IND,TE,26,5,TE,robust,6.81,25,0.085,0,6.81,6.81,25
+11695,Eric,Ebron,IND,TE,26,5,TE,weighted,6.81,25,0.085,,6.81,6.81,25
+11701,Xavier,Grimble,PIT,TE,27,5,TE,average,1.36,60,0.02,,1.36,1.36,
+11701,Xavier,Grimble,PIT,TE,27,5,TE,robust,1.36,60,0.02,0,1.36,1.36,
+11701,Xavier,Grimble,PIT,TE,27,5,TE,weighted,1.36,60,0.0199999999999998,Inf,1.36,1.36,
+11705,Trey,Burton,CHI,TE,28,5,TE,average,8.22,18,0.415000000000001,,8.22,8.22,18
+11705,Trey,Burton,CHI,TE,28,5,TE,robust,8.22,18,0.415000000000001,0,8.22,8.22,18
+11705,Trey,Burton,CHI,TE,28,5,TE,weighted,8.22,18,0.415000000000001,,8.22,8.22,18
+11747,James,White,NEP,RB,27,5,RB,average,15.32,16,0.0599999999999987,,15.32,15.32,16
+11747,James,White,NEP,RB,27,5,RB,robust,15.32,16,0.0599999999999987,0,15.32,15.32,16
+11747,James,White,NEP,RB,27,5,RB,weighted,15.32,16,0.0599999999999987,,15.32,15.32,16
+11758,Cody,Latimer,NYG,WR,27,5,WR,average,6.58,80,0.154999999999999,,6.58,6.58,
+11758,Cody,Latimer,NYG,WR,27,5,WR,robust,6.58,80,0.154999999999999,0,6.58,6.58,
+11758,Cody,Latimer,NYG,WR,27,5,WR,weighted,6.58,80,0.154999999999999,,6.58,6.58,
+11760,Jimmy,Garoppolo,SFO,QB,28,5,QB,average,17.83,29,1.17,,17.83,17.83,29
+11760,Jimmy,Garoppolo,SFO,QB,28,5,QB,robust,17.83,29,1.17,0,17.83,17.83,29
+11760,Jimmy,Garoppolo,SFO,QB,28,5,QB,weighted,17.83,29,1.17,,17.83,17.83,29
+11761,Jerick,McKinnon,SFO,RB,27,5,RB,average,0,110,0,,0,0,
+11761,Jerick,McKinnon,SFO,RB,27,5,RB,robust,0,110,0,0,0,0,
+11761,Jerick,McKinnon,SFO,RB,27,5,RB,weighted,0,109,0,,0,0,
+11783,John,Brown,BUF,WR,29,5,WR,average,12.56,38,0.23,,12.56,12.56,38
+11783,John,Brown,BUF,WR,29,5,WR,robust,12.56,38,0.23,0,12.56,12.56,38
+11783,John,Brown,BUF,WR,29,5,WR,weighted,12.56,38,0.23,Inf,12.56,12.56,38
+11812,Ryan,Grant,OAK,WR,29,5,WR,average,7.99,65,0.225,,7.99,7.99,
+11812,Ryan,Grant,OAK,WR,29,5,WR,robust,7.99,65,0.225,0,7.99,7.99,
+11812,Ryan,Grant,OAK,WR,29,5,WR,weighted,7.99,65,0.225,,7.99,7.99,
+11834,Alfred,Blue,JAC,RB,28,5,RB,average,0,110,0,,0,0,
+11834,Alfred,Blue,JAC,RB,28,5,RB,robust,0,110,0,0,0,0,
+11834,Alfred,Blue,JAC,RB,28,5,RB,weighted,0,109,0,,0,0,
+11850,Quincy,Enunwa,NYJ,WR,27,5,WR,average,0,155,0,,0,0,
+11850,Quincy,Enunwa,NYJ,WR,27,5,WR,robust,0,155,0,0,0,0,
+11850,Quincy,Enunwa,NYJ,WR,27,5,WR,weighted,0,157,0,,0,0,
+11854,Garrett,Gilbert,CLE,QB,28,5,QB,average,0,35,0,,0,0,
+11854,Garrett,Gilbert,CLE,QB,28,5,QB,robust,0,35,0,0,0,0,
+11854,Garrett,Gilbert,CLE,QB,28,5,QB,weighted,0,35,0,,0,0,
+11886,Damien,Williams,KCC,RB,27,5,RB,average,13.3,27,1.115,,13.3,13.3,27
+11886,Damien,Williams,KCC,RB,27,5,RB,robust,13.3,27,1.115,0,13.3,13.3,27
+11886,Damien,Williams,KCC,RB,27,5,RB,weighted,13.3,27,1.115,,13.3,13.3,27
+11890,Albert,Wilson,MIA,WR,27,5,WR,average,4.35,97,0.180000000000001,,4.35,4.35,
+11890,Albert,Wilson,MIA,WR,27,5,WR,robust,4.35,97,0.180000000000001,0,4.35,4.35,
+11890,Albert,Wilson,MIA,WR,27,5,WR,weighted,4.35,97,0.180000000000001,,4.35,4.35,
+11894,David,Fluellen,TEN,RB,27,5,RB,average,0.48,101,0.075,,0.48,0.48,
+11894,David,Fluellen,TEN,RB,27,5,RB,robust,0.48,101,0.075,0,0.48,0.48,
+11894,David,Fluellen,TEN,RB,27,5,RB,weighted,0.48,100,0.075,,0.48,0.48,
+11925,Allen,Hurns,MIA,WR,28,5,WR,average,3.97,100,0.0700000000000003,,3.97,3.97,
+11925,Allen,Hurns,MIA,WR,28,5,WR,robust,3.97,100,0.0700000000000003,0,3.97,3.97,
+11925,Allen,Hurns,MIA,WR,28,5,WR,weighted,3.97,100,0.0700000000000007,,3.97,3.97,
+11931,Bennie,Fowler,NYG,WR,28,5,WR,average,3.97,101,0.149999999999999,,3.97,3.97,
+11931,Bennie,Fowler,NYG,WR,28,5,WR,robust,3.97,101,0.149999999999999,0,3.97,3.97,
+11931,Bennie,Fowler,NYG,WR,28,5,WR,weighted,3.97,101,0.15,Inf,3.97,3.97,
+11938,Adam,Thielen,MIN,WR,29,5,WR,average,17.31,11,0.569999999999997,,17.31,17.31,11
+11938,Adam,Thielen,MIN,WR,29,5,WR,robust,17.31,11,0.569999999999997,0,17.31,17.31,11
+11938,Adam,Thielen,MIN,WR,29,5,WR,weighted,17.31,11,0.569999999999997,,17.31,17.31,11
+11951,Willie,Snead,BAL,WR,27,5,WR,average,8.17,63,0.165000000000001,,8.17,8.17,
+11951,Willie,Snead,BAL,WR,27,5,WR,robust,8.17,63,0.165000000000001,0,8.17,8.17,
+11951,Willie,Snead,BAL,WR,27,5,WR,weighted,8.17,63,0.165000000000001,,8.17,8.17,
+11957,Dontrelle,Inman,LAC,WR,30,6,WR,average,2.24,120,0.185,,2.24,2.24,
+11957,Dontrelle,Inman,LAC,WR,30,6,WR,robust,2.24,120,0.185,0,2.24,2.24,
+11957,Dontrelle,Inman,LAC,WR,30,6,WR,weighted,2.24,121,0.185,,2.24,2.24,
+11975,Taylor,Gabriel,CHI,WR,28,5,WR,average,8.02,64,0.119999999999999,,8.02,8.02,
+11975,Taylor,Gabriel,CHI,WR,28,5,WR,robust,8.02,64,0.119999999999999,0,8.02,8.02,
+11975,Taylor,Gabriel,CHI,WR,28,5,WR,weighted,8.02,64,0.119999999999999,,8.02,8.02,
+12040,Keith,Smith,ATL,RB,27,5,RB,average,0,110,0,,0,0,
+12040,Keith,Smith,ATL,RB,27,5,RB,robust,0,110,0,0,0,0,
+12040,Keith,Smith,ATL,RB,27,5,RB,weighted,0,109,0,,0,0,
+12110,Cameron,Brate,TBB,TE,28,5,TE,average,5.74,31,0.285,,5.74,5.74,31
+12110,Cameron,Brate,TBB,TE,28,5,TE,robust,5.74,31,0.285,0,5.74,5.74,31
+12110,Cameron,Brate,TBB,TE,28,5,TE,weighted,5.74,31,0.285,,5.74,5.74,31
+12140,Jameis,Winston,TBB,QB,25,4,QB,average,20.45,18,0.395,,20.45,20.45,18
+12140,Jameis,Winston,TBB,QB,25,4,QB,robust,20.45,18,0.395,0,20.45,20.45,18
+12140,Jameis,Winston,TBB,QB,25,4,QB,weighted,20.45,18,0.395,,20.45,20.45,18
+12141,Marcus,Mariota,TEN,QB,26,4,QB,average,19.05,23,0.120000000000001,,19.05,19.05,23
+12141,Marcus,Mariota,TEN,QB,26,4,QB,robust,19.05,23,0.120000000000001,0,19.05,19.05,23
+12141,Marcus,Mariota,TEN,QB,26,4,QB,weighted,19.05,23,0.120000000000001,,19.05,19.05,23
+12142,Brett,Hundley,ARI,QB,26,4,QB,average,0,35,0,,0,0,
+12142,Brett,Hundley,ARI,QB,26,4,QB,robust,0,35,0,0,0,0,
+12142,Brett,Hundley,ARI,QB,26,4,QB,weighted,0,35,0,,0,0,
+12145,Sean,Mannion,MIN,QB,27,4,QB,average,0,35,0,,0,0,
+12145,Sean,Mannion,MIN,QB,27,4,QB,robust,0,35,0,0,0,0,
+12145,Sean,Mannion,MIN,QB,27,4,QB,weighted,0,35,0,,0,0,
+12150,Todd,Gurley,LAR,RB,25,4,RB,average,15.28,17,0.23,,15.28,15.28,17
+12150,Todd,Gurley,LAR,RB,25,4,RB,robust,15.28,17,0.23,0,15.28,15.28,17
+12150,Todd,Gurley,LAR,RB,25,4,RB,weighted,15.28,17,0.23,,15.28,15.28,17
+12151,Melvin,Gordon,LAC,RB,26,4,RB,average,0,110,0,,0,0,
+12151,Melvin,Gordon,LAC,RB,26,4,RB,robust,0,110,0,0,0,0,
+12151,Melvin,Gordon,LAC,RB,26,4,RB,weighted,0,109,0,,0,0,
+12152,Tevin,Coleman,SFO,RB,26,4,RB,average,0,110,0,,0,0,
+12152,Tevin,Coleman,SFO,RB,26,4,RB,robust,0,110,0,0,0,0,
+12152,Tevin,Coleman,SFO,RB,26,4,RB,weighted,0,109,0,,0,0,
+12153,T.J.,Yeldon,BUF,RB,26,4,RB,average,5.37,61,0.185000000000001,,5.37,5.37,
+12153,T.J.,Yeldon,BUF,RB,26,4,RB,robust,5.37,61,0.185000000000001,0,5.37,5.37,
+12153,T.J.,Yeldon,BUF,RB,26,4,RB,weighted,5.37,61,0.185000000000001,,5.37,5.37,
+12155,Ameer,Abdullah,MIN,RB,26,4,RB,average,1.95,82,0.105,,1.95,1.95,
+12155,Ameer,Abdullah,MIN,RB,26,4,RB,robust,1.95,82,0.105,0,1.95,1.95,
+12155,Ameer,Abdullah,MIN,RB,26,4,RB,weighted,1.95,81,0.105,,1.95,1.95,
+12157,Duke,Johnson,HOU,RB,26,4,RB,average,14.46,22,0.225,,14.46,14.46,22
+12157,Duke,Johnson,HOU,RB,26,4,RB,robust,14.46,22,0.225,0,14.46,14.46,22
+12157,Duke,Johnson,HOU,RB,26,4,RB,weighted,14.46,22,0.225,,14.46,14.46,22
+12164,Mike,Davis,CHI,RB,26,4,RB,average,9.82,40,0.535,,9.82,9.82,40
+12164,Mike,Davis,CHI,RB,26,4,RB,robust,9.82,40,0.535,0,9.82,9.82,40
+12164,Mike,Davis,CHI,RB,26,4,RB,weighted,9.82,40,0.535,,9.82,9.82,40
+12171,David,Johnson,ARI,RB,28,4,RB,average,16.69,9,0.105,,16.69,16.69,9
+12171,David,Johnson,ARI,RB,28,4,RB,robust,16.69,9,0.105,0,16.69,16.69,9
+12171,David,Johnson,ARI,RB,28,4,RB,weighted,16.69,9,0.105,,16.69,16.69,9
+12175,Amari,Cooper,DAL,WR,25,4,WR,average,17.89,9,0.550000000000001,,17.89,17.89,9
+12175,Amari,Cooper,DAL,WR,25,4,WR,robust,17.89,9,0.550000000000001,0,17.89,17.89,9
+12175,Amari,Cooper,DAL,WR,25,4,WR,weighted,17.89,9,0.550000000000004,,17.89,17.89,9
+12176,DeVante,Parker,MIA,WR,26,4,WR,average,9.54,53,0.184999999999999,,9.54,9.54,
+12176,DeVante,Parker,MIA,WR,26,4,WR,robust,9.54,53,0.184999999999999,0,9.54,9.54,
+12176,DeVante,Parker,MIA,WR,26,4,WR,weighted,9.54,53,0.184999999999999,,9.54,9.54,
+12181,Nelson,Agholor,PHI,WR,26,4,WR,average,7.72,67,0.0549999999999997,,7.72,7.72,
+12181,Nelson,Agholor,PHI,WR,26,4,WR,robust,7.72,67,0.0549999999999997,0,7.72,7.72,
+12181,Nelson,Agholor,PHI,WR,26,4,WR,weighted,7.72,67,0.0549999999999997,,7.72,7.72,
+12182,Devin,Smith,DAL,WR,27,4,WR,average,1.61,130,0.0900000000000001,,1.61,1.61,
+12182,Devin,Smith,DAL,WR,27,4,WR,robust,1.61,130,0.0900000000000001,0,1.61,1.61,
+12182,Devin,Smith,DAL,WR,27,4,WR,weighted,1.61,132,0.0900000000000001,Inf,1.61,1.61,
+12184,Jamison,Crowder,NYJ,WR,26,4,WR,average,14.6,22,0.140000000000001,,14.6,14.6,22
+12184,Jamison,Crowder,NYJ,WR,26,4,WR,robust,14.6,22,0.140000000000001,0,14.6,14.6,22
+12184,Jamison,Crowder,NYJ,WR,26,4,WR,weighted,14.6,22,0.140000000000001,,14.6,14.6,22
+12185,Justin,Hardy,ATL,WR,28,4,WR,average,1.99,123,0.01,,1.99,1.99,
+12185,Justin,Hardy,ATL,WR,28,4,WR,robust,1.99,123,0.01,0,1.99,1.99,
+12185,Justin,Hardy,ATL,WR,28,4,WR,weighted,1.99,125,0.0399999999999998,,1.99,1.99,
+12186,Stefon,Diggs,MIN,WR,26,4,WR,average,14.77,20,0.16,,14.77,14.77,20
+12186,Stefon,Diggs,MIN,WR,26,4,WR,robust,14.77,20,0.16,0,14.77,14.77,20
+12186,Stefon,Diggs,MIN,WR,26,4,WR,weighted,14.77,20,0.16,Inf,14.77,14.77,20
+12187,Tyler,Lockett,SEA,WR,27,4,WR,average,13.11,33,0.0850000000000009,,13.11,13.11,33
+12187,Tyler,Lockett,SEA,WR,27,4,WR,robust,13.11,33,0.0850000000000009,0,13.11,13.11,33
+12187,Tyler,Lockett,SEA,WR,27,4,WR,weighted,13.11,33,0.0850000000000009,,13.11,13.11,33
+12188,Phillip,Dorsett,NEP,WR,26,4,WR,average,4.21,98,0.159999999999999,,4.21,4.21,
+12188,Phillip,Dorsett,NEP,WR,26,4,WR,robust,4.21,98,0.159999999999999,0,4.21,4.21,
+12188,Phillip,Dorsett,NEP,WR,26,4,WR,weighted,4.21,98,0.159999999999999,,4.21,4.21,
+12197,Breshad,Perriman,TBB,WR,26,4,WR,average,5.02,92,0.21,,5.02,5.02,
+12197,Breshad,Perriman,TBB,WR,26,4,WR,robust,5.02,92,0.21,0,5.02,5.02,
+12197,Breshad,Perriman,TBB,WR,26,4,WR,weighted,5.02,92,0.21,,5.02,5.02,
+12205,Devin,Funchess,IND,WR,25,4,WR,average,0,155,0,,0,0,
+12205,Devin,Funchess,IND,WR,25,4,WR,robust,0,155,0,0,0,0,
+12205,Devin,Funchess,IND,WR,25,4,WR,weighted,0,157,0,,0,0,
+12206,Maxx,Williams,ARI,TE,25,4,TE,average,2.91,52,0.52,,2.91,2.91,
+12206,Maxx,Williams,ARI,TE,25,4,TE,robust,2.91,52,0.52,0,2.91,2.91,
+12206,Maxx,Williams,ARI,TE,25,4,TE,weighted,2.91,52,0.52,,2.91,2.91,
+12207,Nick,O'Leary,MIA,TE,27,4,TE,average,0.92,72,0.0850000000000001,,0.92,0.92,
+12207,Nick,O'Leary,MIA,TE,27,4,TE,robust,0.92,72,0.0850000000000001,0,0.92,0.92,
+12207,Nick,O'Leary,MIA,TE,27,4,TE,weighted,0.92,73,0.085,,0.92,0.92,
+12208,Jeff,Heuerman,DEN,TE,27,4,TE,average,3.49,47,0.0750000000000002,,3.49,3.49,
+12208,Jeff,Heuerman,DEN,TE,27,4,TE,robust,3.49,47,0.0750000000000002,0,3.49,3.49,
+12208,Jeff,Heuerman,DEN,TE,27,4,TE,weighted,3.49,47,0.0750000000000002,,3.49,3.49,
+12211,Jesse,James,DET,TE,25,4,TE,average,4.17,41,0.115,,4.17,4.17,41
+12211,Jesse,James,DET,TE,25,4,TE,robust,4.17,41,0.115,0,4.17,4.17,41
+12211,Jesse,James,DET,TE,25,4,TE,weighted,4.17,41,0.115,,4.17,4.17,41
+12212,Tyler,Kroft,BUF,TE,27,4,TE,average,3.56,45,0.0399999999999996,,3.56,3.56,
+12212,Tyler,Kroft,BUF,TE,27,4,TE,robust,3.56,45,0.0399999999999996,0,3.56,3.56,
+12212,Tyler,Kroft,BUF,TE,27,4,TE,weighted,3.56,45,0.04,,3.56,3.56,
+12213,Blake,Bell,KCC,TE,28,4,TE,average,2.28,54,0.56,,2.28,2.28,
+12213,Blake,Bell,KCC,TE,28,4,TE,robust,2.28,54,0.56,0,2.28,2.28,
+12213,Blake,Bell,KCC,TE,28,4,TE,weighted,2.28,54,0.56,,2.28,2.28,
+12257,Chris,Conley,JAC,WR,27,4,WR,average,6.63,78,0.0450000000000008,,6.63,6.63,
+12257,Chris,Conley,JAC,WR,27,4,WR,robust,6.63,78,0.0450000000000008,0,6.63,6.63,
+12257,Chris,Conley,JAC,WR,27,4,WR,weighted,6.63,78,0.0450000000000008,,6.63,6.63,
+12261,Ty,Montgomery,NYJ,RB,26,4,RB,average,4.29,65,0.225,,4.29,4.29,
+12261,Ty,Montgomery,NYJ,RB,26,4,RB,robust,4.29,65,0.225,0,4.29,4.29,
+12261,Ty,Montgomery,NYJ,RB,26,4,RB,weighted,4.29,65,0.225000000000001,,4.29,4.29,
+12263,Darren,Waller,OAK,TE,27,4,TE,average,11.52,5,1,,11.52,11.52,5
+12263,Darren,Waller,OAK,TE,27,4,TE,robust,11.52,5,1,0,11.52,11.52,5
+12263,Darren,Waller,OAK,TE,27,4,TE,weighted,11.52,5,1,Inf,11.52,11.52,5
+12309,MyCole,Pruitt,TEN,TE,27,4,TE,average,1.19,67,0.04,,1.19,1.19,
+12309,MyCole,Pruitt,TEN,TE,27,4,TE,robust,1.19,67,0.04,0,1.19,1.19,
+12309,MyCole,Pruitt,TEN,TE,27,4,TE,weighted,1.19,68,0.0400000000000003,,1.19,1.19,
+12317,C.J.,Uzomah,CIN,TE,26,4,TE,average,8.4,16,0.130000000000001,,8.4,8.4,16
+12317,C.J.,Uzomah,CIN,TE,26,4,TE,robust,8.4,16,0.130000000000001,0,8.4,8.4,16
+12317,C.J.,Uzomah,CIN,TE,26,4,TE,weighted,8.4,16,0.130000000000001,,8.4,8.4,16
+12319,J.J.,Nelson,OAK,WR,27,4,WR,average,5.14,90,0.105,,5.14,5.14,
+12319,J.J.,Nelson,OAK,WR,27,4,WR,robust,5.14,90,0.105,0,5.14,5.14,
+12319,J.J.,Nelson,OAK,WR,27,4,WR,weighted,5.14,90,0.105,,5.14,5.14,
+12328,Nick,Boyle,BAL,TE,26,4,TE,average,4.37,40,0.2,,4.37,4.37,40
+12328,Nick,Boyle,BAL,TE,26,4,TE,robust,4.37,40,0.2,0,4.37,4.37,40
+12328,Nick,Boyle,BAL,TE,26,4,TE,weighted,4.37,40,0.2,,4.37,4.37,40
+12330,James,O'Shaughnessy,JAC,TE,27,4,TE,average,4.51,39,0.24,,4.51,4.51,39
+12330,James,O'Shaughnessy,JAC,TE,27,4,TE,robust,4.51,39,0.24,0,4.51,4.51,39
+12330,James,O'Shaughnessy,JAC,TE,27,4,TE,weighted,4.51,39,0.24,,4.51,4.51,39
+12338,Geremy,Davis,LAC,WR,27,4,WR,average,1.53,131,0.0499999999999998,,1.53,1.53,
+12338,Geremy,Davis,LAC,WR,27,4,WR,robust,1.53,131,0.0499999999999998,0,1.53,1.53,
+12338,Geremy,Davis,LAC,WR,27,4,WR,weighted,1.53,133,0.0499999999999998,Inf,1.53,1.53,
+12378,Geoff,Swaim,JAC,TE,26,4,TE,average,4.67,38,0.23,,4.67,4.67,38
+12378,Geoff,Swaim,JAC,TE,26,4,TE,robust,4.67,38,0.23,0,4.67,4.67,38
+12378,Geoff,Swaim,JAC,TE,26,4,TE,weighted,4.67,38,0.23,,4.67,4.67,38
+12381,Trevor,Siemian,NYJ,QB,28,4,QB,average,0,35,0,,0,0,
+12381,Trevor,Siemian,NYJ,QB,28,4,QB,robust,0,35,0,0,0,0,
+12381,Trevor,Siemian,NYJ,QB,28,4,QB,weighted,0,35,0,,0,0,
+12386,Malcolm,Brown,LAR,RB,26,4,RB,average,8.15,47,0.175000000000001,,8.15,8.15,47
+12386,Malcolm,Brown,LAR,RB,26,4,RB,robust,8.15,47,0.175000000000001,0,8.15,8.15,47
+12386,Malcolm,Brown,LAR,RB,26,4,RB,weighted,8.15,47,0.175,,8.15,8.15,47
+12391,Tyrell,Williams,OAK,WR,27,4,WR,average,13.96,26,0.125,,13.96,13.96,26
+12391,Tyrell,Williams,OAK,WR,27,4,WR,robust,13.96,26,0.125,0,13.96,13.96,26
+12391,Tyrell,Williams,OAK,WR,27,4,WR,weighted,13.96,26,0.125,,13.96,13.96,26
+12394,DeAndre,Carter,HOU,WR,26,4,WR,average,2.3,118,0.04,,2.3,2.3,
+12394,DeAndre,Carter,HOU,WR,26,4,WR,robust,2.3,118,0.04,0,2.3,2.3,
+12394,DeAndre,Carter,HOU,WR,26,4,WR,weighted,2.3,119,0.04,,2.3,2.3,
+12443,Jake,Kumerow,GBP,WR,27,2,WR,average,1.93,125,0.0449999999999999,,1.93,1.93,
+12443,Jake,Kumerow,GBP,WR,27,2,WR,robust,1.93,125,0.0449999999999999,0,1.93,1.93,
+12443,Jake,Kumerow,GBP,WR,27,2,WR,weighted,1.93,127,0.0449999999999999,,1.93,1.93,
+12447,Raheem,Mostert,SFO,RB,27,4,RB,average,8.71,45,0.484999999999999,,8.71,8.71,45
+12447,Raheem,Mostert,SFO,RB,27,4,RB,robust,8.71,45,0.484999999999999,0,8.71,8.71,45
+12447,Raheem,Mostert,SFO,RB,27,4,RB,weighted,8.71,45,0.484999999999999,,8.71,8.71,45
+12464,Damiere,Byrd,ARI,WR,26,4,WR,average,0,155,0,,0,0,
+12464,Damiere,Byrd,ARI,WR,26,4,WR,robust,0,155,0,0,0,0,
+12464,Damiere,Byrd,ARI,WR,26,4,WR,weighted,0,157,0,,0,0,
+12465,Cameron,Meredith,NEP,WR,27,4,WR,average,0,155,0,,0,0,
+12465,Cameron,Meredith,NEP,WR,27,4,WR,robust,0,155,0,0,0,0,
+12465,Cameron,Meredith,NEP,WR,27,4,WR,weighted,0,157,0,,0,0,
+12471,Seth,Roberts,BAL,WR,28,5,WR,average,1.7,129,0.13,,1.7,1.7,
+12471,Seth,Roberts,BAL,WR,28,5,WR,robust,1.7,129,0.13,0,1.7,1.7,
+12471,Seth,Roberts,BAL,WR,28,5,WR,weighted,1.7,131,0.13,Inf,1.7,1.7,
+12505,Adam,Humphries,TEN,WR,26,4,WR,average,6.31,83,0.255,,6.31,6.31,
+12505,Adam,Humphries,TEN,WR,26,4,WR,robust,6.31,83,0.255,0,6.31,6.31,
+12505,Adam,Humphries,TEN,WR,26,4,WR,weighted,6.31,83,0.255,,6.31,6.31,
+12585,Daniel,Brown,NYJ,TE,27,4,TE,average,0,79,0,,0,0,
+12585,Daniel,Brown,NYJ,TE,27,4,TE,robust,0,79,0,0,0,0,
+12585,Daniel,Brown,NYJ,TE,27,4,TE,weighted,0,80,0,,0,0,
+12586,Darius,Jennings,TEN,WR,27,4,WR,average,1.19,142,0.075,,1.19,1.19,
+12586,Darius,Jennings,TEN,WR,27,4,WR,robust,1.19,142,0.075,0,1.19,1.19,
+12586,Darius,Jennings,TEN,WR,27,4,WR,weighted,1.19,144,0.075,,1.19,1.19,
+12596,Matt,LaCosse,NEP,TE,27,4,TE,average,7.54,21,0.0599999999999996,,7.54,7.54,21
+12596,Matt,LaCosse,NEP,TE,27,4,TE,robust,7.54,21,0.0599999999999996,0,7.54,7.54,21
+12596,Matt,LaCosse,NEP,TE,27,4,TE,weighted,7.54,21,0.0599999999999996,,7.54,7.54,21
+12610,Carson,Wentz,PHI,QB,27,3,QB,average,23.32,5,0.140000000000001,,23.32,23.32,5
+12610,Carson,Wentz,PHI,QB,27,3,QB,robust,23.32,5,0.140000000000001,0,23.32,23.32,5
+12610,Carson,Wentz,PHI,QB,27,3,QB,weighted,23.32,5,0.140000000000001,,23.32,23.32,5
+12611,Jared,Goff,LAR,QB,25,3,QB,average,22.02,10,0.715,,22.02,22.02,10
+12611,Jared,Goff,LAR,QB,25,3,QB,robust,22.02,10,0.715,0,22.02,22.02,10
+12611,Jared,Goff,LAR,QB,25,3,QB,weighted,22.02,10,0.715,,22.02,22.02,10
+12616,Jacoby,Brissett,IND,QB,27,3,QB,average,18.02,27,0.100000000000001,,18.02,18.02,27
+12616,Jacoby,Brissett,IND,QB,27,3,QB,robust,18.02,27,0.100000000000001,0,18.02,18.02,27
+12616,Jacoby,Brissett,IND,QB,27,3,QB,weighted,18.02,27,0.100000000000001,,18.02,18.02,27
+12620,Dak,Prescott,DAL,QB,26,3,QB,average,22.37,9,0.699999999999996,,22.37,22.37,9
+12620,Dak,Prescott,DAL,QB,26,3,QB,robust,22.37,9,0.699999999999996,0,22.37,22.37,9
+12620,Dak,Prescott,DAL,QB,26,3,QB,weighted,22.37,9,0.699999999999996,Inf,22.37,22.37,9
+12621,Brandon,Allen,DEN,QB,27,3,QB,average,0,35,0,,0,0,
+12621,Brandon,Allen,DEN,QB,27,3,QB,robust,0,35,0,0,0,0,
+12621,Brandon,Allen,DEN,QB,27,3,QB,weighted,0,35,0,,0,0,
+12625,Ezekiel,Elliott,DAL,RB,24,3,RB,average,21.64,3,0.949999999999999,,21.64,21.64,3
+12625,Ezekiel,Elliott,DAL,RB,24,3,RB,robust,21.64,3,0.949999999999999,0,21.64,21.64,3
+12625,Ezekiel,Elliott,DAL,RB,24,3,RB,weighted,21.64,3,0.949999999999999,,21.64,21.64,3
+12626,Derrick,Henry,TEN,RB,25,3,RB,average,14.49,21,0.124999999999996,,14.49,14.49,21
+12626,Derrick,Henry,TEN,RB,25,3,RB,robust,14.49,21,0.124999999999996,0,14.49,14.49,21
+12626,Derrick,Henry,TEN,RB,25,3,RB,weighted,14.49,21,0.124999999999996,,14.49,14.49,21
+12627,C.J.,Prosise,SEA,RB,25,3,RB,average,1.79,85,0.215,,1.79,1.79,
+12627,C.J.,Prosise,SEA,RB,25,3,RB,robust,1.79,85,0.215,0,1.79,1.79,
+12627,C.J.,Prosise,SEA,RB,25,3,RB,weighted,1.79,84,0.215,,1.79,1.79,
+12629,Devontae,Booker,DEN,RB,27,3,RB,average,2.11,81,0.2,,2.11,2.11,
+12629,Devontae,Booker,DEN,RB,27,3,RB,robust,2.11,81,0.2,0,2.11,2.11,
+12629,Devontae,Booker,DEN,RB,27,3,RB,weighted,2.11,80,0.2,,2.11,2.11,
+12630,Kenyan,Drake,MIA,RB,25,3,RB,average,12.02,29,0.570000000000002,,12.02,12.02,29
+12630,Kenyan,Drake,MIA,RB,25,3,RB,robust,12.02,29,0.570000000000002,0,12.02,12.02,29
+12630,Kenyan,Drake,MIA,RB,25,3,RB,weighted,12.02,29,0.570000000000002,,12.02,12.02,29
+12631,Paul,Perkins,NYG,RB,25,3,RB,average,0.47,102,0.135,,0.47,0.47,
+12631,Paul,Perkins,NYG,RB,25,3,RB,robust,0.47,102,0.135,0,0.47,0.47,
+12631,Paul,Perkins,NYG,RB,25,3,RB,weighted,0.47,101,0.135,,0.47,0.47,
+12634,Jordan,Howard,PHI,RB,25,3,RB,average,8.3,46,0.195,,8.3,8.3,46
+12634,Jordan,Howard,PHI,RB,25,3,RB,robust,8.3,46,0.195,0,8.3,8.3,46
+12634,Jordan,Howard,PHI,RB,25,3,RB,weighted,8.3,46,0.195,,8.3,8.3,46
+12635,Jonathan,Williams,IND,RB,25,3,RB,average,0,110,0,,0,0,
+12635,Jonathan,Williams,IND,RB,25,3,RB,robust,0,110,0,0,0,0,
+12635,Jonathan,Williams,IND,RB,25,3,RB,weighted,0,109,0,,0,0,
+12636,Wendell,Smallwood,WAS,RB,25,3,RB,average,4.06,68,0.164999999999999,,4.06,4.06,
+12636,Wendell,Smallwood,WAS,RB,25,3,RB,robust,4.06,68,0.164999999999999,0,4.06,4.06,
+12636,Wendell,Smallwood,WAS,RB,25,3,RB,weighted,4.06,67,0.0499999999999998,,4.06,4.06,
+12637,Peyton,Barber,TBB,RB,25,3,RB,average,7.89,49,0.0949999999999989,,7.89,7.89,49
+12637,Peyton,Barber,TBB,RB,25,3,RB,robust,7.89,49,0.0949999999999989,0,7.89,7.89,49
+12637,Peyton,Barber,TBB,RB,25,3,RB,weighted,7.89,49,0.0949999999999998,,7.89,7.89,49
+12639,Tyler,Ervin,JAC,RB,26,3,RB,average,0,110,0,,0,0,
+12639,Tyler,Ervin,JAC,RB,26,3,RB,robust,0,110,0,0,0,0,
+12639,Tyler,Ervin,JAC,RB,26,3,RB,weighted,0,109,0,,0,0,
+12646,Corey,Coleman,NYG,WR,25,3,WR,average,0,155,0,,0,0,
+12646,Corey,Coleman,NYG,WR,25,3,WR,robust,0,155,0,0,0,0,
+12646,Corey,Coleman,NYG,WR,25,3,WR,weighted,0,157,0,,0,0,
+12647,Will,Fuller,HOU,WR,25,3,WR,average,10.73,42,0.155000000000001,,10.73,10.73,
+12647,Will,Fuller,HOU,WR,25,3,WR,robust,10.73,42,0.155000000000001,0,10.73,10.73,
+12647,Will,Fuller,HOU,WR,25,3,WR,weighted,10.73,42,0.155000000000001,,10.73,10.73,
+12648,Josh,Doctson,MIN,WR,27,3,WR,average,1.92,126,0.1,,1.92,1.92,
+12648,Josh,Doctson,MIN,WR,27,3,WR,robust,1.92,126,0.1,0,1.92,1.92,
+12648,Josh,Doctson,MIN,WR,27,3,WR,weighted,1.92,128,0.0999999999999999,,1.92,1.92,
+12650,Tyler,Boyd,CIN,WR,25,3,WR,average,14.62,21,0.0649999999999995,,14.62,14.62,21
+12650,Tyler,Boyd,CIN,WR,25,3,WR,robust,14.62,21,0.0649999999999995,0,14.62,14.62,21
+12650,Tyler,Boyd,CIN,WR,25,3,WR,weighted,14.62,21,0.0649999999999995,,14.62,14.62,21
+12652,Michael,Thomas,NOS,WR,26,3,WR,average,19.58,2,0.18,,19.58,19.58,2
+12652,Michael,Thomas,NOS,WR,26,3,WR,robust,19.58,2,0.18,0,19.58,19.58,2
+12652,Michael,Thomas,NOS,WR,26,3,WR,weighted,19.58,2,0.18,,19.58,19.58,2
+12656,Rashard,Higgins,CLE,WR,25,3,WR,average,3.68,105,0.205,,3.68,3.68,
+12656,Rashard,Higgins,CLE,WR,25,3,WR,robust,3.68,105,0.205,0,3.68,3.68,
+12656,Rashard,Higgins,CLE,WR,25,3,WR,weighted,3.68,105,0.205,Inf,3.68,3.68,
+12657,Tajae,Sharpe,TEN,WR,25,3,WR,average,3.4,108,0.36,,3.4,3.4,
+12657,Tajae,Sharpe,TEN,WR,25,3,WR,robust,3.4,108,0.36,0,3.4,3.4,
+12657,Tajae,Sharpe,TEN,WR,25,3,WR,weighted,3.4,108,0.36,,3.4,3.4,
+12658,Sterling,Shepard,NYG,WR,26,3,WR,average,14.14,25,0.24,,14.14,14.14,25
+12658,Sterling,Shepard,NYG,WR,26,3,WR,robust,14.14,25,0.24,0,14.14,14.14,25
+12658,Sterling,Shepard,NYG,WR,26,3,WR,weighted,14.14,25,0.24,,14.14,14.14,25
+12660,Pharoh,Cooper,CIN,WR,24,3,WR,average,0,155,0,,0,0,
+12660,Pharoh,Cooper,CIN,WR,24,3,WR,robust,0,155,0,0,0,0,
+12660,Pharoh,Cooper,CIN,WR,24,3,WR,weighted,0,157,0,,0,0,
+12665,Geronimo,Allison,GBP,WR,25,3,WR,average,4.82,93,0.115,,4.82,4.82,
+12665,Geronimo,Allison,GBP,WR,25,3,WR,robust,4.82,93,0.115,0,4.82,4.82,
+12665,Geronimo,Allison,GBP,WR,25,3,WR,weighted,4.82,93,0.115,,4.82,4.82,
+12675,Mike,Thomas,LAR,WR,25,3,WR,average,1.29,138,0.0249999999999999,,1.29,1.29,
+12675,Mike,Thomas,LAR,WR,25,3,WR,robust,1.29,138,0.0249999999999999,0,1.29,1.29,
+12675,Mike,Thomas,LAR,WR,25,3,WR,weighted,1.29,140,0.0249999999999999,,1.29,1.29,
+12676,Hunter,Henry,LAC,TE,25,3,TE,average,0,79,0,,0,0,
+12676,Hunter,Henry,LAC,TE,25,3,TE,robust,0,79,0,0,0,0,
+12676,Hunter,Henry,LAC,TE,25,3,TE,weighted,0,80,0,,0,0,
+12677,Austin,Hooper,ATL,TE,25,3,TE,average,9.69,10,0.27,,9.69,9.69,10
+12677,Austin,Hooper,ATL,TE,25,3,TE,robust,9.69,10,0.27,0,9.69,9.69,10
+12677,Austin,Hooper,ATL,TE,25,3,TE,weighted,9.69,10,0.27,,9.69,9.69,10
+12678,Tyler,Higbee,LAR,TE,26,3,TE,average,7.82,19,0.155000000000001,,7.82,7.82,19
+12678,Tyler,Higbee,LAR,TE,26,3,TE,robust,7.82,19,0.155000000000001,0,7.82,7.82,19
+12678,Tyler,Higbee,LAR,TE,26,3,TE,weighted,7.82,19,0.155000000000002,,7.82,7.82,19
+12680,Nick,Vannett,SEA,TE,26,3,TE,average,3.28,50,0.24,,3.28,3.28,
+12680,Nick,Vannett,SEA,TE,26,3,TE,robust,3.28,50,0.24,0,3.28,3.28,
+12680,Nick,Vannett,SEA,TE,26,3,TE,weighted,3.28,50,0.24,Inf,3.28,3.28,
+12681,Jerell,Adams,HOU,TE,27,3,TE,average,1.41,57,0.02,,1.41,1.41,
+12681,Jerell,Adams,HOU,TE,27,3,TE,robust,1.41,57,0.02,0,1.41,1.41,
+12681,Jerell,Adams,HOU,TE,27,3,TE,weighted,1.41,57,0.0199999999999998,Inf,1.41,1.41,
+12773,Chris,Moore,BAL,WR,26,3,WR,average,3.81,103,0.0699999999999998,,3.81,3.81,
+12773,Chris,Moore,BAL,WR,26,3,WR,robust,3.81,103,0.0699999999999998,0,3.81,3.81,
+12773,Chris,Moore,BAL,WR,26,3,WR,weighted,3.81,103,0.0699999999999994,,3.81,3.81,
+12777,Ricardo,Louis,MIA,WR,25,3,WR,average,0,155,0,,0,0,
+12777,Ricardo,Louis,MIA,WR,25,3,WR,robust,0,155,0,0,0,0,
+12777,Ricardo,Louis,MIA,WR,25,3,WR,weighted,0,157,0,,0,0,
+12785,Demarcus,Robinson,KCC,WR,25,3,WR,average,8.78,59,0.225,,8.78,8.78,
+12785,Demarcus,Robinson,KCC,WR,25,3,WR,robust,8.78,59,0.225,0,8.78,8.78,
+12785,Demarcus,Robinson,KCC,WR,25,3,WR,weighted,8.78,59,0.225000000000001,,8.78,8.78,
+12792,Seth,DeValve,JAC,TE,26,3,TE,average,0,79,0,,0,0,
+12792,Seth,DeValve,JAC,TE,26,3,TE,robust,0,79,0,0,0,0,
+12792,Seth,DeValve,JAC,TE,26,3,TE,weighted,0,80,0,,0,0,
+12800,Trevor,Davis,GBP,WR,26,3,WR,average,3.04,109,0.00499999999999989,,3.04,3.04,
+12800,Trevor,Davis,GBP,WR,26,3,WR,robust,3.04,109,0.00499999999999989,0,3.04,3.04,
+12800,Trevor,Davis,GBP,WR,26,3,WR,weighted,3.04,109,0.00499999999999989,Inf,3.04,3.04,
+12801,Tyreek,Hill,KCC,WR,25,3,WR,average,0,155,0,,0,0,
+12801,Tyreek,Hill,KCC,WR,25,3,WR,robust,0,155,0,0,0,0,
+12801,Tyreek,Hill,KCC,WR,25,3,WR,weighted,0,157,0,,0,0,
+12806,Andy,Janovich,DEN,RB,26,3,RB,average,0,110,0,,0,0,
+12806,Andy,Janovich,DEN,RB,26,3,RB,robust,0,110,0,0,0,0,
+12806,Andy,Janovich,DEN,RB,26,3,RB,weighted,0,109,0,,0,0,
+12814,Jakeem,Grant,MIA,WR,27,3,WR,average,6.34,82,0.0650000000000004,,6.34,6.34,
+12814,Jakeem,Grant,MIA,WR,27,3,WR,robust,6.34,82,0.0650000000000004,0,6.34,6.34,
+12814,Jakeem,Grant,MIA,WR,27,3,WR,weighted,6.34,82,0.0650000000000004,,6.34,6.34,
+12815,Nate,Sudfeld,PHI,QB,26,3,QB,average,0,35,0,,0,0,
+12815,Nate,Sudfeld,PHI,QB,26,3,QB,robust,0,35,0,0,0,0,
+12815,Nate,Sudfeld,PHI,QB,26,3,QB,weighted,0,35,0,,0,0,
+12816,David,Morgan,MIN,TE,26,3,TE,average,0,79,0,,0,0,
+12816,David,Morgan,MIN,TE,26,3,TE,robust,0,79,0,0,0,0,
+12816,David,Morgan,MIN,TE,26,3,TE,weighted,0,80,0,,0,0,
+12822,Dan,Vitale,GBP,RB,26,3,RB,average,0,110,0,,0,0,
+12822,Dan,Vitale,GBP,RB,26,3,RB,robust,0,110,0,0,0,0,
+12822,Dan,Vitale,GBP,RB,26,3,RB,weighted,0,109,0,,0,0,
+12823,Derek,Watt,LAC,RB,27,3,RB,average,0,110,0,,0,0,
+12823,Derek,Watt,LAC,RB,27,3,RB,robust,0,110,0,0,0,0,
+12823,Derek,Watt,LAC,RB,27,3,RB,weighted,0,109,0,,0,0,
+12824,Cody,Core,NYG,WR,25,3,WR,average,0.36,154,0.36,,0.36,0.36,
+12824,Cody,Core,NYG,WR,25,3,WR,robust,0.36,154,0.36,0,0.36,0.36,
+12824,Cody,Core,NYG,WR,25,3,WR,weighted,0.36,156,0.36,,0.36,0.36,
+12845,Dwayne,Washington,NOS,RB,25,3,RB,average,1.24,92,0.155,,1.24,1.24,
+12845,Dwayne,Washington,NOS,RB,25,3,RB,robust,1.24,92,0.155,0,1.24,1.24,
+12845,Dwayne,Washington,NOS,RB,25,3,RB,weighted,1.24,91,0.155,,1.24,1.24,
+12857,DeAndre,Washington,OAK,RB,26,3,RB,average,3.29,74,0.32,,3.29,3.29,
+12857,DeAndre,Washington,OAK,RB,26,3,RB,robust,3.29,74,0.32,0,3.29,3.29,
+12857,DeAndre,Washington,OAK,RB,26,3,RB,weighted,3.29,73,0.320000000000001,,3.29,3.29,
+12868,Ben,Braunecker,CHI,TE,25,3,TE,average,0.98,70,0.0449999999999999,,0.98,0.98,
+12868,Ben,Braunecker,CHI,TE,25,3,TE,robust,0.98,70,0.0449999999999999,0,0.98,0.98,
+12868,Ben,Braunecker,CHI,TE,25,3,TE,weighted,0.98,71,0.0449999999999999,,0.98,0.98,
+12871,D.J.,Foster,ARI,RB,26,3,RB,average,0.96,96,0.135,,0.96,0.96,
+12871,D.J.,Foster,ARI,RB,26,3,RB,robust,0.96,96,0.135,0,0.96,0.96,
+12871,D.J.,Foster,ARI,RB,26,3,RB,weighted,0.96,95,0.135,,0.96,0.96,
+12912,Jalen,Richard,OAK,RB,26,3,RB,average,10.39,33,0.155000000000001,,10.39,10.39,33
+12912,Jalen,Richard,OAK,RB,26,3,RB,robust,10.39,33,0.155000000000001,0,10.39,10.39,33
+12912,Jalen,Richard,OAK,RB,26,3,RB,weighted,10.39,33,0.154999999999999,,10.39,10.39,33
+12913,Alex,Erickson,CIN,WR,27,3,WR,average,2.52,113,0.065,,2.52,2.52,
+12913,Alex,Erickson,CIN,WR,27,3,WR,robust,2.52,113,0.065,0,2.52,2.52,
+12913,Alex,Erickson,CIN,WR,27,3,WR,weighted,2.52,114,0.065,,2.52,2.52,
+12916,Johnny,Holton,PIT,WR,28,3,WR,average,0,155,0,,0,0,
+12916,Johnny,Holton,PIT,WR,28,3,WR,robust,0,155,0,0,0,0,
+12916,Johnny,Holton,PIT,WR,28,3,WR,weighted,0,157,0,,0,0,
+12923,C.J.,Ham,MIN,RB,26,3,RB,average,0,110,0,,0,0,
+12923,C.J.,Ham,MIN,RB,26,3,RB,robust,0,110,0,0,0,0,
+12923,C.J.,Ham,MIN,RB,26,3,RB,weighted,0,109,0,,0,0,
+12929,Troymaine,Pope,LAC,RB,26,3,RB,average,2.27,79,0.105,,2.27,2.27,
+12929,Troymaine,Pope,LAC,RB,26,3,RB,robust,2.27,79,0.105,0,2.27,2.27,
+12929,Troymaine,Pope,LAC,RB,26,3,RB,weighted,2.27,78,0.105,,2.27,2.27,
+12930,Robby,Anderson,NYJ,WR,26,3,WR,average,13.31,31,0.17,,13.31,13.31,31
+12930,Robby,Anderson,NYJ,WR,26,3,WR,robust,13.31,31,0.17,0,13.31,13.31,31
+12930,Robby,Anderson,NYJ,WR,26,3,WR,weighted,13.31,31,0.17,,13.31,13.31,31
+12934,Chester,Rogers,IND,WR,25,3,WR,average,4.13,99,0.160000000000001,,4.13,4.13,
+12934,Chester,Rogers,IND,WR,25,3,WR,robust,4.13,99,0.160000000000001,0,4.13,4.13,
+12934,Chester,Rogers,IND,WR,25,3,WR,weighted,4.13,99,0.160000000000001,,4.13,4.13,
+12955,Chris,Manhertz,CAR,TE,27,3,TE,average,0,79,0,,0,0,
+12955,Chris,Manhertz,CAR,TE,27,3,TE,robust,0,79,0,0,0,0,
+12955,Chris,Manhertz,CAR,TE,27,3,TE,weighted,0,80,0,,0,0,
+13065,Eric,Tomlinson,NYG,TE,27,4,TE,average,0,79,0,,0,0,
+13065,Eric,Tomlinson,NYG,TE,27,4,TE,robust,0,79,0,0,0,0,
+13065,Eric,Tomlinson,NYG,TE,27,4,TE,weighted,0,80,0,,0,0,
+13108,J.D.,McKissic,DET,RB,26,3,RB,average,4.07,66,0.00999999999999979,,4.07,4.07,
+13108,J.D.,McKissic,DET,RB,26,3,RB,robust,4.07,66,0.00999999999999979,0,4.07,4.07,
+13108,J.D.,McKissic,DET,RB,26,3,RB,weighted,4.07,66,0.0100000000000007,,4.07,4.07,
+13113,Deshaun,Watson,HOU,QB,24,2,QB,average,24.74,2,0.810000000000002,,24.74,24.74,2
+13113,Deshaun,Watson,HOU,QB,24,2,QB,robust,24.74,2,0.810000000000002,0,24.74,24.74,2
+13113,Deshaun,Watson,HOU,QB,24,2,QB,weighted,24.74,2,0.810000000000002,,24.74,24.74,2
+13114,DeShone,Kizer,OAK,QB,23,2,QB,average,0,35,0,,0,0,
+13114,DeShone,Kizer,OAK,QB,23,2,QB,robust,0,35,0,0,0,0,
+13114,DeShone,Kizer,OAK,QB,23,2,QB,weighted,0,35,0,,0,0,
+13115,Mitchell,Trubisky,CHI,QB,25,2,QB,average,18.91,25,0.624999999999996,,18.91,18.91,25
+13115,Mitchell,Trubisky,CHI,QB,25,2,QB,robust,18.91,25,0.624999999999996,0,18.91,18.91,25
+13115,Mitchell,Trubisky,CHI,QB,25,2,QB,weighted,18.91,25,0.624999999999996,,18.91,18.91,25
+13116,Patrick,Mahomes,KCC,QB,24,2,QB,average,26.49,1,1.895,,26.49,26.49,1
+13116,Patrick,Mahomes,KCC,QB,24,2,QB,robust,26.49,1,1.895,0,26.49,26.49,1
+13116,Patrick,Mahomes,KCC,QB,24,2,QB,weighted,26.49,1,1.895,,26.49,26.49,1
+13119,Joshua,Dobbs,JAC,QB,24,2,QB,average,0,35,0,,0,0,
+13119,Joshua,Dobbs,JAC,QB,24,2,QB,robust,0,35,0,0,0,0,
+13119,Joshua,Dobbs,JAC,QB,24,2,QB,weighted,0,35,0,,0,0,
+13121,Chad,Kelly,IND,QB,25,2,QB,average,0,35,0,,0,0,
+13121,Chad,Kelly,IND,QB,25,2,QB,robust,0,35,0,0,0,0,
+13121,Chad,Kelly,IND,QB,25,2,QB,weighted,0,35,0,,0,0,
+13124,Cooper,Rush,DAL,QB,26,2,QB,average,0,35,0,,0,0,
+13124,Cooper,Rush,DAL,QB,26,2,QB,robust,0,35,0,0,0,0,
+13124,Cooper,Rush,DAL,QB,26,2,QB,weighted,0,35,0,,0,0,
+13125,C.J.,Beathard,SFO,QB,26,2,QB,average,0,35,0,,0,0,
+13125,C.J.,Beathard,SFO,QB,26,2,QB,robust,0,35,0,0,0,0,
+13125,C.J.,Beathard,SFO,QB,26,2,QB,weighted,0,35,0,,0,0,
+13127,Nathan,Peterman,OAK,QB,25,2,QB,average,0,35,0,,0,0,
+13127,Nathan,Peterman,OAK,QB,25,2,QB,robust,0,35,0,0,0,0,
+13127,Nathan,Peterman,OAK,QB,25,2,QB,weighted,0,35,0,,0,0,
+13128,Dalvin,Cook,MIN,RB,24,2,RB,average,18.22,6,0.809999999999995,,18.22,18.22,6
+13128,Dalvin,Cook,MIN,RB,24,2,RB,robust,18.22,6,0.809999999999995,0,18.22,18.22,6
+13128,Dalvin,Cook,MIN,RB,24,2,RB,weighted,18.22,6,0.809999999999995,,18.22,18.22,6
+13129,Leonard,Fournette,JAC,RB,24,2,RB,average,16.03,13,0.65,,16.03,16.03,13
+13129,Leonard,Fournette,JAC,RB,24,2,RB,robust,16.03,13,0.65,0,16.03,16.03,13
+13129,Leonard,Fournette,JAC,RB,24,2,RB,weighted,16.03,13,0.65,,16.03,16.03,13
+13130,Christian,McCaffrey,CAR,RB,23,2,RB,average,23.91,2,2.585,,23.91,23.91,2
+13130,Christian,McCaffrey,CAR,RB,23,2,RB,robust,23.91,2,2.585,0,23.91,23.91,2
+13130,Christian,McCaffrey,CAR,RB,23,2,RB,weighted,23.91,2,2.585,,23.91,23.91,2
+13131,Joe,Mixon,CIN,RB,23,2,RB,average,16.56,11,0.370000000000001,,16.56,16.56,11
+13131,Joe,Mixon,CIN,RB,23,2,RB,robust,16.56,11,0.370000000000001,0,16.56,16.56,11
+13131,Joe,Mixon,CIN,RB,23,2,RB,weighted,16.56,11,0.370000000000001,,16.56,16.56,11
+13132,Alvin,Kamara,NOS,RB,23,2,RB,average,21.01,4,1.715,,21.01,21.01,4
+13132,Alvin,Kamara,NOS,RB,23,2,RB,robust,21.01,4,1.715,0,21.01,21.01,4
+13132,Alvin,Kamara,NOS,RB,23,2,RB,weighted,21.01,4,1.715,,21.01,21.01,4
+13133,Samaje,Perine,CIN,RB,24,2,RB,average,0.97,95,0.075,,0.97,0.97,
+13133,Samaje,Perine,CIN,RB,24,2,RB,robust,0.97,95,0.075,0,0.97,0.97,
+13133,Samaje,Perine,CIN,RB,24,2,RB,weighted,0.97,94,0.0749999999999998,,0.97,0.97,
+13135,Wayne,Gallman,NYG,RB,25,2,RB,average,3.09,75,0.265,,3.09,3.09,
+13135,Wayne,Gallman,NYG,RB,25,2,RB,robust,3.09,75,0.265,0,3.09,3.09,
+13135,Wayne,Gallman,NYG,RB,25,2,RB,weighted,3.09,74,0.265,,3.09,3.09,
+13136,Corey,Clement,PHI,RB,25,2,RB,average,1.87,83,0.065,,1.87,1.87,
+13136,Corey,Clement,PHI,RB,25,2,RB,robust,1.87,83,0.065,0,1.87,1.87,
+13136,Corey,Clement,PHI,RB,25,2,RB,weighted,1.87,82,0.065,,1.87,1.87,
+13138,Kareem,Hunt,CLE,RB,24,2,RB,average,0,110,0,,0,0,
+13138,Kareem,Hunt,CLE,RB,24,2,RB,robust,0,110,0,0,0,0,
+13138,Kareem,Hunt,CLE,RB,24,2,RB,weighted,0,109,0,,0,0,
+13139,Jamaal,Williams,GBP,RB,24,2,RB,average,6.81,57,0.4,,6.81,6.81,
+13139,Jamaal,Williams,GBP,RB,24,2,RB,robust,6.81,57,0.4,0,6.81,6.81,
+13139,Jamaal,Williams,GBP,RB,24,2,RB,weighted,6.81,57,0.4,,6.81,6.81,
+13142,T.J.,Logan,TBB,RB,25,2,RB,average,1.18,93,0.2,,1.18,1.18,
+13142,T.J.,Logan,TBB,RB,25,2,RB,robust,1.18,93,0.2,0,1.18,1.18,
+13142,T.J.,Logan,TBB,RB,25,2,RB,weighted,1.18,92,0.2,,1.18,1.18,
+13146,James,Conner,PIT,RB,24,2,RB,average,17.15,8,0.5,,17.15,17.15,8
+13146,James,Conner,PIT,RB,24,2,RB,robust,17.15,8,0.5,0,17.15,17.15,8
+13146,James,Conner,PIT,RB,24,2,RB,weighted,17.15,8,0.5,,17.15,17.15,8
+13148,Dare,Ogunbowale,TBB,RB,25,2,RB,average,6.9,56,0.0899999999999999,,6.9,6.9,56
+13148,Dare,Ogunbowale,TBB,RB,25,2,RB,robust,6.9,56,0.0899999999999999,0,6.9,6.9,56
+13148,Dare,Ogunbowale,TBB,RB,25,2,RB,weighted,6.9,56,0.0899999999999999,,6.9,6.9,56
+13153,Corey,Davis,TEN,WR,24,2,WR,average,12.84,36,0.274999999999999,,12.84,12.84,36
+13153,Corey,Davis,TEN,WR,24,2,WR,robust,12.84,36,0.274999999999999,0,12.84,12.84,36
+13153,Corey,Davis,TEN,WR,24,2,WR,weighted,12.84,36,0.274999999999999,,12.84,12.84,36
+13154,Mike,Williams,LAC,WR,25,2,WR,average,14.51,23,0.235000000000001,,14.51,14.51,23
+13154,Mike,Williams,LAC,WR,25,2,WR,robust,14.51,23,0.235000000000001,0,14.51,14.51,23
+13154,Mike,Williams,LAC,WR,25,2,WR,weighted,14.51,23,0.235000000000001,,14.51,14.51,23
+13155,John,Ross,CIN,WR,24,2,WR,average,10.93,41,0.270000000000001,,10.93,10.93,
+13155,John,Ross,CIN,WR,24,2,WR,robust,10.93,41,0.270000000000001,0,10.93,10.93,
+13155,John,Ross,CIN,WR,24,2,WR,weighted,10.93,41,0.270000000000001,,10.93,10.93,
+13156,JuJu,Smith-Schuster,PIT,WR,23,2,WR,average,19.52,3,0.365000000000002,,19.52,19.52,3
+13156,JuJu,Smith-Schuster,PIT,WR,23,2,WR,robust,19.52,3,0.365000000000002,0,19.52,19.52,3
+13156,JuJu,Smith-Schuster,PIT,WR,23,2,WR,weighted,19.52,3,0.364999999999998,,19.52,19.52,3
+13157,Curtis,Samuel,CAR,WR,23,2,WR,average,12.33,39,1.155,,12.33,12.33,
+13157,Curtis,Samuel,CAR,WR,23,2,WR,robust,12.33,39,1.155,0,12.33,12.33,
+13157,Curtis,Samuel,CAR,WR,23,2,WR,weighted,12.33,39,1.155,,12.33,12.33,
+13158,Dede,Westbrook,JAC,WR,26,2,WR,average,13.06,34,0.145000000000001,,13.06,13.06,34
+13158,Dede,Westbrook,JAC,WR,26,2,WR,robust,13.06,34,0.145000000000001,0,13.06,13.06,34
+13158,Dede,Westbrook,JAC,WR,26,2,WR,weighted,13.06,34,0.145000000000001,,13.06,13.06,34
+13163,Chris,Godwin,TBB,WR,23,2,WR,average,14.41,24,0.359999999999999,,14.41,14.41,24
+13163,Chris,Godwin,TBB,WR,23,2,WR,robust,14.41,24,0.359999999999999,0,14.41,14.41,24
+13163,Chris,Godwin,TBB,WR,23,2,WR,weighted,14.41,24,0.359999999999999,,14.41,14.41,24
+13164,Cooper,Kupp,LAR,WR,26,2,WR,average,13.83,28,0.0999999999999996,,13.83,13.83,28
+13164,Cooper,Kupp,LAR,WR,26,2,WR,robust,13.83,28,0.0999999999999996,0,13.83,13.83,28
+13164,Cooper,Kupp,LAR,WR,26,2,WR,weighted,13.83,28,0.0999999999999996,,13.83,13.83,28
+13165,Ryan,Switzer,PIT,WR,25,2,WR,average,7.41,70,0.244999999999999,,7.41,7.41,
+13165,Ryan,Switzer,PIT,WR,25,2,WR,robust,7.41,70,0.244999999999999,0,7.41,7.41,
+13165,Ryan,Switzer,PIT,WR,25,2,WR,weighted,7.41,70,0.244999999999999,Inf,7.41,7.41,
+13167,Taywan,Taylor,CLE,WR,24,2,WR,average,1.45,133,0.00500000000000034,,1.45,1.45,
+13167,Taywan,Taylor,CLE,WR,24,2,WR,robust,1.45,133,0.00500000000000034,0,1.45,1.45,
+13167,Taywan,Taylor,CLE,WR,24,2,WR,weighted,1.45,135,0.00500000000000034,,1.45,1.45,
+13168,Josh,Reynolds,LAR,WR,24,2,WR,average,6.97,74,0.0449999999999999,,6.97,6.97,
+13168,Josh,Reynolds,LAR,WR,24,2,WR,robust,6.97,74,0.0449999999999999,0,6.97,6.97,
+13168,Josh,Reynolds,LAR,WR,24,2,WR,weighted,6.97,74,0.0449999999999999,,6.97,6.97,
+13172,Noah,Brown,DAL,WR,22,2,WR,average,0,155,0,,0,0,
+13172,Noah,Brown,DAL,WR,22,2,WR,robust,0,155,0,0,0,0,
+13172,Noah,Brown,DAL,WR,22,2,WR,weighted,0,157,0,,0,0,
+13176,Zay,Jones,BUF,WR,24,2,WR,average,7.62,69,0.21,,7.62,7.62,
+13176,Zay,Jones,BUF,WR,24,2,WR,robust,7.62,69,0.21,0,7.62,7.62,
+13176,Zay,Jones,BUF,WR,24,2,WR,weighted,7.62,69,0.21,,7.62,7.62,
+13188,O.J.,Howard,TBB,TE,25,2,TE,average,10.16,7,0.245000000000001,,10.16,10.16,7
+13188,O.J.,Howard,TBB,TE,25,2,TE,robust,10.16,7,0.245000000000001,0,10.16,10.16,7
+13188,O.J.,Howard,TBB,TE,25,2,TE,weighted,10.16,7,0.245000000000001,,10.16,10.16,7
+13189,Evan,Engram,NYG,TE,25,2,TE,average,12.07,4,0.870000000000001,,12.07,12.07,4
+13189,Evan,Engram,NYG,TE,25,2,TE,robust,12.07,4,0.870000000000001,0,12.07,12.07,4
+13189,Evan,Engram,NYG,TE,25,2,TE,weighted,12.07,4,0.870000000000001,,12.07,12.07,4
+13190,Jake,Butt,DEN,TE,24,2,TE,average,0,79,0,,0,0,
+13190,Jake,Butt,DEN,TE,24,2,TE,robust,0,79,0,0,0,0,
+13190,Jake,Butt,DEN,TE,24,2,TE,weighted,0,80,0,,0,0,
+13191,Bucky,Hodges,NYJ,TE,24,2,TE,average,0,79,0,,0,0,
+13191,Bucky,Hodges,NYJ,TE,24,2,TE,robust,0,79,0,0,0,0,
+13191,Bucky,Hodges,NYJ,TE,24,2,TE,weighted,0,80,0,,0,0,
+13192,David,Njoku,CLE,TE,23,2,TE,average,10.09,8,0.375,,10.09,10.09,8
+13192,David,Njoku,CLE,TE,23,2,TE,robust,10.09,8,0.375,0,10.09,10.09,8
+13192,David,Njoku,CLE,TE,23,2,TE,weighted,10.09,8,0.375,,10.09,10.09,8
+13193,Jonnu,Smith,TEN,TE,24,2,TE,average,4.17,41,0.29,,4.17,4.17,
+13193,Jonnu,Smith,TEN,TE,24,2,TE,robust,4.17,41,0.29,0,4.17,4.17,
+13193,Jonnu,Smith,TEN,TE,24,2,TE,weighted,4.17,41,0.29,,4.17,4.17,
+13194,Jeremy,Sprinkle,WAS,TE,25,2,TE,average,1.2,66,0.0300000000000003,,1.2,1.2,
+13194,Jeremy,Sprinkle,WAS,TE,25,2,TE,robust,1.2,66,0.0300000000000003,0,1.2,1.2,
+13194,Jeremy,Sprinkle,WAS,TE,25,2,TE,weighted,1.2,67,0.0300000000000003,,1.2,1.2,
+13234,Marlon,Mack,IND,RB,23,2,RB,average,14.06,25,0.540000000000001,,14.06,14.06,25
+13234,Marlon,Mack,IND,RB,23,2,RB,robust,14.06,25,0.540000000000001,0,14.06,14.06,25
+13234,Marlon,Mack,IND,RB,23,2,RB,weighted,14.06,25,0.540000000000001,,14.06,14.06,25
+13236,Gerald,Everett,LAR,TE,25,2,TE,average,6.29,29,0.33,,6.29,6.29,29
+13236,Gerald,Everett,LAR,TE,25,2,TE,robust,6.29,29,0.33,0,6.29,6.29,29
+13236,Gerald,Everett,LAR,TE,25,2,TE,weighted,6.29,29,0.33,,6.29,6.29,29
+13239,Elijhaa,Penny,NYG,RB,26,3,RB,average,0,110,0,,0,0,
+13239,Elijhaa,Penny,NYG,RB,26,3,RB,robust,0,110,0,0,0,0,
+13239,Elijhaa,Penny,NYG,RB,26,3,RB,weighted,0,109,0,,0,0,
+13240,Brian,Hill,ATL,RB,24,2,RB,average,1.25,91,0.04,,1.25,1.25,
+13240,Brian,Hill,ATL,RB,24,2,RB,robust,1.25,91,0.04,0,1.25,1.25,
+13240,Brian,Hill,ATL,RB,24,2,RB,weighted,1.25,90,0.04,,1.25,1.25,
+13246,Mo,Alie-Cox,IND,TE,26,2,TE,average,1.36,60,0.0399999999999998,,1.36,1.36,
+13246,Mo,Alie-Cox,IND,TE,26,2,TE,robust,1.36,60,0.0399999999999998,0,1.36,1.36,
+13246,Mo,Alie-Cox,IND,TE,26,2,TE,weighted,1.36,60,0.0399999999999998,Inf,1.36,1.36,
+13254,Adam,Shaheen,CHI,TE,25,2,TE,average,5.1,35,0.214999999999999,,5.1,5.1,35
+13254,Adam,Shaheen,CHI,TE,25,2,TE,robust,5.1,35,0.214999999999999,0,5.1,5.1,35
+13254,Adam,Shaheen,CHI,TE,25,2,TE,weighted,5.1,35,0.214999999999999,,5.1,5.1,35
+13277,Kenny,Golladay,DET,WR,26,2,WR,average,14.89,19,0.195,,14.89,14.89,19
+13277,Kenny,Golladay,DET,WR,26,2,WR,robust,14.89,19,0.195,0,14.89,14.89,19
+13277,Kenny,Golladay,DET,WR,26,2,WR,weighted,14.89,19,0.195,,14.89,14.89,19
+13289,Mack,Hollins,PHI,WR,26,2,WR,average,1.44,135,0.105,,1.44,1.44,
+13289,Mack,Hollins,PHI,WR,26,2,WR,robust,1.44,135,0.105,0,1.44,1.44,
+13289,Mack,Hollins,PHI,WR,26,2,WR,weighted,1.44,137,0.105,Inf,1.44,1.44,
+13290,Tarik,Cohen,CHI,RB,24,2,RB,average,12.35,28,0.604999999999999,,12.35,12.35,28
+13290,Tarik,Cohen,CHI,RB,24,2,RB,robust,12.35,28,0.604999999999999,0,12.35,12.35,28
+13290,Tarik,Cohen,CHI,RB,24,2,RB,weighted,12.35,28,0.604999999999999,,12.35,12.35,28
+13299,George,Kittle,SFO,TE,26,2,TE,average,13.04,3,1.245,,13.04,13.04,3
+13299,George,Kittle,SFO,TE,26,2,TE,robust,13.04,3,1.245,0,13.04,13.04,3
+13299,George,Kittle,SFO,TE,26,2,TE,weighted,13.04,3,1.245,Inf,13.04,13.04,3
+13313,Isaiah,McKenzie,BUF,WR,24,2,WR,average,1.51,132,0.0600000000000001,,1.51,1.51,
+13313,Isaiah,McKenzie,BUF,WR,24,2,WR,robust,1.51,132,0.0600000000000001,0,1.51,1.51,
+13313,Isaiah,McKenzie,BUF,WR,24,2,WR,weighted,1.51,134,0.0600000000000003,,1.51,1.51,
+13316,Trent,Taylor,SFO,WR,25,2,WR,average,5.87,85,0.4,,5.87,5.87,
+13316,Trent,Taylor,SFO,WR,25,2,WR,robust,5.87,85,0.4,0,5.87,5.87,
+13316,Trent,Taylor,SFO,WR,25,2,WR,weighted,5.87,85,0.4,Inf,5.87,5.87,
+13319,Aaron,Jones,GBP,RB,25,2,RB,average,14.27,23,0.140000000000001,,14.27,14.27,23
+13319,Aaron,Jones,GBP,RB,25,2,RB,robust,14.27,23,0.140000000000001,0,14.27,14.27,23
+13319,Aaron,Jones,GBP,RB,25,2,RB,weighted,14.27,23,0.140000000000001,,14.27,14.27,23
+13326,Alexander,Armah,CAR,RB,25,2,RB,average,0,110,0,,0,0,
+13326,Alexander,Armah,CAR,RB,25,2,RB,robust,0,110,0,0,0,0,
+13326,Alexander,Armah,CAR,RB,25,2,RB,weighted,0,109,0,,0,0,
+13348,David,Moore,SEA,WR,24,2,WR,average,0,155,0,,0,0,
+13348,David,Moore,SEA,WR,24,2,WR,robust,0,155,0,0,0,0,
+13348,David,Moore,SEA,WR,24,2,WR,weighted,0,157,0,,0,0,
+13357,Devante,Mays,FA,RB,25,2,RB,average,0,110,0,,0,0,
+13357,Devante,Mays,FA,RB,25,2,RB,robust,0,110,0,0,0,0,
+13357,Devante,Mays,FA,RB,25,2,RB,weighted,0,109,0,,0,0,
+13364,Chris,Carson,SEA,RB,25,2,RB,average,16.61,10,0.155000000000001,,16.61,16.61,10
+13364,Chris,Carson,SEA,RB,25,2,RB,robust,16.61,10,0.155000000000001,0,16.61,16.61,10
+13364,Chris,Carson,SEA,RB,25,2,RB,weighted,16.61,10,0.155000000000001,,16.61,16.61,10
+13367,Austin,Carr,NOS,WR,26,2,WR,average,1.97,124,0.0449999999999999,,1.97,1.97,
+13367,Austin,Carr,NOS,WR,26,2,WR,robust,1.97,124,0.0449999999999999,0,1.97,1.97,
+13367,Austin,Carr,NOS,WR,26,2,WR,weighted,1.97,126,0.0449999999999997,,1.97,1.97,
+13369,Cethan,Carter,CIN,TE,26,2,TE,average,0,79,0,,0,0,
+13369,Cethan,Carter,CIN,TE,26,2,TE,robust,0,79,0,0,0,0,
+13369,Cethan,Carter,CIN,TE,26,2,TE,weighted,0,80,0,,0,0,
+13377,Tim,Patrick,DEN,WR,26,2,WR,average,0,155,0,,0,0,
+13377,Tim,Patrick,DEN,WR,26,2,WR,robust,0,155,0,0,0,0,
+13377,Tim,Patrick,DEN,WR,26,2,WR,weighted,0,157,0,,0,0,
+13378,Matt,Breida,SFO,RB,24,2,RB,average,14.71,20,0.235000000000001,,14.71,14.71,20
+13378,Matt,Breida,SFO,RB,24,2,RB,robust,14.71,20,0.235000000000001,0,14.71,14.71,20
+13378,Matt,Breida,SFO,RB,24,2,RB,weighted,14.71,20,0.235000000000001,,14.71,14.71,20
+13382,Ricky,Seals-Jones,CLE,TE,24,2,TE,average,1.23,65,0.0349999999999999,,1.23,1.23,
+13382,Ricky,Seals-Jones,CLE,TE,24,2,TE,robust,1.23,65,0.0349999999999999,0,1.23,1.23,
+13382,Ricky,Seals-Jones,CLE,TE,24,2,TE,weighted,1.23,66,0.0349999999999997,,1.23,1.23,
+13390,Lance,Lenoir,DAL,WR,24,2,WR,average,0,155,0,,0,0,
+13390,Lance,Lenoir,DAL,WR,24,2,WR,robust,0,155,0,0,0,0,
+13390,Lance,Lenoir,DAL,WR,24,2,WR,weighted,0,157,0,,0,0,
+13404,Austin,Ekeler,LAC,RB,24,2,RB,average,17.67,7,0.75,,17.67,17.67,7
+13404,Austin,Ekeler,LAC,RB,24,2,RB,robust,17.67,7,0.75,0,17.67,17.67,7
+13404,Austin,Ekeler,LAC,RB,24,2,RB,weighted,17.67,7,0.75,,17.67,17.67,7
+13412,Keelan,Cole,JAC,WR,26,2,WR,average,0.91,147,0.0650000000000001,,0.91,0.91,
+13412,Keelan,Cole,JAC,WR,26,2,WR,robust,0.91,147,0.0650000000000001,0,0.91,0.91,
+13412,Keelan,Cole,JAC,WR,26,2,WR,weighted,0.91,149,0.0650000000000002,,0.91,0.91,
+13418,Kendrick,Bourne,SFO,WR,24,2,WR,average,4.56,96,0.28,,4.56,4.56,
+13418,Kendrick,Bourne,SFO,WR,24,2,WR,robust,4.56,96,0.28,0,4.56,4.56,
+13418,Kendrick,Bourne,SFO,WR,24,2,WR,weighted,4.56,96,0.28,,4.56,4.56,
+13424,Taysom,Hill,NOS,QB,29,2,QB,average,2.214,34,2.214,,2.214,2.214,34
+13424,Taysom,Hill,NOS,QB,29,2,QB,robust,2.214,34,2.214,0,2.214,2.214,34
+13424,Taysom,Hill,NOS,QB,29,2,QB,weighted,2.214,34,2.214,,2.214,2.214,34
+13427,Robert,Tonyan,GBP,TE,25,2,TE,average,3.94,42,0.22,,3.94,3.94,
+13427,Robert,Tonyan,GBP,TE,25,2,TE,robust,3.94,42,0.22,0,3.94,3.94,
+13427,Robert,Tonyan,GBP,TE,25,2,TE,weighted,3.94,42,0.22,,3.94,3.94,
+13438,Sean,Culkin,LAC,TE,26,2,TE,average,0,79,0,,0,0,
+13438,Sean,Culkin,LAC,TE,26,2,TE,robust,0,79,0,0,0,0,
+13438,Sean,Culkin,LAC,TE,26,2,TE,weighted,0,80,0,,0,0,
+13445,Antony,Auclair,TBB,TE,26,2,TE,average,0,79,0,,0,0,
+13445,Antony,Auclair,TBB,TE,26,2,TE,robust,0,79,0,0,0,0,
+13445,Antony,Auclair,TBB,TE,26,2,TE,weighted,0,80,0,,0,0,
+13455,Patrick,Ricard,BAL,RB,25,2,RB,average,0,110,0,,0,0,
+13455,Patrick,Ricard,BAL,RB,25,2,RB,robust,0,110,0,0,0,0,
+13455,Patrick,Ricard,BAL,RB,25,2,RB,weighted,0,109,0,,0,0,
+13488,Zach,Pascal,IND,WR,25,2,WR,average,1.37,136,0.0750000000000002,,1.37,1.37,
+13488,Zach,Pascal,IND,WR,25,2,WR,robust,1.37,136,0.0750000000000002,0,1.37,1.37,
+13488,Zach,Pascal,IND,WR,25,2,WR,weighted,1.37,138,0.075,,1.37,1.37,
+13503,Marcus,Kemp,KCC,WR,24,2,WR,average,0,155,0,,0,0,
+13503,Marcus,Kemp,KCC,WR,24,2,WR,robust,0,155,0,0,0,0,
+13503,Marcus,Kemp,KCC,WR,24,2,WR,weighted,0,157,0,,0,0,
+13529,JoJo,Natson,LAR,WR,25,3,WR,average,0,155,0,,0,0,
+13529,JoJo,Natson,LAR,WR,25,3,WR,robust,0,155,0,0,0,0,
+13529,JoJo,Natson,LAR,WR,25,3,WR,weighted,0,157,0,,0,0,
+13544,Bobo,Wilson,TBB,WR,24,2,WR,average,1.17,143,0.14,,1.17,1.17,
+13544,Bobo,Wilson,TBB,WR,24,2,WR,robust,1.17,143,0.14,0,1.17,1.17,
+13544,Bobo,Wilson,TBB,WR,24,2,WR,weighted,1.17,145,0.14,,1.17,1.17,
+13546,Garrett,Griffin,NOS,TE,25,3,TE,average,0,79,0,,0,0,
+13546,Garrett,Griffin,NOS,TE,25,3,TE,robust,0,79,0,0,0,0,
+13546,Garrett,Griffin,NOS,TE,25,3,TE,weighted,0,80,0,,0,0,
+13573,K.J.,Brent,TBB,WR,26,3,WR,average,0,155,0,,0,0,
+13573,K.J.,Brent,TBB,WR,26,3,WR,robust,0,155,0,0,0,0,
+13573,K.J.,Brent,TBB,WR,26,3,WR,weighted,0,157,0,,0,0,
+13585,Brandon,Zylstra,CAR,WR,26,1,WR,average,0,155,0,,0,0,
+13585,Brandon,Zylstra,CAR,WR,26,1,WR,robust,0,155,0,0,0,0,
+13585,Brandon,Zylstra,CAR,WR,26,1,WR,weighted,0,157,0,,0,0,
+13589,Josh,Allen,BUF,QB,23,1,QB,average,21.2,13,0.154999999999998,,21.2,21.2,13
+13589,Josh,Allen,BUF,QB,23,1,QB,robust,21.2,13,0.154999999999998,0,21.2,21.2,13
+13589,Josh,Allen,BUF,QB,23,1,QB,weighted,21.2,13,0.155000000000001,,21.2,21.2,13
+13590,Baker,Mayfield,CLE,QB,24,1,QB,average,21.16,14,0.289999999999999,,21.16,21.16,14
+13590,Baker,Mayfield,CLE,QB,24,1,QB,robust,21.16,14,0.289999999999999,0,21.16,21.16,14
+13590,Baker,Mayfield,CLE,QB,24,1,QB,weighted,21.16,14,0.289999999999999,,21.16,21.16,14
+13591,Josh,Rosen,MIA,QB,22,1,QB,average,2.67,33,1.563,,2.67,2.67,33
+13591,Josh,Rosen,MIA,QB,22,1,QB,robust,2.67,33,1.563,0,2.67,2.67,33
+13591,Josh,Rosen,MIA,QB,22,1,QB,weighted,2.67,33,1.563,,2.67,2.67,33
+13592,Sam,Darnold,NYJ,QB,22,1,QB,average,19.84,21,0.455000000000002,,19.84,19.84,21
+13592,Sam,Darnold,NYJ,QB,22,1,QB,robust,19.84,21,0.455000000000002,0,19.84,19.84,21
+13592,Sam,Darnold,NYJ,QB,22,1,QB,weighted,19.84,21,0.455000000000002,,19.84,19.84,21
+13593,Lamar,Jackson,BAL,QB,22,1,QB,average,24.45,3,1.085,,24.45,24.45,3
+13593,Lamar,Jackson,BAL,QB,22,1,QB,robust,24.45,3,1.085,0,24.45,24.45,3
+13593,Lamar,Jackson,BAL,QB,22,1,QB,weighted,24.45,3,1.085,Inf,24.45,24.45,3
+13595,Mason,Rudolph,PIT,QB,24,1,QB,average,0,35,0,,0,0,
+13595,Mason,Rudolph,PIT,QB,24,1,QB,robust,0,35,0,0,0,0,
+13595,Mason,Rudolph,PIT,QB,24,1,QB,weighted,0,35,0,,0,0,
+13600,Kurt,Benkert,ATL,QB,24,1,QB,average,0,35,0,,0,0,
+13600,Kurt,Benkert,ATL,QB,24,1,QB,robust,0,35,0,0,0,0,
+13600,Kurt,Benkert,ATL,QB,24,1,QB,weighted,0,35,0,,0,0,
+13604,Saquon,Barkley,NYG,RB,22,1,RB,average,25.21,1,2.435,,25.21,25.21,1
+13604,Saquon,Barkley,NYG,RB,22,1,RB,robust,25.21,1,2.435,0,25.21,25.21,1
+13604,Saquon,Barkley,NYG,RB,22,1,RB,weighted,25.21,1,2.435,,25.21,25.21,1
+13605,Derrius,Guice,WAS,RB,22,1,RB,average,0,110,0,,0,0,
+13605,Derrius,Guice,WAS,RB,22,1,RB,robust,0,110,0,0,0,0,
+13605,Derrius,Guice,WAS,RB,22,1,RB,weighted,0,109,0,,0,0,
+13606,Ronald,Jones,TBB,RB,22,1,RB,average,8.06,48,0.18,,8.06,8.06,48
+13606,Ronald,Jones,TBB,RB,22,1,RB,robust,8.06,48,0.18,0,8.06,8.06,48
+13606,Ronald,Jones,TBB,RB,22,1,RB,weighted,8.06,48,0.18,,8.06,8.06,48
+13607,Sony,Michel,NEP,RB,24,1,RB,average,15.24,18,0.455,,15.24,15.24,18
+13607,Sony,Michel,NEP,RB,24,1,RB,robust,15.24,18,0.455,0,15.24,15.24,18
+13607,Sony,Michel,NEP,RB,24,1,RB,weighted,15.24,18,0.455,,15.24,15.24,18
+13608,Rashaad,Penny,SEA,RB,23,1,RB,average,7.34,53,0.170000000000001,,7.34,7.34,53
+13608,Rashaad,Penny,SEA,RB,23,1,RB,robust,7.34,53,0.170000000000001,0,7.34,7.34,53
+13608,Rashaad,Penny,SEA,RB,23,1,RB,weighted,7.34,53,0.170000000000001,,7.34,7.34,53
+13610,Nick,Chubb,CLE,RB,24,1,RB,average,16.35,12,0.635,,16.35,16.35,12
+13610,Nick,Chubb,CLE,RB,24,1,RB,robust,16.35,12,0.635,0,16.35,16.35,12
+13610,Nick,Chubb,CLE,RB,24,1,RB,weighted,16.35,12,0.635,,16.35,16.35,12
+13612,Kerryon,Johnson,DET,RB,22,1,RB,average,15.4,14,0.0600000000000023,,15.4,15.4,14
+13612,Kerryon,Johnson,DET,RB,22,1,RB,robust,15.4,14,0.0600000000000023,0,15.4,15.4,14
+13612,Kerryon,Johnson,DET,RB,22,1,RB,weighted,15.4,14,0.0600000000000023,,15.4,15.4,14
+13613,Jaylen,Samuels,PIT,RB,23,1,RB,average,10.11,36,0.0900000000000016,,10.11,10.11,36
+13613,Jaylen,Samuels,PIT,RB,23,1,RB,robust,10.11,36,0.0900000000000016,0,10.11,10.11,36
+13613,Jaylen,Samuels,PIT,RB,23,1,RB,weighted,10.11,36,0.0900000000000016,,10.11,10.11,36
+13614,Phillip,Lindsay,DEN,RB,25,1,RB,average,10.56,32,0.195,,10.56,10.56,32
+13614,Phillip,Lindsay,DEN,RB,25,1,RB,robust,10.56,32,0.195,0,10.56,10.56,32
+13614,Phillip,Lindsay,DEN,RB,25,1,RB,weighted,10.56,32,0.194999999999999,,10.56,10.56,32
+13616,Mark,Walton,MIA,RB,22,1,RB,average,4.06,67,0.0500000000000007,,4.06,4.06,
+13616,Mark,Walton,MIA,RB,22,1,RB,robust,4.06,67,0.0500000000000007,0,4.06,4.06,
+13616,Mark,Walton,MIA,RB,22,1,RB,weighted,4.06,67,0.164999999999999,,4.06,4.06,
+13617,Royce,Freeman,DEN,RB,23,1,RB,average,7.16,55,0.305,,7.16,7.16,55
+13617,Royce,Freeman,DEN,RB,23,1,RB,robust,7.16,55,0.305,0,7.16,7.16,55
+13617,Royce,Freeman,DEN,RB,23,1,RB,weighted,7.16,55,0.305,,7.16,7.16,55
+13620,Justin,Jackson,LAC,RB,24,1,RB,average,7.18,54,0.15,,7.18,7.18,54
+13620,Justin,Jackson,LAC,RB,24,1,RB,robust,7.18,54,0.15,0,7.18,7.18,54
+13620,Justin,Jackson,LAC,RB,24,1,RB,weighted,7.18,54,0.15,,7.18,7.18,54
+13621,Kalen,Ballage,MIA,RB,24,1,RB,average,7.38,52,0.12,,7.38,7.38,52
+13621,Kalen,Ballage,MIA,RB,24,1,RB,robust,7.38,52,0.12,0,7.38,7.38,52
+13621,Kalen,Ballage,MIA,RB,24,1,RB,weighted,7.38,52,0.12,,7.38,7.38,52
+13622,Nyheim,Hines,IND,RB,23,1,RB,average,10.34,34,0.219999999999999,,10.34,10.34,34
+13622,Nyheim,Hines,IND,RB,23,1,RB,robust,10.34,34,0.219999999999999,0,10.34,10.34,34
+13622,Nyheim,Hines,IND,RB,23,1,RB,weighted,10.34,34,0.220000000000001,,10.34,10.34,34
+13623,Darrel,Williams,KCC,RB,24,1,RB,average,0.33,104,0.035,,0.33,0.33,
+13623,Darrel,Williams,KCC,RB,24,1,RB,robust,0.33,104,0.035,0,0.33,0.33,
+13623,Darrel,Williams,KCC,RB,24,1,RB,weighted,0.33,103,0.035,,0.33,0.33,
+13629,Calvin,Ridley,ATL,WR,25,1,WR,average,13.75,29,0.239999999999998,,13.75,13.75,29
+13629,Calvin,Ridley,ATL,WR,25,1,WR,robust,13.75,29,0.239999999999998,0,13.75,13.75,29
+13629,Calvin,Ridley,ATL,WR,25,1,WR,weighted,13.75,29,0.239999999999998,,13.75,13.75,29
+13630,Courtland,Sutton,DEN,WR,24,1,WR,average,10.51,45,0.0999999999999996,,10.51,10.51,
+13630,Courtland,Sutton,DEN,WR,24,1,WR,robust,10.51,45,0.0999999999999996,0,10.51,10.51,
+13630,Courtland,Sutton,DEN,WR,24,1,WR,weighted,10.51,45,0.0999999999999996,Inf,10.51,10.51,
+13631,James,Washington,PIT,WR,23,1,WR,average,7.22,71,0.120000000000001,,7.22,7.22,
+13631,James,Washington,PIT,WR,23,1,WR,robust,7.22,71,0.120000000000001,0,7.22,7.22,
+13631,James,Washington,PIT,WR,23,1,WR,weighted,7.22,71,0.12,,7.22,7.22,
+13632,Allen,Lazard,GBP,WR,24,1,WR,average,0,155,0,,0,0,
+13632,Allen,Lazard,GBP,WR,24,1,WR,robust,0,155,0,0,0,0,
+13632,Allen,Lazard,GBP,WR,24,1,WR,weighted,0,157,0,,0,0,
+13633,Christian,Kirk,ARI,WR,23,1,WR,average,11.42,40,0.589999999999998,,11.42,11.42,
+13633,Christian,Kirk,ARI,WR,23,1,WR,robust,11.42,40,0.589999999999998,0,11.42,11.42,
+13633,Christian,Kirk,ARI,WR,23,1,WR,weighted,11.42,40,0.589999999999998,,11.42,11.42,
+13634,Dante,Pettis,SFO,WR,24,1,WR,average,7.81,66,0.0949999999999998,,7.81,7.81,
+13634,Dante,Pettis,SFO,WR,24,1,WR,robust,7.81,66,0.0949999999999998,0,7.81,7.81,
+13634,Dante,Pettis,SFO,WR,24,1,WR,weighted,7.81,66,0.0949999999999998,Inf,7.81,7.81,
+13635,D.J.,Moore,CAR,WR,22,1,WR,average,16.24,14,0.489999999999998,,16.24,16.24,14
+13635,D.J.,Moore,CAR,WR,22,1,WR,robust,16.24,14,0.489999999999998,0,16.24,16.24,14
+13635,D.J.,Moore,CAR,WR,22,1,WR,weighted,16.24,14,0.489999999999998,,16.24,16.24,14
+13636,Deon,Cain,IND,WR,23,1,WR,average,6.59,79,0.0449999999999999,,6.59,6.59,
+13636,Deon,Cain,IND,WR,23,1,WR,robust,6.59,79,0.0449999999999999,0,6.59,6.59,
+13636,Deon,Cain,IND,WR,23,1,WR,weighted,6.59,79,0.0449999999999999,,6.59,6.59,
+13637,Equanimeous,St. Brown,GBP,WR,23,1,WR,average,0,155,0,,0,0,
+13637,Equanimeous,St. Brown,GBP,WR,23,1,WR,robust,0,155,0,0,0,0,
+13637,Equanimeous,St. Brown,GBP,WR,23,1,WR,weighted,0,157,0,,0,0,
+13638,Braxton,Berrios,NYJ,WR,24,1,WR,average,0.52,152,0.095,,0.52,0.52,
+13638,Braxton,Berrios,NYJ,WR,24,1,WR,robust,0.52,152,0.095,0,0.52,0.52,
+13638,Braxton,Berrios,NYJ,WR,24,1,WR,weighted,0.52,154,0.095,,0.52,0.52,
+13639,Anthony,Miller,CHI,WR,25,1,WR,average,6.24,84,0.529999999999999,,6.24,6.24,
+13639,Anthony,Miller,CHI,WR,25,1,WR,robust,6.24,84,0.529999999999999,0,6.24,6.24,
+13639,Anthony,Miller,CHI,WR,25,1,WR,weighted,6.24,84,0.529999999999999,Inf,6.24,6.24,
+13640,Antonio,Callaway,CLE,WR,22,1,WR,average,0,155,0,,0,0,
+13640,Antonio,Callaway,CLE,WR,22,1,WR,robust,0,155,0,0,0,0,
+13640,Antonio,Callaway,CLE,WR,22,1,WR,weighted,0,157,0,,0,0,
+13641,Ray-Ray,McCloud,CAR,WR,23,1,WR,average,0,155,0,,0,0,
+13641,Ray-Ray,McCloud,CAR,WR,23,1,WR,robust,0,155,0,0,0,0,
+13641,Ray-Ray,McCloud,CAR,WR,23,1,WR,weighted,0,157,0,,0,0,
+13642,Auden,Tate,CIN,WR,22,1,WR,average,0,155,0,,0,0,
+13642,Auden,Tate,CIN,WR,22,1,WR,robust,0,155,0,0,0,0,
+13642,Auden,Tate,CIN,WR,22,1,WR,weighted,0,157,0,,0,0,
+13644,Javon,Wims,CHI,WR,25,1,WR,average,0,155,0,,0,0,
+13644,Javon,Wims,CHI,WR,25,1,WR,robust,0,155,0,0,0,0,
+13644,Javon,Wims,CHI,WR,25,1,WR,weighted,0,157,0,,0,0,
+13645,Tre'Quan,Smith,NOS,WR,23,1,WR,average,9.68,52,0.164999999999999,,9.68,9.68,
+13645,Tre'Quan,Smith,NOS,WR,23,1,WR,robust,9.68,52,0.164999999999999,0,9.68,9.68,
+13645,Tre'Quan,Smith,NOS,WR,23,1,WR,weighted,9.68,52,0.164999999999999,,9.68,9.68,
+13646,Michael,Gallup,DAL,WR,23,1,WR,average,12.99,35,0.285,,12.99,12.99,35
+13646,Michael,Gallup,DAL,WR,23,1,WR,robust,12.99,35,0.285,0,12.99,12.99,35
+13646,Michael,Gallup,DAL,WR,23,1,WR,weighted,12.99,35,0.285,,12.99,12.99,35
+13649,DaeSean,Hamilton,DEN,WR,24,1,WR,average,5.22,89,0.124999999999999,,5.22,5.22,
+13649,DaeSean,Hamilton,DEN,WR,24,1,WR,robust,5.22,89,0.124999999999999,0,5.22,5.22,
+13649,DaeSean,Hamilton,DEN,WR,24,1,WR,weighted,5.22,89,0.124999999999999,,5.22,5.22,
+13653,Robert,Foster,BUF,WR,25,1,WR,average,2.06,121,0.0399999999999996,,2.06,2.06,
+13653,Robert,Foster,BUF,WR,25,1,WR,robust,2.06,121,0.0399999999999996,0,2.06,2.06,
+13653,Robert,Foster,BUF,WR,25,1,WR,weighted,2.06,122,0.0399999999999996,,2.06,2.06,
+13662,Keke,Coutee,HOU,WR,22,1,WR,average,7.71,68,0.195,,7.71,7.71,
+13662,Keke,Coutee,HOU,WR,22,1,WR,robust,7.71,68,0.195,0,7.71,7.71,
+13662,Keke,Coutee,HOU,WR,22,1,WR,weighted,7.71,68,0.195,,7.71,7.71,
+13663,Jaleel,Scott,BAL,WR,24,1,WR,average,0,155,0,,0,0,
+13663,Jaleel,Scott,BAL,WR,24,1,WR,robust,0,155,0,0,0,0,
+13663,Jaleel,Scott,BAL,WR,24,1,WR,weighted,0,157,0,,0,0,
+13664,Trey,Quinn,WAS,WR,24,1,WR,average,7.11,72,0.0800000000000001,,7.11,7.11,
+13664,Trey,Quinn,WAS,WR,24,1,WR,robust,7.11,72,0.0800000000000001,0,7.11,7.11,
+13664,Trey,Quinn,WAS,WR,24,1,WR,weighted,7.11,72,0.080000000000001,,7.11,7.11,
+13666,Daurice,Fountain,IND,WR,24,1,WR,average,0,155,0,,0,0,
+13666,Daurice,Fountain,IND,WR,24,1,WR,robust,0,155,0,0,0,0,
+13666,Daurice,Fountain,IND,WR,24,1,WR,weighted,0,157,0,,0,0,
+13668,D.J.,Chark,JAC,WR,23,1,WR,average,6.77,77,0.160000000000001,,6.77,6.77,
+13668,D.J.,Chark,JAC,WR,23,1,WR,robust,6.77,77,0.160000000000001,0,6.77,6.77,
+13668,D.J.,Chark,JAC,WR,23,1,WR,weighted,6.77,77,0.160000000000001,,6.77,6.77,
+13669,Malik,Turner,SEA,WR,23,1,WR,average,0,155,0,,0,0,
+13669,Malik,Turner,SEA,WR,23,1,WR,robust,0,155,0,0,0,0,
+13669,Malik,Turner,SEA,WR,23,1,WR,weighted,0,157,0,,0,0,
+13671,Mark,Andrews,BAL,TE,23,1,TE,average,9.23,12,0.105,,9.23,9.23,12
+13671,Mark,Andrews,BAL,TE,23,1,TE,robust,9.23,12,0.105,0,9.23,9.23,12
+13671,Mark,Andrews,BAL,TE,23,1,TE,weighted,9.23,12,0.105,,9.23,9.23,12
+13672,Mike,Gesicki,MIA,TE,24,1,TE,average,5.19,34,0.109999999999999,,5.19,5.19,34
+13672,Mike,Gesicki,MIA,TE,24,1,TE,robust,5.19,34,0.109999999999999,0,5.19,5.19,34
+13672,Mike,Gesicki,MIA,TE,24,1,TE,weighted,5.19,34,0.109999999999999,,5.19,5.19,34
+13673,Troy,Fumagalli,DEN,TE,24,1,TE,average,1.07,69,0.105,,1.07,1.07,
+13673,Troy,Fumagalli,DEN,TE,24,1,TE,robust,1.07,69,0.105,0,1.07,1.07,
+13673,Troy,Fumagalli,DEN,TE,24,1,TE,weighted,1.07,70,0.105,,1.07,1.07,
+13674,Dallas,Goedert,PHI,TE,25,1,TE,average,5.06,36,0.37,,5.06,5.06,36
+13674,Dallas,Goedert,PHI,TE,25,1,TE,robust,5.06,36,0.37,0,5.06,5.06,36
+13674,Dallas,Goedert,PHI,TE,25,1,TE,weighted,5.06,36,0.37,,5.06,5.06,36
+13675,Tyler,Conklin,MIN,TE,24,1,TE,average,0.75,75,0.26,,0.75,0.75,
+13675,Tyler,Conklin,MIN,TE,24,1,TE,robust,0.75,75,0.26,0,0.75,0.75,
+13675,Tyler,Conklin,MIN,TE,24,1,TE,weighted,0.75,76,0.26,Inf,0.75,0.75,
+13676,Durham,Smythe,MIA,TE,24,1,TE,average,0.95,71,0.0399999999999999,,0.95,0.95,
+13676,Durham,Smythe,MIA,TE,24,1,TE,robust,0.95,71,0.0399999999999999,0,0.95,0.95,
+13676,Durham,Smythe,MIA,TE,24,1,TE,weighted,0.95,72,0.0399999999999999,,0.95,0.95,
+13678,Ian,Thomas,CAR,TE,23,1,TE,average,3.55,46,0.0750000000000002,,3.55,3.55,
+13678,Ian,Thomas,CAR,TE,23,1,TE,robust,3.55,46,0.0750000000000002,0,3.55,3.55,
+13678,Ian,Thomas,CAR,TE,23,1,TE,weighted,3.55,46,0.0750000000000006,,3.55,3.55,
+13679,Chris,Herndon,NYJ,TE,23,1,TE,average,0,79,0,,0,0,
+13679,Chris,Herndon,NYJ,TE,23,1,TE,robust,0,79,0,0,0,0,
+13679,Chris,Herndon,NYJ,TE,23,1,TE,weighted,0,80,0,,0,0,
+13680,Hayden,Hurst,BAL,TE,26,1,TE,average,7.44,24,0.66,,7.44,7.44,24
+13680,Hayden,Hurst,BAL,TE,26,1,TE,robust,7.44,24,0.66,0,7.44,7.44,24
+13680,Hayden,Hurst,BAL,TE,26,1,TE,weighted,7.44,24,0.660000000000001,,7.44,7.44,24
+13722,Blake,Jarwin,DAL,TE,25,2,TE,average,7.45,23,0.325,,7.45,7.45,23
+13722,Blake,Jarwin,DAL,TE,25,2,TE,robust,7.45,23,0.325,0,7.45,7.45,23
+13722,Blake,Jarwin,DAL,TE,25,2,TE,weighted,7.45,23,0.325,Inf,7.45,7.45,23
+13724,Richie,James,SFO,WR,24,1,WR,average,6.94,75,0.0999999999999996,,6.94,6.94,
+13724,Richie,James,SFO,WR,24,1,WR,robust,6.94,75,0.0999999999999996,0,6.94,6.94,
+13724,Richie,James,SFO,WR,24,1,WR,weighted,6.94,75,0.0999999999999996,,6.94,6.94,
+13726,Chase,Edmonds,ARI,RB,23,1,RB,average,3.45,72,0.105,,3.45,3.45,
+13726,Chase,Edmonds,ARI,RB,23,1,RB,robust,3.45,72,0.105,0,3.45,3.45,
+13726,Chase,Edmonds,ARI,RB,23,1,RB,weighted,3.45,71,0.105,,3.45,3.45,
+13728,Billy,Brown,IND,TE,26,2,TE,average,0,79,0,,0,0,
+13728,Billy,Brown,IND,TE,26,2,TE,robust,0,79,0,0,0,0,
+13728,Billy,Brown,IND,TE,26,2,TE,weighted,0,80,0,,0,0,
+13753,Jordan,Akins,HOU,TE,27,1,TE,average,5.21,33,0.0650000000000013,,5.21,5.21,33
+13753,Jordan,Akins,HOU,TE,27,1,TE,robust,5.21,33,0.0650000000000013,0,5.21,5.21,33
+13753,Jordan,Akins,HOU,TE,27,1,TE,weighted,5.21,33,0.0650000000000013,,5.21,5.21,33
+13763,Will,Dissly,SEA,TE,23,1,TE,average,6.75,26,0.0699999999999994,,6.75,6.75,26
+13763,Will,Dissly,SEA,TE,23,1,TE,robust,6.75,26,0.0699999999999994,0,6.75,6.75,26
+13763,Will,Dissly,SEA,TE,23,1,TE,weighted,6.75,26,0.0699999999999994,,6.75,6.75,26
+13768,Ito,Smith,ATL,RB,24,1,RB,average,9.16,42,0.279999999999999,,9.16,9.16,42
+13768,Ito,Smith,ATL,RB,24,1,RB,robust,9.16,42,0.279999999999999,0,9.16,9.16,42
+13768,Ito,Smith,ATL,RB,24,1,RB,weighted,9.16,42,0.279999999999999,,9.16,9.16,42
+13772,Dalton,Schultz,DAL,TE,23,1,TE,average,1.4,58,0.03,,1.4,1.4,
+13772,Dalton,Schultz,DAL,TE,23,1,TE,robust,1.4,58,0.03,0,1.4,1.4,
+13772,Dalton,Schultz,DAL,TE,23,1,TE,weighted,1.4,58,0.03,Inf,1.4,1.4,
+13776,Justin,Watson,TBB,WR,24,1,WR,average,1.79,128,0.135,,1.79,1.79,
+13776,Justin,Watson,TBB,WR,24,1,WR,robust,1.79,128,0.135,0,1.79,1.79,
+13776,Justin,Watson,TBB,WR,24,1,WR,weighted,1.79,130,0.135,,1.79,1.79,
+13789,Jordan,Wilkins,IND,RB,25,1,RB,average,4.42,64,0.24,,4.42,4.42,
+13789,Jordan,Wilkins,IND,RB,25,1,RB,robust,4.42,64,0.24,0,4.42,4.42,
+13789,Jordan,Wilkins,IND,RB,25,1,RB,weighted,4.42,64,0.24,,4.42,4.42,
+13793,Marquez,Valdes-Scantling,GBP,WR,25,1,WR,average,10.49,46,0.225,,10.49,10.49,
+13793,Marquez,Valdes-Scantling,GBP,WR,25,1,WR,robust,10.49,46,0.225,0,10.49,10.49,
+13793,Marquez,Valdes-Scantling,GBP,WR,25,1,WR,weighted,10.49,46,0.225,,10.49,10.49,
+13794,Damion,Ratley,CLE,WR,24,1,WR,average,1.85,127,0.105,,1.85,1.85,
+13794,Damion,Ratley,CLE,WR,24,1,WR,robust,1.85,127,0.105,0,1.85,1.85,
+13794,Damion,Ratley,CLE,WR,24,1,WR,weighted,1.85,129,0.105,,1.85,1.85,
+13807,Dylan,Cantrell,LAC,WR,25,1,WR,average,0,155,0,,0,0,
+13807,Dylan,Cantrell,LAC,WR,25,1,WR,robust,0,155,0,0,0,0,
+13807,Dylan,Cantrell,LAC,WR,25,1,WR,weighted,0,157,0,,0,0,
+13809,Russell,Gage,ATL,WR,23,1,WR,average,2.05,122,0.0600000000000001,,2.05,2.05,
+13809,Russell,Gage,ATL,WR,23,1,WR,robust,2.05,122,0.0600000000000001,0,2.05,2.05,
+13809,Russell,Gage,ATL,WR,23,1,WR,weighted,2.05,123,0.0600000000000001,,2.05,2.05,
+13816,Trenton,Cannon,NYJ,RB,25,1,RB,average,2.8,77,0.38,,2.8,2.8,
+13816,Trenton,Cannon,NYJ,RB,25,1,RB,robust,2.8,77,0.38,0,2.8,2.8,
+13816,Trenton,Cannon,NYJ,RB,25,1,RB,weighted,2.8,76,0.38,,2.8,2.8,
+13819,Jordan,Thomas,HOU,TE,23,1,TE,average,0,79,0,,0,0,
+13819,Jordan,Thomas,HOU,TE,23,1,TE,robust,0,79,0,0,0,0,
+13819,Jordan,Thomas,HOU,TE,23,1,TE,weighted,0,80,0,,0,0,
+13825,Alex,McGough,FA,QB,24,1,QB,average,0,35,0,,0,0,
+13825,Alex,McGough,FA,QB,24,1,QB,robust,0,35,0,0,0,0,
+13825,Alex,McGough,FA,QB,24,1,QB,weighted,0,35,0,,0,0,
+13838,Nick,Bawden,DET,RB,23,1,RB,average,0,110,0,,0,0,
+13838,Nick,Bawden,DET,RB,23,1,RB,robust,0,110,0,0,0,0,
+13838,Nick,Bawden,DET,RB,23,1,RB,weighted,0,109,0,,0,0,
+13847,Ryan,Izzo,NEP,TE,24,1,TE,average,1.76,55,0.215,,1.76,1.76,
+13847,Ryan,Izzo,NEP,TE,24,1,TE,robust,1.76,55,0.215,0,1.76,1.76,
+13847,Ryan,Izzo,NEP,TE,24,1,TE,weighted,1.76,55,0.215,,1.76,1.76,
+13850,Gus,Edwards,BAL,RB,24,1,RB,average,6.06,59,0.565,,6.06,6.06,
+13850,Gus,Edwards,BAL,RB,24,1,RB,robust,6.06,59,0.565,0,6.06,6.06,
+13850,Gus,Edwards,BAL,RB,24,1,RB,weighted,6.06,59,0.565,,6.06,6.06,
+13857,Deon,Yelder,KCC,TE,24,1,TE,average,1.15,68,0.04,,1.15,1.15,
+13857,Deon,Yelder,KCC,TE,24,1,TE,robust,1.15,68,0.04,0,1.15,1.15,
+13857,Deon,Yelder,KCC,TE,24,1,TE,weighted,1.15,69,0.04,,1.15,1.15,
+13862,River,Cracraft,FA,WR,25,2,WR,average,0,155,0,,0,0,
+13862,River,Cracraft,FA,WR,25,2,WR,robust,0,155,0,0,0,0,
+13862,River,Cracraft,FA,WR,25,2,WR,weighted,0,157,0,,0,0,
+13868,Mike,Boone,MIN,RB,24,1,RB,average,1.54,87,0.105,,1.54,1.54,
+13868,Mike,Boone,MIN,RB,24,1,RB,robust,1.54,87,0.105,0,1.54,1.54,
+13868,Mike,Boone,MIN,RB,24,1,RB,weighted,1.54,86,0.105,Inf,1.54,1.54,
+13871,Dontrell,Hilliard,CLE,RB,24,1,RB,average,3.96,69,0.23,,3.96,3.96,
+13871,Dontrell,Hilliard,CLE,RB,24,1,RB,robust,3.96,69,0.23,0,3.96,3.96,
+13871,Dontrell,Hilliard,CLE,RB,24,1,RB,weighted,3.96,68,0.23,,3.96,3.96,
+13873,Tim,Boyle,GBP,QB,25,1,QB,average,0,35,0,,0,0,
+13873,Tim,Boyle,GBP,QB,25,1,QB,robust,0,35,0,0,0,0,
+13873,Tim,Boyle,GBP,QB,25,1,QB,weighted,0,35,0,,0,0,
+13874,Shaun,Wilson,WAS,RB,24,1,RB,average,0,110,0,,0,0,
+13874,Shaun,Wilson,WAS,RB,24,1,RB,robust,0,110,0,0,0,0,
+13874,Shaun,Wilson,WAS,RB,24,1,RB,weighted,0,109,0,,0,0,
+13878,C.J.,Board,JAC,WR,26,2,WR,average,0,155,0,,0,0,
+13878,C.J.,Board,JAC,WR,26,2,WR,robust,0,155,0,0,0,0,
+13878,C.J.,Board,JAC,WR,26,2,WR,weighted,0,157,0,,0,0,
+13879,Kyle,Allen,CAR,QB,23,1,QB,average,0,35,0,,0,0,
+13879,Kyle,Allen,CAR,QB,23,1,QB,robust,0,35,0,0,0,0,
+13879,Kyle,Allen,CAR,QB,23,1,QB,weighted,0,35,0,,0,0,
+13882,Keith,Kirkwood,NOS,WR,26,1,WR,average,2.83,112,0.34,,2.83,2.83,
+13882,Keith,Kirkwood,NOS,WR,26,1,WR,robust,2.83,112,0.34,0,2.83,2.83,
+13882,Keith,Kirkwood,NOS,WR,26,1,WR,weighted,2.83,113,0.34,,2.83,2.83,
+13890,Jason,Croom,BUF,TE,25,2,TE,average,0,79,0,,0,0,
+13890,Jason,Croom,BUF,TE,25,2,TE,robust,0,79,0,0,0,0,
+13890,Jason,Croom,BUF,TE,25,2,TE,weighted,0,80,0,,0,0,
+13893,Trent,Sherfield,ARI,WR,23,1,WR,average,1.28,139,0.0349999999999999,,1.28,1.28,
+13893,Trent,Sherfield,ARI,WR,23,1,WR,robust,1.28,139,0.0349999999999999,0,1.28,1.28,
+13893,Trent,Sherfield,ARI,WR,23,1,WR,weighted,1.28,141,0.0350000000000001,,1.28,1.28,
+13899,Steve,Ishmael,IND,WR,24,1,WR,average,0,155,0,,0,0,
+13899,Steve,Ishmael,IND,WR,24,1,WR,robust,0,155,0,0,0,0,
+13899,Steve,Ishmael,IND,WR,24,1,WR,weighted,0,157,0,,0,0,
+13912,Cameron,Batson,TEN,WR,24,1,WR,average,0,155,0,,0,0,
+13912,Cameron,Batson,TEN,WR,24,1,WR,robust,0,155,0,0,0,0,
+13912,Cameron,Batson,TEN,WR,24,1,WR,weighted,0,157,0,,0,0,
+13916,Buddy,Howell,HOU,RB,23,1,RB,average,0,110,0,,0,0,
+13916,Buddy,Howell,HOU,RB,23,1,RB,robust,0,110,0,0,0,0,
+13916,Buddy,Howell,HOU,RB,23,1,RB,weighted,0,109,0,,0,0,
+13919,Anthony,Firkser,TEN,TE,24,1,TE,average,1.3,62,0.0400000000000003,,1.3,1.3,
+13919,Anthony,Firkser,TEN,TE,24,1,TE,robust,1.3,62,0.0400000000000003,0,1.3,1.3,
+13919,Anthony,Firkser,TEN,TE,24,1,TE,weighted,1.3,63,0.0400000000000003,,1.3,1.3,
+13940,Johnny,Mundt,LAR,TE,25,2,TE,average,0,79,0,,0,0,
+13940,Johnny,Mundt,LAR,TE,25,2,TE,robust,0,79,0,0,0,0,
+13940,Johnny,Mundt,LAR,TE,25,2,TE,weighted,0,80,0,,0,0,
+13963,KhaDarel,Hodge,CLE,WR,24,1,WR,average,1.24,141,0.0600000000000001,,1.24,1.24,
+13963,KhaDarel,Hodge,CLE,WR,24,1,WR,robust,1.24,141,0.0600000000000001,0,1.24,1.24,
+13963,KhaDarel,Hodge,CLE,WR,24,1,WR,weighted,1.24,143,0.0599999999999998,,1.24,1.24,
+13968,Nick,Mullens,SFO,QB,24,2,QB,average,0,35,0,,0,0,
+13968,Nick,Mullens,SFO,QB,24,2,QB,robust,0,35,0,0,0,0,
+13968,Nick,Mullens,SFO,QB,24,2,QB,weighted,0,35,0,,0,0,
+13988,Ross,Dwelley,SFO,TE,24,1,TE,average,3.17,51,0.465,,3.17,3.17,
+13988,Ross,Dwelley,SFO,TE,24,1,TE,robust,3.17,51,0.465,0,3.17,3.17,
+13988,Ross,Dwelley,SFO,TE,24,1,TE,weighted,3.17,51,0.465,,3.17,3.17,
+13994,Pharaoh,Brown,CLE,TE,25,2,TE,average,0,79,0,,0,0,
+13994,Pharaoh,Brown,CLE,TE,25,2,TE,robust,0,79,0,0,0,0,
+13994,Pharaoh,Brown,CLE,TE,25,2,TE,weighted,0,80,0,,0,0,
+13999,Chad,Beebe,MIN,WR,25,1,WR,average,3.53,106,0.12,,3.53,3.53,
+13999,Chad,Beebe,MIN,WR,25,1,WR,robust,3.53,106,0.12,0,3.53,3.53,
+13999,Chad,Beebe,MIN,WR,25,1,WR,weighted,3.53,106,0.12,,3.53,3.53,
+14045,Chris,Lacy,DET,WR,23,1,WR,average,0.78,149,0.095,,0.78,0.78,
+14045,Chris,Lacy,DET,WR,23,1,WR,robust,0.78,149,0.095,0,0.78,0.78,
+14045,Chris,Lacy,DET,WR,23,1,WR,weighted,0.78,151,0.0949999999999999,Inf,0.78,0.78,
+14056,Kyler,Murray,ARI,QB,22,0,QB,average,18.55,26,0.535,,18.55,18.55,26
+14056,Kyler,Murray,ARI,QB,22,0,QB,robust,18.55,26,0.535,0,18.55,18.55,26
+14056,Kyler,Murray,ARI,QB,22,0,QB,weighted,18.55,26,0.535,,18.55,18.55,26
+14057,Drew,Lock,DEN,QB,23,0,QB,average,0,35,0,,0,0,
+14057,Drew,Lock,DEN,QB,23,0,QB,robust,0,35,0,0,0,0,
+14057,Drew,Lock,DEN,QB,23,0,QB,weighted,0,35,0,,0,0,
+14058,Dwayne,Haskins,WAS,QB,22,0,QB,average,0,35,0,,0,0,
+14058,Dwayne,Haskins,WAS,QB,22,0,QB,robust,0,35,0,0,0,0,
+14058,Dwayne,Haskins,WAS,QB,22,0,QB,weighted,0,35,0,,0,0,
+14059,Daniel,Jones,NYG,QB,22,0,QB,average,0,35,0,,0,0,
+14059,Daniel,Jones,NYG,QB,22,0,QB,robust,0,35,0,0,0,0,
+14059,Daniel,Jones,NYG,QB,22,0,QB,weighted,0,35,0,,0,0,
+14061,Trace,McSorley,BAL,QB,24,0,QB,average,0,35,0,,0,0,
+14061,Trace,McSorley,BAL,QB,24,0,QB,robust,0,35,0,0,0,0,
+14061,Trace,McSorley,BAL,QB,24,0,QB,weighted,0,35,0,,0,0,
+14062,Will,Grier,CAR,QB,24,0,QB,average,0,35,0,,0,0,
+14062,Will,Grier,CAR,QB,24,0,QB,robust,0,35,0,0,0,0,
+14062,Will,Grier,CAR,QB,24,0,QB,weighted,0,35,0,,0,0,
+14063,Jarrett,Stidham,NEP,QB,23,0,QB,average,0,35,0,,0,0,
+14063,Jarrett,Stidham,NEP,QB,23,0,QB,robust,0,35,0,0,0,0,
+14063,Jarrett,Stidham,NEP,QB,23,0,QB,weighted,0,35,0,,0,0,
+14067,Gardner,Minshew,JAC,QB,23,0,QB,average,16.81,30,1.36,,16.81,16.81,30
+14067,Gardner,Minshew,JAC,QB,23,0,QB,robust,16.81,30,1.36,0,16.81,16.81,30
+14067,Gardner,Minshew,JAC,QB,23,0,QB,weighted,16.81,30,1.36,,16.81,16.81,30
+14068,Ryan,Finley,CIN,QB,25,0,QB,average,0,35,0,,0,0,
+14068,Ryan,Finley,CIN,QB,25,0,QB,robust,0,35,0,0,0,0,
+14068,Ryan,Finley,CIN,QB,25,0,QB,weighted,0,35,0,,0,0,
+14069,Easton,Stick,LAC,QB,24,0,QB,average,0,35,0,,0,0,
+14069,Easton,Stick,LAC,QB,24,0,QB,robust,0,35,0,0,0,0,
+14069,Easton,Stick,LAC,QB,24,0,QB,weighted,0,35,0,,0,0,
+14070,David,Blough,DET,QB,24,0,QB,average,0,35,0,,0,0,
+14070,David,Blough,DET,QB,24,0,QB,robust,0,35,0,0,0,0,
+14070,David,Blough,DET,QB,24,0,QB,weighted,0,35,0,,0,0,
+14071,David,Montgomery,CHI,RB,22,0,RB,average,8.78,44,0.275,,8.78,8.78,44
+14071,David,Montgomery,CHI,RB,22,0,RB,robust,8.78,44,0.275,0,8.78,8.78,44
+14071,David,Montgomery,CHI,RB,22,0,RB,weighted,8.78,44,0.275,,8.78,8.78,44
+14072,Benny,Snell,PIT,RB,21,0,RB,average,0.99,94,0.025,,0.99,0.99,
+14072,Benny,Snell,PIT,RB,21,0,RB,robust,0.99,94,0.025,0,0.99,0.99,
+14072,Benny,Snell,PIT,RB,21,0,RB,weighted,0.99,93,0.025,,0.99,0.99,
+14073,Josh,Jacobs,OAK,RB,21,0,RB,average,15.36,15,0.0599999999999987,,15.36,15.36,15
+14073,Josh,Jacobs,OAK,RB,21,0,RB,robust,15.36,15,0.0599999999999987,0,15.36,15.36,15
+14073,Josh,Jacobs,OAK,RB,21,0,RB,weighted,15.36,15,0.0599999999999987,,15.36,15.36,15
+14074,Dexter,Williams,GBP,RB,22,0,RB,average,0.82,98,0.085,,0.82,0.82,
+14074,Dexter,Williams,GBP,RB,22,0,RB,robust,0.82,98,0.085,0,0.82,0.82,
+14074,Dexter,Williams,GBP,RB,22,0,RB,weighted,0.82,97,0.085,Inf,0.82,0.82,
+14075,Damien,Harris,NEP,RB,22,0,RB,average,2.85,76,0.165,,2.85,2.85,
+14075,Damien,Harris,NEP,RB,22,0,RB,robust,2.85,76,0.165,0,2.85,2.85,
+14075,Damien,Harris,NEP,RB,22,0,RB,weighted,2.85,75,0.165,,2.85,2.85,
+14076,Trayveon,Williams,CIN,RB,22,0,RB,average,2.22,80,0.19,,2.22,2.22,
+14076,Trayveon,Williams,CIN,RB,22,0,RB,robust,2.22,80,0.19,0,2.22,2.22,
+14076,Trayveon,Williams,CIN,RB,22,0,RB,weighted,2.22,79,0.19,,2.22,2.22,
+14079,Miles,Sanders,PHI,RB,22,0,RB,average,9.41,41,0.34,,9.41,9.41,41
+14079,Miles,Sanders,PHI,RB,22,0,RB,robust,9.41,41,0.34,0,9.41,9.41,41
+14079,Miles,Sanders,PHI,RB,22,0,RB,weighted,9.41,41,0.34,,9.41,9.41,41
+14080,Devin,Singletary,BUF,RB,22,0,RB,average,11.47,30,0.474999999999998,,11.47,11.47,30
+14080,Devin,Singletary,BUF,RB,22,0,RB,robust,11.47,30,0.474999999999998,0,11.47,11.47,30
+14080,Devin,Singletary,BUF,RB,22,0,RB,weighted,11.47,30,0.474999999999998,,11.47,11.47,30
+14081,Myles,Gaskin,MIA,RB,22,0,RB,average,1.5,88,0.15,,1.5,1.5,
+14081,Myles,Gaskin,MIA,RB,22,0,RB,robust,1.5,88,0.15,0,1.5,1.5,
+14081,Myles,Gaskin,MIA,RB,22,0,RB,weighted,1.5,87,0.15,Inf,1.5,1.5,
+14082,Bryce,Love,WAS,RB,22,0,RB,average,0,110,0,,0,0,
+14082,Bryce,Love,WAS,RB,22,0,RB,robust,0,110,0,0,0,0,
+14082,Bryce,Love,WAS,RB,22,0,RB,weighted,0,109,0,,0,0,
+14083,Travis,Homer,SEA,RB,21,0,RB,average,0.04,109,0.04,,0.04,0.04,
+14083,Travis,Homer,SEA,RB,21,0,RB,robust,0.04,109,0.04,0,0.04,0.04,
+14083,Travis,Homer,SEA,RB,21,0,RB,weighted,0.04,108,0.04,,0.04,0.04,
+14085,Tony,Pollard,DAL,RB,22,0,RB,average,5.62,60,0.305000000000001,,5.62,5.62,
+14085,Tony,Pollard,DAL,RB,22,0,RB,robust,5.62,60,0.305000000000001,0,5.62,5.62,
+14085,Tony,Pollard,DAL,RB,22,0,RB,weighted,5.62,60,0.305000000000001,,5.62,5.62,
+14086,Justice,Hill,BAL,RB,22,0,RB,average,7.87,50,0.32,,7.87,7.87,50
+14086,Justice,Hill,BAL,RB,22,0,RB,robust,7.87,50,0.32,0,7.87,7.87,50
+14086,Justice,Hill,BAL,RB,22,0,RB,weighted,7.87,50,0.32,,7.87,7.87,50
+14087,Darrell,Henderson,LAR,RB,22,0,RB,average,3.83,70,0.290000000000001,,3.83,3.83,
+14087,Darrell,Henderson,LAR,RB,22,0,RB,robust,3.83,70,0.290000000000001,0,3.83,3.83,
+14087,Darrell,Henderson,LAR,RB,22,0,RB,weighted,3.83,69,0.290000000000001,,3.83,3.83,
+14088,Rodney,Anderson,CIN,RB,23,0,RB,average,0,110,0,,0,0,
+14088,Rodney,Anderson,CIN,RB,23,0,RB,robust,0,110,0,0,0,0,
+14088,Rodney,Anderson,CIN,RB,23,0,RB,weighted,0,109,0,,0,0,
+14092,Jalin,Moore,NYJ,RB,24,0,RB,average,0,110,,,0,0,
+14092,Jalin,Moore,NYJ,RB,24,0,RB,robust,0,110,,0,0,0,
+14092,Jalin,Moore,NYJ,RB,24,0,RB,weighted,0,109,,,0,0,
+14093,Ryquell,Armstead,JAC,RB,23,0,RB,average,2.57,78,0.325,,2.57,2.57,
+14093,Ryquell,Armstead,JAC,RB,23,0,RB,robust,2.57,78,0.325,0,2.57,2.57,
+14093,Ryquell,Armstead,JAC,RB,23,0,RB,weighted,2.57,77,0.325,,2.57,2.57,
+14094,Jordan,Scarlett,CAR,RB,24,0,RB,average,1.37,89,0.0800000000000001,,1.37,1.37,
+14094,Jordan,Scarlett,CAR,RB,24,0,RB,robust,1.37,89,0.0800000000000001,0,1.37,1.37,
+14094,Jordan,Scarlett,CAR,RB,24,0,RB,weighted,1.37,88,0.0800000000000001,,1.37,1.37,
+14095,Ty,Johnson,DET,RB,22,0,RB,average,0.76,99,0.165,,0.76,0.76,
+14095,Ty,Johnson,DET,RB,22,0,RB,robust,0.76,99,0.165,0,0.76,0.76,
+14095,Ty,Johnson,DET,RB,22,0,RB,weighted,0.76,98,0.165,Inf,0.76,0.76,
+14096,Devine,Ozigbo,JAC,RB,23,0,RB,average,0.71,100,0.235,,0.71,0.71,
+14096,Devine,Ozigbo,JAC,RB,23,0,RB,robust,0.71,100,0.235,0,0.71,0.71,
+14096,Devine,Ozigbo,JAC,RB,23,0,RB,weighted,0.71,99,0.235,,0.71,0.71,
+14097,Qadree,Ollison,ATL,RB,23,0,RB,average,0.28,106,0.08,,0.28,0.28,
+14097,Qadree,Ollison,ATL,RB,23,0,RB,robust,0.28,106,0.08,0,0.28,0.28,
+14097,Qadree,Ollison,ATL,RB,23,0,RB,weighted,0.28,105,0.08,,0.28,0.28,
+14101,N'Keal,Harry,NEP,WR,22,0,WR,average,0,155,0,,0,0,
+14101,N'Keal,Harry,NEP,WR,22,0,WR,robust,0,155,0,0,0,0,
+14101,N'Keal,Harry,NEP,WR,22,0,WR,weighted,0,157,0,,0,0,
+14102,DK,Metcalf,SEA,WR,22,0,WR,average,9.21,56,0.195,,9.21,9.21,
+14102,DK,Metcalf,SEA,WR,22,0,WR,robust,9.21,56,0.195,0,9.21,9.21,
+14102,DK,Metcalf,SEA,WR,22,0,WR,weighted,9.21,56,0.195,,9.21,9.21,
+14103,Riley,Ridley,CHI,WR,23,0,WR,average,1.06,144,0.0700000000000001,,1.06,1.06,
+14103,Riley,Ridley,CHI,WR,23,0,WR,robust,1.06,144,0.0700000000000001,0,1.06,1.06,
+14103,Riley,Ridley,CHI,WR,23,0,WR,weighted,1.06,146,0.0700000000000001,,1.06,1.06,
+14104,A.J.,Brown,TEN,WR,22,0,WR,average,9.49,54,0.275,,9.49,9.49,
+14104,A.J.,Brown,TEN,WR,22,0,WR,robust,9.49,54,0.275,0,9.49,9.49,
+14104,A.J.,Brown,TEN,WR,22,0,WR,weighted,9.49,54,0.275,,9.49,9.49,
+14105,Marquise,Brown,BAL,WR,22,0,WR,average,10.2,48,0.00500000000000078,,10.2,10.2,
+14105,Marquise,Brown,BAL,WR,22,0,WR,robust,10.2,48,0.00500000000000078,0,10.2,10.2,
+14105,Marquise,Brown,BAL,WR,22,0,WR,weighted,10.2,48,0.00500000000000078,,10.2,10.2,
+14106,Hakeem,Butler,ARI,WR,23,0,WR,average,0,155,0,,0,0,
+14106,Hakeem,Butler,ARI,WR,23,0,WR,robust,0,155,0,0,0,0,
+14106,Hakeem,Butler,ARI,WR,23,0,WR,weighted,0,157,0,,0,0,
+14107,JJ,Arcega-Whiteside,PHI,WR,23,0,WR,average,2.32,117,0.0300000000000003,,2.32,2.32,
+14107,JJ,Arcega-Whiteside,PHI,WR,23,0,WR,robust,2.32,117,0.0300000000000003,0,2.32,2.32,
+14107,JJ,Arcega-Whiteside,PHI,WR,23,0,WR,weighted,2.32,118,0.0300000000000003,,2.32,2.32,
+14109,Terry,McLaurin,WAS,WR,23,0,WR,average,8.72,60,0.42,,8.72,8.72,
+14109,Terry,McLaurin,WAS,WR,23,0,WR,robust,8.72,60,0.42,0,8.72,8.72,
+14109,Terry,McLaurin,WAS,WR,23,0,WR,weighted,8.72,60,0.42,,8.72,8.72,
+14112,Parris,Campbell,IND,WR,22,0,WR,average,3.8,104,0.195,,3.8,3.8,
+14112,Parris,Campbell,IND,WR,22,0,WR,robust,3.8,104,0.195,0,3.8,3.8,
+14112,Parris,Campbell,IND,WR,22,0,WR,weighted,3.8,104,0.195,,3.8,3.8,
+14113,Mecole,Hardman,KCC,WR,21,0,WR,average,10.56,44,0.0600000000000005,,10.56,10.56,
+14113,Mecole,Hardman,KCC,WR,21,0,WR,robust,10.56,44,0.0600000000000005,0,10.56,10.56,
+14113,Mecole,Hardman,KCC,WR,21,0,WR,weighted,10.56,44,0.0600000000000005,,10.56,10.56,
+14114,Kelvin,Harmon,WAS,WR,23,0,WR,average,0.49,153,0.31,,0.49,0.49,
+14114,Kelvin,Harmon,WAS,WR,23,0,WR,robust,0.49,153,0.31,0,0.49,0.49,
+14114,Kelvin,Harmon,WAS,WR,23,0,WR,weighted,0.49,155,0.31,,0.49,0.49,
+14116,Jalen,Hurd,SFO,WR,23,0,WR,average,0,155,0,,0,0,
+14116,Jalen,Hurd,SFO,WR,23,0,WR,robust,0,155,0,0,0,0,
+14116,Jalen,Hurd,SFO,WR,23,0,WR,weighted,0,157,0,,0,0,
+14120,Gary,Jennings,SEA,WR,22,0,WR,average,2.46,114,0.0549999999999997,,2.46,2.46,
+14120,Gary,Jennings,SEA,WR,22,0,WR,robust,2.46,114,0.0549999999999997,0,2.46,2.46,
+14120,Gary,Jennings,SEA,WR,22,0,WR,weighted,2.46,115,0.0550000000000002,,2.46,2.46,
+14121,Andy,Isabella,ARI,WR,23,0,WR,average,3.42,107,0.200000000000001,,3.42,3.42,
+14121,Andy,Isabella,ARI,WR,23,0,WR,robust,3.42,107,0.200000000000001,0,3.42,3.42,
+14121,Andy,Isabella,ARI,WR,23,0,WR,weighted,3.42,107,0.200000000000001,Inf,3.42,3.42,
+14122,Darius,Slayton,NYG,WR,22,0,WR,average,1.25,140,0.0350000000000001,,1.25,1.25,
+14122,Darius,Slayton,NYG,WR,22,0,WR,robust,1.25,140,0.0350000000000001,0,1.25,1.25,
+14122,Darius,Slayton,NYG,WR,22,0,WR,weighted,1.25,142,0.0350000000000001,,1.25,1.25,
+14123,Hunter,Renfrow,OAK,WR,24,0,WR,average,1.99,123,0.04,,1.99,1.99,
+14123,Hunter,Renfrow,OAK,WR,24,0,WR,robust,1.99,123,0.04,0,1.99,1.99,
+14123,Hunter,Renfrow,OAK,WR,24,0,WR,weighted,1.99,124,0.0100000000000002,,1.99,1.99,
+14124,KeeSean,Johnson,ARI,WR,23,0,WR,average,6.91,76,0.209999999999999,,6.91,6.91,
+14124,KeeSean,Johnson,ARI,WR,23,0,WR,robust,6.91,76,0.209999999999999,0,6.91,6.91,
+14124,KeeSean,Johnson,ARI,WR,23,0,WR,weighted,6.91,76,0.209999999999999,,6.91,6.91,
+14125,Miles,Boykin,BAL,WR,23,0,WR,average,5.55,86,0.18,,5.55,5.55,
+14125,Miles,Boykin,BAL,WR,23,0,WR,robust,5.55,86,0.18,0,5.55,5.55,
+14125,Miles,Boykin,BAL,WR,23,0,WR,weighted,5.55,86,0.18,Inf,5.55,5.55,
+14126,Preston,Williams,MIA,WR,22,0,WR,average,4.8,94,0.215,,4.8,4.8,
+14126,Preston,Williams,MIA,WR,22,0,WR,robust,4.8,94,0.215,0,4.8,4.8,
+14126,Preston,Williams,MIA,WR,22,0,WR,weighted,4.8,94,0.215,,4.8,4.8,
+14127,Jakobi,Meyers,NEP,WR,23,0,WR,average,2.28,119,0.13,,2.28,2.28,
+14127,Jakobi,Meyers,NEP,WR,23,0,WR,robust,2.28,119,0.13,0,2.28,2.28,
+14127,Jakobi,Meyers,NEP,WR,23,0,WR,weighted,2.28,120,0.13,,2.28,2.28,
+14136,Deebo,Samuel,SFO,WR,23,0,WR,average,7.09,73,0.135,,7.09,7.09,
+14136,Deebo,Samuel,SFO,WR,23,0,WR,robust,7.09,73,0.135,0,7.09,7.09,
+14136,Deebo,Samuel,SFO,WR,23,0,WR,weighted,7.09,73,0.135,Inf,7.09,7.09,
+14137,Noah,Fant,DEN,TE,22,0,TE,average,6.7,27,0.225000000000001,,6.7,6.7,27
+14137,Noah,Fant,DEN,TE,22,0,TE,robust,6.7,27,0.225000000000001,0,6.7,6.7,27
+14137,Noah,Fant,DEN,TE,22,0,TE,weighted,6.7,27,0.225000000000001,,6.7,6.7,27
+14138,T.J.,Hockenson,DET,TE,22,0,TE,average,9.74,9,0.0900000000000016,,9.74,9.74,9
+14138,T.J.,Hockenson,DET,TE,22,0,TE,robust,9.74,9,0.0900000000000016,0,9.74,9.74,9
+14138,T.J.,Hockenson,DET,TE,22,0,TE,weighted,9.74,9,0.0900000000000016,,9.74,9.74,9
+14140,Jace,Sternberger,GBP,TE,23,0,TE,average,0,79,0,,0,0,
+14140,Jace,Sternberger,GBP,TE,23,0,TE,robust,0,79,0,0,0,0,
+14140,Jace,Sternberger,GBP,TE,23,0,TE,weighted,0,80,0,,0,0,
+14141,Irv,Smith Jr.,MIN,TE,21,0,TE,average,1.32,61,0.02,,1.32,1.32,
+14141,Irv,Smith Jr.,MIN,TE,21,0,TE,robust,1.32,61,0.02,0,1.32,1.32,
+14141,Irv,Smith Jr.,MIN,TE,21,0,TE,weighted,1.32,62,0.0199999999999998,,1.32,1.32,
+14142,Kaden,Smith,SFO,TE,22,0,TE,average,0.9,73,0.14,,0.9,0.9,
+14142,Kaden,Smith,SFO,TE,22,0,TE,robust,0.9,73,0.14,0,0.9,0.9,
+14142,Kaden,Smith,SFO,TE,22,0,TE,weighted,0.9,74,0.14,,0.9,0.9,
+14143,Dawson,Knox,BUF,TE,23,0,TE,average,1.28,63,0.0449999999999999,,1.28,1.28,
+14143,Dawson,Knox,BUF,TE,23,0,TE,robust,1.28,63,0.0449999999999999,0,1.28,1.28,
+14143,Dawson,Knox,BUF,TE,23,0,TE,weighted,1.28,64,0.0449999999999999,Inf,1.28,1.28,
+14146,Drew,Sample,CIN,TE,23,0,TE,average,1.38,59,0.02,,1.38,1.38,
+14146,Drew,Sample,CIN,TE,23,0,TE,robust,1.38,59,0.02,0,1.38,1.38,
+14146,Drew,Sample,CIN,TE,23,0,TE,weighted,1.38,59,0.02,Inf,1.38,1.38,
+14195,Kahale,Warring,HOU,TE,22,0,TE,average,0,79,0,,0,0,
+14195,Kahale,Warring,HOU,TE,22,0,TE,robust,0,79,0,0,0,0,
+14195,Kahale,Warring,HOU,TE,22,0,TE,weighted,0,80,0,,0,0,
+14208,Diontae,Johnson,PIT,WR,23,0,WR,average,3.03,110,0.11,,3.03,3.03,
+14208,Diontae,Johnson,PIT,WR,23,0,WR,robust,3.03,110,0.11,0,3.03,3.03,
+14208,Diontae,Johnson,PIT,WR,23,0,WR,weighted,3.03,111,0.11,,3.03,3.03,
+14209,Josh,Oliver,JAC,TE,22,0,TE,average,1.15,68,0.125,,1.15,1.15,
+14209,Josh,Oliver,JAC,TE,22,0,TE,robust,1.15,68,0.125,0,1.15,1.15,
+14209,Josh,Oliver,JAC,TE,22,0,TE,weighted,1.15,69,0.125,,1.15,1.15,
+14223,Alexander,Mattison,MIN,RB,21,0,RB,average,5.11,63,0.754999999999999,,5.11,5.11,
+14223,Alexander,Mattison,MIN,RB,21,0,RB,robust,5.11,63,0.754999999999999,0,5.11,5.11,
+14223,Alexander,Mattison,MIN,RB,21,0,RB,weighted,5.11,63,0.754999999999999,,5.11,5.11,
+14231,Trevon,Wesco,NYJ,TE,24,0,TE,average,0.56,76,0.27,,0.56,0.56,
+14231,Trevon,Wesco,NYJ,TE,24,0,TE,robust,0.56,76,0.27,0,0.56,0.56,
+14231,Trevon,Wesco,NYJ,TE,24,0,TE,weighted,0.56,77,0.27,,0.56,0.56,
+14239,Foster,Moreau,OAK,TE,22,0,TE,average,1.24,64,0.0249999999999999,,1.24,1.24,
+14239,Foster,Moreau,OAK,TE,22,0,TE,robust,1.24,64,0.0249999999999999,0,1.24,1.24,
+14239,Foster,Moreau,OAK,TE,22,0,TE,weighted,1.24,65,0.0249999999999997,,1.24,1.24,
+14240,Zach,Gentry,PIT,TE,23,0,TE,average,0.16,78,0.16,,0.16,0.16,
+14240,Zach,Gentry,PIT,TE,23,0,TE,robust,0.16,78,0.16,0,0.16,0.16,
+14240,Zach,Gentry,PIT,TE,23,0,TE,weighted,0.16,79,0.16,,0.16,0.16,
+14265,Travis,Fulgham,DET,WR,24,0,WR,average,1.3,137,0.0149999999999999,,1.3,1.3,
+14265,Travis,Fulgham,DET,WR,24,0,WR,robust,1.3,137,0.0149999999999999,0,1.3,1.3,
+14265,Travis,Fulgham,DET,WR,24,0,WR,weighted,1.3,139,0.0149999999999999,,1.3,1.3,
+14267,Juwann,Winfree,DEN,WR,23,0,WR,average,3.04,109,0.00999999999999979,,3.04,3.04,
+14267,Juwann,Winfree,DEN,WR,23,0,WR,robust,3.04,109,0.00999999999999979,0,3.04,3.04,
+14267,Juwann,Winfree,DEN,WR,23,0,WR,weighted,3.04,109,0.00999999999999979,Inf,3.04,3.04,
+14280,Scott,Miller,TBB,WR,22,0,WR,average,0.65,151,0.145,,0.65,0.65,
+14280,Scott,Miller,TBB,WR,22,0,WR,robust,0.65,151,0.145,0,0.65,0.65,
+14280,Scott,Miller,TBB,WR,22,0,WR,weighted,0.65,153,0.145,,0.65,0.65,
+14284,Darwin,Thompson,KCC,RB,22,0,RB,average,1.61,86,0.0900000000000001,,1.61,1.61,
+14284,Darwin,Thompson,KCC,RB,22,0,RB,robust,1.61,86,0.0900000000000001,0,1.61,1.61,
+14284,Darwin,Thompson,KCC,RB,22,0,RB,weighted,1.61,85,0.0899999999999999,Inf,1.61,1.61,
+14287,Cullen,Gillaspia,HOU,RB,24,0,RB,average,0.31,105,0.045,,0.31,0.31,
+14287,Cullen,Gillaspia,HOU,RB,24,0,RB,robust,0.31,105,0.045,0,0.31,0.31,
+14287,Cullen,Gillaspia,HOU,RB,24,0,RB,weighted,0.31,104,0.045,,0.31,0.31,
+14289,Kerrith,Whyte,CHI,RB,23,0,RB,average,0.25,107,0.155,,0.25,0.25,
+14289,Kerrith,Whyte,CHI,RB,23,0,RB,robust,0.25,107,0.155,0,0.25,0.25,
+14289,Kerrith,Whyte,CHI,RB,23,0,RB,weighted,0.25,106,0.155,,0.25,0.25,
+14294,Tommy,Sweeney,BUF,TE,24,0,TE,average,0,79,0,,0,0,
+14294,Tommy,Sweeney,BUF,TE,24,0,TE,robust,0,79,0,0,0,0,
+14294,Tommy,Sweeney,BUF,TE,24,0,TE,weighted,0,80,0,,0,0,
+14295,Chandler,Cox,MIA,RB,23,0,RB,average,0.15,108,0.13,,0.15,0.15,
+14295,Chandler,Cox,MIA,RB,23,0,RB,robust,0.15,108,0.13,0,0.15,0.15,
+14295,Chandler,Cox,MIA,RB,23,0,RB,weighted,0.15,107,0.13,,0.15,0.15,
+14297,John,Ursua,SEA,WR,25,0,WR,average,2.45,115,0.11,,2.45,2.45,
+14297,John,Ursua,SEA,WR,25,0,WR,robust,2.45,115,0.11,0,2.45,2.45,
+14297,John,Ursua,SEA,WR,25,0,WR,weighted,2.45,116,0.11,,2.45,2.45,
+14317,Keelan,Doss,OAK,WR,23,0,WR,average,0,155,0,,0,0,
+14317,Keelan,Doss,OAK,WR,23,0,WR,robust,0,155,0,0,0,0,
+14317,Keelan,Doss,OAK,WR,23,0,WR,weighted,0,157,0,,0,0,
+14319,Andrew,Beck,DEN,TE,23,0,TE,average,0,79,0,,0,0,
+14319,Andrew,Beck,DEN,TE,23,0,TE,robust,0,79,0,0,0,0,
+14319,Andrew,Beck,DEN,TE,23,0,TE,weighted,0,80,0,,0,0,
+14330,Darrius,Shepherd,GBP,WR,24,0,WR,average,0.98,146,0.0700000000000001,,0.98,0.98,
+14330,Darrius,Shepherd,GBP,WR,24,0,WR,robust,0.98,146,0.0700000000000001,0,0.98,0.98,
+14330,Darrius,Shepherd,GBP,WR,24,0,WR,weighted,0.98,148,0.07,,0.98,0.98,
+14331,D'Ernest,Johnson,CLE,RB,23,0,RB,average,3.63,71,0.205,,3.63,3.63,
+14331,D'Ernest,Johnson,CLE,RB,23,0,RB,robust,3.63,71,0.205,0,3.63,3.63,
+14331,D'Ernest,Johnson,CLE,RB,23,0,RB,weighted,3.63,70,0.205,,3.63,3.63,
+14336,Jon'Vea,Johnson,DAL,WR,24,0,WR,average,0,155,0,,0,0,
+14336,Jon'Vea,Johnson,DAL,WR,24,0,WR,robust,0,155,0,0,0,0,
+14336,Jon'Vea,Johnson,DAL,WR,24,0,WR,weighted,0,157,0,,0,0,
+14501,Austin,Fort,DEN,TE,24,0,TE,average,0,79,0,,0,0,
+14501,Austin,Fort,DEN,TE,24,0,TE,robust,0,79,0,0,0,0,
+14501,Austin,Fort,DEN,TE,24,0,TE,weighted,0,80,0,,0,0,
+14544,Marcus,Simms,JAC,WR,22,0,WR,average,0,155,0,,0,0,
+14544,Marcus,Simms,JAC,WR,22,0,WR,robust,0,155,0,0,0,0,
+14544,Marcus,Simms,JAC,WR,22,0,WR,weighted,0,157,0,,0,0,
