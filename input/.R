@@ -1,6 +1,6 @@
 
 ## --
-## draft data pull
+## data pull
 ##
 ## --
 
@@ -10,98 +10,108 @@
 library(data.table)
 library(ffanalytics)
 
+weeks <- 
+  data.table(
+    "date" = 
+      seq(
+        as.Date("2019-09-05")
+        ,as.Date("2020-01-01")
+      ,by = 1
+      )
+    ,"w" = rep(1:17,times = 1, each = 7)
+  )
+
+
+if (Sys.Date() < min(weeks$date)){
+  
+  current_week <- 0
+
+} else {
+    
+  current_week <- weeks[date == Sys.Date(),w]
+
+}
+
+weeks_to_end <- seq(current_week,16)
+
 # sources ----
 
-src <- 
+
+# pull all sources for the current week
+src_current <- 
   c(
-  "CBS" # has projections
+  "CBS" 
   ,"ESPN"
   ,"FantasyData"
-  ,"FantasyPros" # has projections
-  ,"FantasySharks" # has projections
-#  ,"FFToday" # errors out august 23rd
-  ,"FleaFlicker" # has projections
-  ,"NumberFire" # has projections
-  ,"Yahoo" # has projections
-  ,"FantasyFootballNerd"
-  ,"NFL" # has projections
+  ,"FantasyPros" 
+  ,"FantasySharks" 
+#  ,"FFToday" 
+  ,"FleaFlicker" 
+  ,"NumberFire" 
+  ,"Yahoo" 
+  ,"FantasyFootballNerd" 
+  ,"NFL"
   ,"RTSports"
   ,"Walterfootball"
   )
 
-src1 <- 
+
+# only some sources forecast out - watch carefully
+src_future <- 
   c(
-  "CBS" # no wk1 projections
-  ,"ESPN"
-  ,"FantasyData"
-  ,"FantasyPros" # has projections
-  ,"FantasySharks" # has projections
-#  ,"FFToday" # errors out august 16th
-  ,"FleaFlicker" # no wk1 projections
-  ,"NumberFire" # has projections
-  ,"Yahoo" # no wk1 projections
-  ,"FantasyFootballNerd" # has projections
-  ,"NFL" # has projections
-  ,"RTSports"
-  ,"Walterfootball"
+  "FantasySharks" 
+  ,"Yahoo" 
+  ,"NFL" 
   )
 
 # data scrape ----
 
-# d <- 
-#   scrape_data(
-#     src = src
-#     ,week = 0
-#     ,pos = c("QB","WR","RB","TE","DST")
-#   )
+if (current_week == 0){
 
-# d1 <- 
-#   scrape_data(
-#     src = src1
-#     ,week = 1
-#     ,pos = c("QB","WR","RB","TE","DST")
-#   )
-
-d2 <- 
-  scrape_data(
-    src = src1
-    ,week = 2
-    ,pos = c("QB","WR","RB","TE","DST")
+  d_draft <-
+    scrape_data(
+      src = src_current
+      ,week = 0
+      ,pos = c("QB","WR","RB","TE","DST")
     )
 
-d2_yahoo <- 
-  scrape_data(
-    src = "Yahoo"
-    ,week = 2
-    ,pos = c("QB","WR","RB","TE","DST")
+} else {
+  
+  d_current <-
+    scrape_data(
+      src = src_current
+      ,week = current_week
+      ,pos = c("QB","WR","RB","TE","DST")
     )
+  
+  d_future <- replicate(list(),n = length(weeks_to_end))
+  
 
-d3 <- 
-  scrape_data(
-    src = src1
-    ,week = 3
-    ,pos = c("QB","WR","RB","TE","DST")
-  )
+  for (i in 1:length(weeks_to_end)){
 
-d4 <- 
-  scrape_data(
-    src = src1
-    ,week = 4
-    ,pos = c("QB","WR","RB","TE","DST")
-  )
+    Sys.sleep(600)
+      
+    d_future[[i]] <-
+      scrape_data(
+        src = src_future
+        ,week = weeks_to_end[i]
+        ,pos = c("QB","WR","RB","TE","DST")
+      )
 
-d5 <- 
-  scrape_data(
-    src = src1
-    ,week = 5
-    ,pos = c("QB","WR","RB","TE","DST")
-  )
+  }
+  
+}
+
+# d2_yahoo <- 
+#   scrape_data(
+#     src = "Yahoo"
+#     ,week = 2
+#     ,pos = c("QB","WR","RB","TE","DST")
+#     )
 
 # save raw data ----
 
-# save(d,d1,d2,d3,player_table,file = paste0(Sys.Date(),".RData"))
-save(d2,d3,d4,d5,player_table,file = paste0(Sys.Date(),".RData"))
-
+save(d_current,d_future,player_table,file = paste0(Sys.Date(),".RData"))
 
 # set leauge rules ---- 
 
@@ -211,119 +221,29 @@ rules <-
 
 # make projections ---- 
 
-# p <- projections_table(d,scoring_rules = rules)
-# 
-# p <- p %>% add_player_info()
+proj <-
+  function(dl){
 
-# p1 <- projections_table(d1,scoring_rules = rules)
-# 
-# p1 <- p1 %>% add_player_info()
-# 
+    p <- projections_table(dl,scoring_rules = rules)
 
-p2 <- projections_table(d2,scoring_rules = rules)
+    p <- p %>% add_player_info()
 
-p2 <- p2 %>% add_player_info()
+    p <- data.table(p)
+    
+    return(p)
 
-p2_yahoo <- projections_table(d2_yahoo,scoring_rules = rules)
+  }
 
-p2_yahoo <- p2_yahoo %>% add_player_info()
+p_current <- proj(d_current)
 
-p3 <- projections_table(d3,scoring_rules = rules)
+p_future <- lapply(X = d_future, FUN = proj)
 
-p3 <- p3 %>% add_player_info()
+for (i in 1:length(weeks_to_end)){
 
-p4 <- projections_table(d4,scoring_rules = rules)
+ p_future[[i]][ ,week := i + current_week - 1] 
+   
+}
 
-p4 <- p4 %>% add_player_info()
+p_future <- rbindlist(p_future)
 
-p5 <- projections_table(d5,scoring_rules = rules)
-
-p5 <- p5 %>% add_player_info()
-
-# p <- data.table(p)
-
-# p1 <- data.table(p1)
-
-p2 <- data.table(p2)
-
-p2_yahoo <- data.table(p2_yahoo)
-
-p3 <- data.table(p3)
-
-p4 <- data.table(p4)
-
-p5 <- data.table(p5)
-
-# yahoo <- yahoo_draft()
-# 
-# yahoo <- data.table(yahoo)
-# 
-# dst_relate <- 
-#   data.table(
-#   cbind(
-#   "yahoo" =
-#     c("Chi","LAR","Jax","Bal","Min","LAC","Cle","Hou","NE","Atl","NO","Car","SF","GB","Det","Dal","Pit","Ten","KC","NYJ","Phi","Den","Sea","Ind","Buf","NYG","Ari","Cin","LAR","Oak","TB","Mia","Was")
-#   ,"name" =
-#     c("CHI","LAR","JAC","BAL","MIN","LAC","CLE","HOU","NEP","ATL","NOS","CAR","SFO","GBP","DET","DAL","PIT","TEN","KCC","NYJ","PHI","DEN","SEA","IND","BUF","NYG","ARI","CIN","LAR","OAK","TBB","MIA","WAS")
-#   )
-# )
-# 
-# yahoo[
-#   dst_relate
-#   ,other_name := i.name
-#   ,on = c(team = "yahoo")
-# ]
-# 
-# yahoo[
-#   p[pos == "DST",]
-#   ,dst_id := i.id
-#   ,on = c(other_name = "team")
-# ]
-# 
-# yahoo[
-#   pos == "DEF"
-#   &is.na(id)
-#   ,id := dst_id
-# ]
-
-# p[
-#   p1[avg_type == "robust",]
-#   ,points_wk1 := i.points
-#   ,on = "id"
-# ]
-# 
-# p[
-#   p2[avg_type == "robust",]
-#   ,points_wk2 := i.points
-#   ,on = "id"
-# ]
-# 
-# p[
-#   p3[avg_type == "robust",]
-#   ,points_wk3 := i.points
-#   ,on = "id"
-# ]
-
-
-# save data ---- 
-
-#save(p,p1,p2,p3,yahoo, file = ".RData")
-#save(p1,p2,p3,yahoo, file = ".RData")
-#save(p,yahoo, file = "../draft/.RData")
-#save(p2, file = ".RData")
-
-save(p2,p3,p4,p5, file = ".RData")
-
-#fwrite(p,"p.csv")
-
-# fwrite(p1,"p1.csv")
-
-fwrite(p2,"p2.csv")
-
-fwrite(p3,"p3.csv")
-
-fwrite(p4,"p4.csv")
-
-fwrite(p5,"p5.csv")
-
-fwrite(p2_yahoo,"yahoo.csv")
+save(current_week,weeks_to_end,p_future,p_current, file = ".RData")

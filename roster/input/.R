@@ -13,12 +13,18 @@ library(data.table)
 
 load(file = "../../input/.RData")
 
+# check current week
+
+current_week
+
+weeks_to_end
 
 d <- 
-  p2[
+  p_future[
     avg_type == "weighted"
     ,.(
-    id
+    week
+    ,id
     ,first_name
     ,last_name
     ,team
@@ -28,6 +34,28 @@ d <-
     ,ceiling
     )
   ]
+
+#d[ ,score := ceiling^(3/6)*points^(2/6)*floor^(1/6)]
+
+d[ ,score := 0.9^(week - current_week)*ceiling^(9/12)*points^(2/12)*floor^(1/12)]
+
+d <-
+  d[
+    ,.(
+      floor = sum(floor)
+      ,points = sum(points)
+      ,score = sum(score)
+      ,ceiling = sum(ceiling)
+      )
+    ,by =
+      .(
+      id
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ) 
+    ]
 
 # roster updates
 
@@ -151,10 +179,19 @@ d[
 &(position == "WR"|position == "TE")&(last_name != "Morris")
 ,
 ][
-order(-floor),
+order(-(ceiling - score)),
 ][
-1:14
-,.(dp,first_name,last_name,team,position,floor,points,ceiling)
+1:35
+,.(
+  dp
+  ,first_name
+  ,last_name
+  ,team
+  ,position
+  ,"floor" = round(floor,0)
+  ,"score" = round(score,0)
+  ,"ceiling" = round(ceiling,0)
+)
 ]
 
 d[
@@ -163,37 +200,40 @@ d[
 &(position == "WR"|position == "TE")&(last_name != "Morris")
 ,
 ][
-order(-ceiling),
+order(-score),
 ][
-1:14
-,.(dp,first_name,last_name,team,position,floor,points,ceiling)
+1:35
+,.(
+  dp
+  ,first_name
+  ,last_name
+  ,team
+  ,position
+  ,"floor" = round(floor,0)
+  ,"points" = round(points,0)
+  ,"score" = round(score,0)
+  ,"ceiling" = round(ceiling,0)
+)
 ]
-
-
-
 
 d[
 (team != "FA")
 &(drafted == 0|dp == 2)
 &(position == "RB")
-&(last_name != "Morris")
 ,
 ][
-order(-ceiling),
+order(-score),
 ][
-1:14
-,.(dp,first_name,last_name,team,position,floor,points,ceiling)
-]
-
-
-d[
-(team != "FA")
-&(drafted == 0|dp == 2)
-&(position == "DST")
-,
-][
-order(-ceiling),
-][
-1:8
-,.(dp,first_name,last_name,team,position,floor,points,ceiling)
+1:35
+,.(
+  dp
+  ,first_name
+  ,last_name
+  ,team
+  ,position
+  ,"floor" = round(floor,0)
+  ,"points" = round(points,0)
+  ,"score" = round(score,0)
+  ,"ceiling" = round(ceiling,0)
+)
 ]
