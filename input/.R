@@ -19,7 +19,7 @@ src <-
   ,"FantasyData"
   ,"FantasyPros" # has projections
   ,"FantasySharks" # has projections
-#  ,"FFToday" # errors out august 23rd
+  ,"FFToday" # errors out august 23rd
   ,"FleaFlicker" # has projections
   ,"NumberFire" # has projections
   ,"Yahoo" # has projections
@@ -71,7 +71,7 @@ d2 <-
 
 d3 <- 
   scrape_data(
-    src = src1
+    src = src
     ,week = 3
     ,pos = c("QB","WR","RB","TE","DST")
   )

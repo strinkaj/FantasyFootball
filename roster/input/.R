@@ -15,7 +15,7 @@ load(file = "../../input/.RData")
 
 
 d <- 
-  p2[
+  p3[
     avg_type == "weighted"
     ,.(
     id
@@ -150,7 +150,7 @@ d[
   &(drafted == 0|dp == 8)
   &(position == "WR"|position == "TE")
 ,][
-  order(-(1.5*ceiling+points+0.5*floor)/3)
+  order(-(ceiling^(5/9)*points^(3/9)*floor^(1/9)))
 ,][
   1:24
   ,.(
@@ -159,9 +159,9 @@ d[
     ,last_name
     ,position
     ,team
-    ,"10%" = round(floor,0)
-    ,"avg" = round(points,0)
-    ,"90%" = round(ceiling,0)
+    ,"10%" = round(floor,2)
+    ,"avg" = round(ceiling^(5/9)*points^(3/9)*floor^(1/9),2)
+    ,"90%" = round(ceiling,2)
   )
 ]
 
@@ -170,7 +170,7 @@ d[
   &(drafted == 0|dp == 8)
   &(position == "RB")
 ,][
-  order(-(1.5*ceiling+points+0.5*floor)/3)
+  order(-(ceiling^(5/9)*points^(3/9)*floor^(1/9)))
 ,][
   1:24
   ,.(
@@ -180,7 +180,7 @@ d[
     ,position
     ,team
     ,"10%" = round(floor,0)
-    ,"avg" = round(points,0)
+    ,"avg" = round(ceiling^(5/9)*points^(3/9)*floor^(1/9),2)
     ,"90%" = round(ceiling,0)
   )
 ]
@@ -190,7 +190,7 @@ d[
   &(drafted == 0|dp == 8)
   &(position == "DST")
 ,][
-  order(-(1.5*ceiling+points+0.5*floor)/3)
+  order(-(ceiling^(5/9)*points^(3/9)*floor^(1/9)))
 ,][
   1:10
   ,.(
@@ -200,7 +200,7 @@ d[
     ,position
     ,team
     ,"10%" = round(floor,0)
-    ,"avg" = round(points,0)
+    ,"avg" = round(ceiling^(5/9)*points^(3/9)*floor^(1/9),2)
     ,"90%" = round(ceiling,0)
   )
 ]
