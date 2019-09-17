@@ -247,3 +247,6 @@ for (i in 1:length(weeks_to_end)){
 p_future <- rbindlist(p_future)
 
 save(current_week,weeks_to_end,p_future,p_current, file = ".RData")
+
+write.csv(p_current,"p_current.csv")
+write.csv(p_future,"p_future.csv")
