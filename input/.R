@@ -45,7 +45,7 @@ src_current <-
   ,"FantasyData"
   ,"FantasyPros" 
   ,"FantasySharks" 
-#  ,"FFToday" 
+  ,"FFToday" 
   ,"FleaFlicker" 
   ,"NumberFire" 
   ,"Yahoo" 
@@ -89,11 +89,11 @@ if (current_week == 0){
 
   for (i in 1:length(weeks_to_end)){
 
-    Sys.sleep(600)
+    Sys.sleep(500)
       
     d_future[[i]] <-
       scrape_data(
-        src = src_future
+        src = src_current
         ,week = weeks_to_end[i]
         ,pos = c("QB","WR","RB","TE","DST")
       )
@@ -102,16 +102,16 @@ if (current_week == 0){
   
 }
 
-# d2_yahoo <- 
-#   scrape_data(
-#     src = "Yahoo"
-#     ,week = 2
-#     ,pos = c("QB","WR","RB","TE","DST")
-#     )
+yahoo <-
+  scrape_data(
+    src = "Yahoo"
+    ,week = current_week
+    ,pos = c("QB","WR","RB","TE","DST")
+  )
 
 # save raw data ----
 
-save(d_current,d_future,player_table,file = paste0(Sys.Date(),".RData"))
+save(d_current,d_future,player_table,yahoo,file = paste0(Sys.Date(),".RData"))
 
 # set leauge rules ---- 
 
@@ -236,6 +236,8 @@ proj <-
 
 p_current <- proj(d_current)
 
+yahoo <- proj(yahoo)
+
 p_future <- lapply(X = d_future, FUN = proj)
 
 for (i in 1:length(weeks_to_end)){
@@ -250,3 +252,4 @@ save(current_week,weeks_to_end,p_future,p_current, file = ".RData")
 
 write.csv(p_current,"p_current.csv")
 write.csv(p_future,"p_future.csv")
+write.csv(yahoo,"yahoo.csv")

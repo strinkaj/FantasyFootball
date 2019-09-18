@@ -315,6 +315,30 @@ order(-score),
   ,position
   ,"floor" = round(floor,0)
   ,"points" = round(points,0)
+  ,"score" = round(score,2)
+  ,"ceiling" = round(ceiling,0)
+)
+]
+)
+
+View(
+d0[
+(team != "FA")
+&(drafted == 0|dp == 2)
+&(position == "WR")
+,
+][
+order(-score),
+][
+1:35
+,.(
+  dp
+  ,first_name
+  ,last_name
+  ,team
+  ,position
+  ,"floor" = round(floor,0)
+  ,"points" = round(points,0)
   ,"score" = round(score,1)
   ,"ceiling" = round(ceiling,0)
 )
@@ -323,6 +347,31 @@ order(-score),
 
 View(
 d[
+(team != "FA")
+&(drafted == 0|dp == 2)
+&(position == "RB")
+,
+][
+order(-score),
+][
+1:10
+,.(
+  dp
+  ,first_name
+  ,last_name
+  ,play
+  ,team
+  ,position
+  ,"floor" = round(floor,0)
+  ,"points" = round(points,0)
+  ,"score" = round(score,2)
+  ,"ceiling" = round(ceiling,0)
+)
+]
+)
+
+View(
+d0[
 (team != "FA")
 &(drafted == 0|dp == 2)
 &(position == "RB")
@@ -363,6 +412,30 @@ order(-score),
   ,position
   ,"floor" = round(floor,0)
   ,"points" = round(points,0)
+  ,"score" = round(score,2)
+  ,"ceiling" = round(ceiling,0)
+)
+]
+)
+
+View(
+d0[
+(team != "FA")
+&(drafted == 0|dp == 2)
+&(position == "TE")
+,
+][
+order(-score),
+][
+1:10
+,.(
+  dp
+  ,first_name
+  ,last_name
+  ,team
+  ,position
+  ,"floor" = round(floor,0)
+  ,"points" = round(points,0)
   ,"score" = round(score,0)
   ,"ceiling" = round(ceiling,0)
 )
@@ -385,10 +458,10 @@ order(-score),
   ,last_name
   ,team
   ,position
-  ,"floor" = round(floor,0)
-  ,"points" = round(points,0)
-  ,"score" = round(score,0)
-  ,"ceiling" = round(ceiling,0)
+  ,"floor" = round(floor,2)
+  ,"points" = round(points,2)
+  ,"score" = round(score,2)
+  ,"ceiling" = round(ceiling,2)
 )
 ]
 )
