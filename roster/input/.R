@@ -50,16 +50,21 @@ d0 <-
     )
   ]
 
-d[ ,score := 0.9^(week - current_week)*ceiling^(9/12)*points^(2/12)*floor^(1/12)]
+d[,play := 0]
+
+d[floor > 0,play := 1]
+
+d[ ,score := 0.85^(week - current_week)*ceiling^(9/12)*points^(2/12)*floor^(1/12)]
 
 d0[ ,score := ceiling^(9/12)*points^(2/12)*floor^(1/12)]
 
 d <-
   d[
     ,.(
-      floor = sum(floor)
+      play = sum(play)
+      ,floor = sum(floor)
       ,points = sum(points)
-      ,score = sum(score)
+      ,score = sum(score)/sum(play)
       ,ceiling = sum(ceiling)
       )
     ,by =
@@ -230,7 +235,7 @@ wr_avail <-
 
 n <- 
   wr_avail[
-    (round(score,0) - 1  > 
+    (round(score,0) - sum(1*0.85^c(weeks_to_end)/length(weeks_to_end))  > 
        (d[
           dp == 8
           & position == "WR"
@@ -245,27 +250,28 @@ print(
   cat(
     "\t \t \t \t \t "
     ,unlist(
-      wr_avail[i,.(first_name,last_name,round(score,0))]
+      wr_avail[i,.(first_name,last_name,round(score,1))]
     )
   )
 )
 
 print(
   d[
-    dp == 8 & position == "WR" & score + 1 < 
+    dp == 8 & position == "WR" & score + sum(1*0.85^c(weeks_to_end))/play < 
       wr_avail[
-        i,round(score,0)],
+        i,round(score,1)],
       ][order(score),
       ][1:i, 
         .(
           first_name
           ,last_name
-          ,"score" = round(score,0)
+          ,"score" = round(score,1)
         )
       ][!is.na(first_name),]
 )
 
 }
+
 
 rb_avail <- d[drafted==0&position=="RB",][order(-score),]
 
@@ -309,7 +315,7 @@ order(-score),
   ,position
   ,"floor" = round(floor,0)
   ,"points" = round(points,0)
-  ,"score" = round(score,0)
+  ,"score" = round(score,2)
   ,"ceiling" = round(ceiling,0)
 )
 ]
@@ -324,7 +330,7 @@ d[
 ][
 order(-score),
 ][
-1:10
+1:15
 ,.(
   dp
   ,first_name
@@ -333,7 +339,7 @@ order(-score),
   ,position
   ,"floor" = round(floor,0)
   ,"points" = round(points,0)
-  ,"score" = round(score,0)
+  ,"score" = round(score,2)
   ,"ceiling" = round(ceiling,0)
 )
 ]
@@ -381,7 +387,7 @@ order(-score),
   ,position
   ,"floor" = round(floor,0)
   ,"points" = round(points,0)
-  ,"score" = round(score,0)
+  ,"score" = round(score,2)
   ,"ceiling" = round(ceiling,0)
 )
 ]
