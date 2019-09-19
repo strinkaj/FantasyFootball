@@ -54,18 +54,31 @@ d[,play := 0]
 
 d[floor > 0,play := 1]
 
-d[ ,score := 0.85^(week - current_week)*ceiling^(9/12)*points^(2/12)*floor^(1/12)]
+d[ 
+  ,score := 
+    (
+    0.85^(week - current_week)*
+    ceiling^(6/10)*
+    points^(3/10)*
+    floor^(1/10)
+    ) 
+]
 
-d0[ ,score := ceiling^(9/12)*points^(2/12)*floor^(1/12)]
+d[ ,play_disc := (0.85^(week - current_week)*play) ]
+
+d[ ,ceiling_disc := (0.85^(week - current_week)*ceiling) ]
+
+d[ ,floor_disc := (0.85^(week - current_week)*floor) ]
+
+d0[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
 
 d <-
   d[
     ,.(
       play = sum(play)
-      ,floor = sum(floor)
-      ,points = sum(points)
-      ,score = sum(score)/sum(play)
-      ,ceiling = sum(ceiling)
+      ,floor = sum(floor_disc)/sum(play_disc)
+      ,score = sum(score)/sum(play_disc)
+      ,ceiling = sum(ceiling_disc)/sum(play_disc)
       )
     ,by =
       .(
@@ -189,9 +202,7 @@ input <- readRDS("current.rds")
 
 input <- readRDS("current.rds")
 
-
 #
-
 
 d[,drafted:=0]
 
@@ -229,35 +240,51 @@ d0[
   )
 ]
 
+one_disc_point <- sum(0.85^seq(0,length(weeks_to_end)-1))/length(weeks_to_end)
+
 wr_avail <- 
-  d[drafted == 0 & position == "WR",
-  ][order(-score),]
+  d[
+    drafted == 0 & 
+    position == "WR"
+  ,][
+    order(-score)
+  ,]
 
 n <- 
   wr_avail[
-    (round(score,0) - sum(1*0.85^c(weeks_to_end)/length(weeks_to_end))  > 
-       (d[
-          dp == 8
-          & position == "WR"
-        ,][order(score)
-        ,][1,score]
-        ) 
-    ),.N ]
+    round(score,0) - one_disc_point  > 
+    (d[
+      dp == 8 & position == "WR",
+    ][
+      order(score),
+    ][
+      1, score
+    ]
+    ) 
+    ,.N 
+  ]
 
-for (i in 1:n){
-  
-print(
-  cat(
-    "\t \t \t \t \t "
-    ,unlist(
-      wr_avail[i,.(first_name,last_name,round(score,1))]
+if (n == 0){
+
+  print("WRs- all set")
+
+} else {    
+  for (i in 1:n){
+    
+  print(
+    cat(
+      "\t \t \t \t \t "
+      ,unlist(
+        wr_avail[i,.(first_name,last_name,round(score,1))]
+      )
     )
   )
-)
-
-print(
-  d[
-    dp == 8 & position == "WR" & score + sum(1*0.85^c(weeks_to_end))/play < 
+  
+  print(
+    d[
+      dp == 8 & 
+      position == "WR" & 
+      score + one_disc_point < 
       wr_avail[
         i,round(score,1)],
       ][order(score),
@@ -268,128 +295,103 @@ print(
           ,"score" = round(score,1)
         )
       ][!is.na(first_name),]
-)
-
-}
-
-
-rb_avail <- d[drafted==0&position=="RB",][order(-score),]
-
-n <- rb_avail[(round(score,0) - 1  > (d[dp==8&position=="RB",][order(score),][1,score]) ) ,.N ]
-
-for (i in 1:n){
+  )
   
-print(cat("\t \t \t \t \t ",unlist(rb_avail[i,.(first_name,last_name,round(score,0))])))
-print(d[dp==8&position=="RB"&score + 1 < rb_avail[i,round(score,0)],][order(score),][1:i, .(first_name,last_name,"score" = round(score,0))][!is.na(first_name),])
-
-}
-
-te_avail <- d[drafted==0&position=="TE",][order(-score),]
-
-n <- te_avail[(score - 1  > (d[dp==8&position=="TE",][order(score),][1,"score" = round(score,0)]) ) ,.N ]
-
-for (i in 1:n){
+  }
   
-print(cat("\t \t \t \t \t ",unlist(te_avail[i,.(first_name,last_name,round(score,0))])))
-print(d[dp==8&position=="TE"&score + 1 < te_avail[i,round(score,0)],][order(score),][1:i, .(first_name,last_name,round(score,0))][!is.na(first_name),])
-
 }
 
 
-
 View(
-d[
-(team != "FA")
-&(drafted == 0|dp == 8)
-&(position == "WR")
-,
-][
-order(-score),
-][
-1:35
-,.(
-  dp
-  ,first_name
-  ,last_name
-  ,team
-  ,position
-  ,"floor" = round(floor,0)
-  ,"points" = round(points,0)
-  ,"score" = round(score,2)
-  ,"ceiling" = round(ceiling,0)
-)
-]
-)
-
-View(
-d[
-(team != "FA")
-&(drafted == 0|dp == 8)
-&(position == "RB")
-,
-][
-order(-score),
-][
-1:15
-,.(
-  dp
-  ,first_name
-  ,last_name
-  ,team
-  ,position
-  ,"floor" = round(floor,0)
-  ,"points" = round(points,0)
-  ,"score" = round(score,2)
-  ,"ceiling" = round(ceiling,0)
-)
-]
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "WR")
+  ,
+  ][
+    order(-score),
+  ][
+    1:35
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor,2)
+      ,"score" = round(score,2)
+      ,"ceiling" = round(ceiling,2)
+    )
+  ]
 )
 
 View(
-d[
-(team != "FA")
-&(drafted == 0|dp == 8)
-&(position == "TE")
-,
-][
-order(-score),
-][
-1:10
-,.(
-  dp
-  ,first_name
-  ,last_name
-  ,team
-  ,position
-  ,"floor" = round(floor,0)
-  ,"points" = round(points,0)
-  ,"score" = round(score,0)
-  ,"ceiling" = round(ceiling,0)
-)
-]
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "RB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
 )
 
 View(
-d0[
-(team != "FA")
-&(drafted == 0|dp == 8)
-&(position == "DST")
-,
-][
-order(-score),
-][
-1:20
-,.(
-  dp
-  ,first_name
-  ,last_name
-  ,team
-  ,position
-  ,"floor" = round(floor,0)
-  ,"points" = round(points,0)
-  ,"score" = round(score,2)
-  ,"ceiling" = round(ceiling,0)
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "TE")
+  ,
+  ][
+    order(-score),
+  ][
+    1:10
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
 )
-]
+
+View(
+  d0[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "DST")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
 )
 
