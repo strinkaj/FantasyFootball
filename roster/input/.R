@@ -325,6 +325,67 @@ View(
   ]
 )
 
+
+rb_avail <- 
+  d[
+    drafted == 0 & 
+    position == "RB"
+  ,][
+    order(-score)
+  ,]
+
+n <- 
+  rb_avail[
+    round(score,0) - one_disc_point  > 
+    (d[
+      dp == 8 & position == "RB",
+    ][
+      order(score),
+    ][
+      1, score
+    ]
+    ) 
+    ,.N 
+  ]
+
+if (n == 0){
+
+  print("RBs- all set")
+
+} else {    
+  for (i in 1:n){
+    
+  print(
+    cat(
+      "\t \t \t \t \t "
+      ,unlist(
+        rb_avail[i,.(first_name,last_name,round(score,1))]
+      )
+    )
+  )
+  
+  print(
+    d[
+      dp == 8 & 
+      position == "RB" & 
+      score + one_disc_point < 
+      rb_avail[
+        i,round(score,1)],
+      ][order(score),
+      ][1:i, 
+        .(
+          first_name
+          ,last_name
+          ,"score" = round(score,1)
+        )
+      ][!is.na(first_name),]
+  )
+  
+  }
+  
+}
+
+
 View(
   d[
     (team != "FA")
