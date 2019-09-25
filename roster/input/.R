@@ -325,7 +325,6 @@ View(
   ]
 )
 
-
 rb_avail <- 
   d[
     drafted == 0 & 
@@ -408,6 +407,66 @@ View(
     )
   ]
 )
+
+te_avail <- 
+  d[
+    drafted == 0 & 
+    position == "TE"
+  ,][
+    order(-score)
+  ,]
+
+n <- 
+  te_avail[
+    round(score,0) - one_disc_point  > 
+    (d[
+      dp == 2 & position == "TE",
+    ][
+      order(score),
+    ][
+      1, score
+    ]
+    ) 
+    ,.N 
+  ]
+
+if (n == 0){
+
+  print("TEs- all set")
+
+} else {    
+  for (i in 1:n){
+    
+  print(
+    cat(
+      "\t \t \t \t \t "
+      ,unlist(
+        te_avail[i,.(first_name,last_name,round(score,1))]
+      )
+    )
+  )
+  
+  print(
+    d[
+      dp == 2 & 
+      position == "TE" & 
+      score + one_disc_point < 
+      te_avail[
+        i,round(score,1)],
+      ][order(score),
+      ][1:i, 
+        .(
+          first_name
+          ,last_name
+          ,"score" = round(score,1)
+        )
+      ][!is.na(first_name),]
+  )
+  
+  }
+  
+}
+
 
 View(
   d[
