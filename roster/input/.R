@@ -54,9 +54,9 @@ d[,play := 0]
 
 d[floor > 0,play := 1]
 
-d[ ,score := 0.85^(week - current_week)*ceiling^(9/12)*points^(2/12)*floor^(1/12)]
+d[ ,score := 0.85^(week - current_week)*ceiling^(6/12)*points^(4/12)*floor^(2/12)]
 
-d0[ ,score := ceiling^(9/12)*points^(2/12)*floor^(1/12)]
+d0[ ,score := ceiling^(6/12)*points^(4/12)*floor^(2/12)]
 
 d <-
   d[
@@ -272,28 +272,91 @@ print(
 
 }
 
-rb_avail <- d[drafted==0&position=="RB",][order(-score),]
+rb_avail <- 
+  d[drafted == 0 & position == "RB",
+  ][order(-score),]
 
-n <- rb_avail[(round(score,0) - sum(1*0.85^c(weeks_to_end)/length(weeks_to_end))  > (d[dp==2&position=="RB",][order(score),][1,score]) ) ,.N ]
+n <- 
+  rb_avail[
+    (round(score,0) - sum(1*0.85^c(weeks_to_end)/length(weeks_to_end))  > 
+       (d[
+          dp == 2
+          & position == "RB"
+        ,][order(score)
+        ,][1,score]
+        ) 
+    ),.N ]
 
 for (i in 1:n){
   
-print(cat("\t \t \t \t \t ",unlist(rb_avail[i,.(first_name,last_name,round(score,1))])))
-print(d[dp==2&position=="RB"&score + sum(1*0.85^c(weeks_to_end))/play < rb_avail[i,round(score,1)],][order(score),][1:i, .(first_name,last_name,"score" = round(score,1))][!is.na(first_name),])
+print(
+  cat(
+    "\t \t \t \t \t "
+    ,unlist(
+      rb_avail[i,.(first_name,last_name,round(score,1))]
+    )
+  )
+)
+
+print(
+  d[
+    dp == 2 & position == "RB" & score + sum(1*0.85^c(weeks_to_end))/play < 
+      rb_avail[
+        i,round(score,1)],
+      ][order(score),
+      ][1:i, 
+        .(
+          first_name
+          ,last_name
+          ,"score" = round(score,1)
+        )
+      ][!is.na(first_name),]
+)
 
 }
 
-te_avail <- d[drafted==0&position=="TE",][order(-score),]
+te_avail <- 
+  d[drafted == 0 & position == "TE",
+  ][order(-score),]
 
-n <- te_avail[(score - sum(1*0.85^c(weeks_to_end))  > (d[dp==2&position=="TE",][order(score),][1,"score" = round(score,0)]) ) ,.N ]
+n <- 
+  te_avail[
+    (round(score,0) - sum(1*0.85^c(weeks_to_end)/length(weeks_to_end))  > 
+       (d[
+          dp == 2
+          & position == "TE"
+        ,][order(score)
+        ,][1,score]
+        ) 
+    ),.N ]
 
 for (i in 1:n){
   
-print(cat("\t \t \t \t \t ",unlist(te_avail[i,.(first_name,last_name,round(score,0))])))
-print(d[dp==2&position=="TE"&score + sum(1*0.85^c(weeks_to_end)) < te_avail[i,round(score,0)],][order(score),][1:i, .(first_name,last_name,round(score,0))][!is.na(first_name),])
+print(
+  cat(
+    "\t \t \t \t \t "
+    ,unlist(
+      te_avail[i,.(first_name,last_name,round(score,1))]
+    )
+  )
+)
+
+print(
+  d[
+    dp == 2 & position == "TE" & score + sum(1*0.85^c(weeks_to_end))/play < 
+      te_avail[
+        i,round(score,1)],
+      ][order(score),
+      ][1:i, 
+        .(
+          first_name
+          ,last_name
+          ,"score" = round(score,1)
+        )
+      ][!is.na(first_name),]
+)
 
 }
-
 
 
 View(

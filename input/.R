@@ -38,30 +38,22 @@ weeks_to_end <- seq(current_week,16)
 
 
 # pull all sources for the current week
-src_current <- 
+# only some sources forecast out - watch carefully
+src <- 
   c(
-  "CBS" 
-  ,"ESPN"
+#  "CBS" 
+  "ESPN"
   ,"FantasyData"
-  ,"FantasyPros" 
+#  ,"FantasyPros" 
   ,"FantasySharks" 
   ,"FFToday" 
-  ,"FleaFlicker" 
-  ,"NumberFire" 
+#  ,"FleaFlicker" 
+#  ,"NumberFire" 
   ,"Yahoo" 
   ,"FantasyFootballNerd" 
   ,"NFL"
   ,"RTSports"
   ,"Walterfootball"
-  )
-
-
-# only some sources forecast out - watch carefully
-src_future <- 
-  c(
-  "FantasySharks" 
-  ,"Yahoo" 
-  ,"NFL" 
   )
 
 # data scrape ----
@@ -79,7 +71,7 @@ if (current_week == 0){
   
   d_current <-
     scrape_data(
-      src = src_current
+      src = src
       ,week = current_week
       ,pos = c("QB","WR","RB","TE","DST")
     )
@@ -93,7 +85,7 @@ if (current_week == 0){
       
     d_future[[i]] <-
       scrape_data(
-        src = src_current
+        src = src
         ,week = weeks_to_end[i]
         ,pos = c("QB","WR","RB","TE","DST")
       )
