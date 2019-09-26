@@ -520,7 +520,6 @@ View(
   d0[
     (team != "FA")
     &(dp == 2)
-    &(position == "WR")
   ,
   ][
     order(-score),
