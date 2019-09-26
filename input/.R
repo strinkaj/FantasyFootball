@@ -56,6 +56,23 @@ src <-
   ,"Walterfootball"
   )
 
+src_all <- 
+  c(
+  "CBS" 
+  ,"ESPN"
+  ,"FantasyData"
+  ,"FantasyPros" 
+  ,"FantasySharks" 
+#  ,"FFToday" 
+  ,"FleaFlicker" 
+  ,"NumberFire" 
+  ,"Yahoo" 
+  ,"FantasyFootballNerd" 
+  ,"NFL"
+  ,"RTSports"
+  ,"Walterfootball"
+  )
+
 # data scrape ----
 
 if (current_week == 0){
@@ -71,7 +88,7 @@ if (current_week == 0){
   
   d_current <-
     scrape_data(
-      src = src
+      src = src_all
       ,week = current_week
       ,pos = c("QB","WR","RB","TE","DST")
     )
