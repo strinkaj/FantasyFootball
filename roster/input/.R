@@ -515,3 +515,27 @@ View(
   ]
 )
 
+
+View(
+  d0[
+    (team != "FA")
+    &(dp == 2)
+    &(position == "WR")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
