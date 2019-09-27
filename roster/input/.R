@@ -326,6 +326,30 @@ View(
 )
 
 
+View(
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "TE")
+  ,
+  ][
+    order(-score),
+  ][
+    1:35
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor,2)
+      ,"score" = round(score,2)
+      ,"ceiling" = round(ceiling,2)
+    )
+  ]
+)
+
+
 rb_avail <- 
   d[
     drafted == 0 & 
@@ -456,3 +480,48 @@ View(
   ]
 )
 
+
+View(
+  d0[
+    (team != "FA")
+    &(dp == 8)  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d0[
+    (team != "FA")
+    &(dp == 8)
+    &(position == "WR"),
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
