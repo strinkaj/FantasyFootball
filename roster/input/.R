@@ -301,6 +301,29 @@ if (n == 0){
   
 }
 
+View(
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "QB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
 
 View(
   d[
@@ -311,16 +334,39 @@ View(
   ][
     order(-score),
   ][
-    1:35
+    1:15
     ,.(
-      dp
-      ,first_name
-      ,last_name
-      ,team
-      ,position
-      ,"floor" = round(floor,2)
-      ,"score" = round(score,2)
-      ,"ceiling" = round(ceiling,2)
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d0[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "WR")
+  ,
+  ][
+    order(-score),
+  ][
+    1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
     )
   ]
 )
@@ -434,6 +480,29 @@ View(
 )
 
 View(
+  d0[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "RB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
   d[
     (team != "FA")
     &(drafted == 0|dp == 8)
@@ -455,6 +524,30 @@ View(
     )
   ]
 )
+
+View(
+  d0[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "TE")
+  ,
+  ][
+    order(-score),
+  ][
+    1:10
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
 
 View(
   d0[
@@ -491,6 +584,7 @@ View(
     1:20
     ,.(
       dp
+      ,id
       ,first_name
       ,last_name
       ,team
