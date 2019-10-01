@@ -110,7 +110,7 @@ d0 <-
 
 # roster updates
 
-input <- readRDS("current.rds")
+input <- read.csv("current.csv")
 
 
   editTable <- function(DF, outdir=getwd(), outfilename="table"){
@@ -182,9 +182,9 @@ input <- readRDS("current.rds")
       ## Save 
       observeEvent(input$save, {
         finalDF <- isolate(values[["DF"]])
-        saveRDS(
+        write.csv(
           finalDF
-          ,file = file.path(outdir, sprintf("%s.rds", outfilename)))
+          ,file = file.path(outdir, sprintf("%s.csv", outfilename)))
       })
   
     })
@@ -200,7 +200,7 @@ input <- readRDS("current.rds")
   
 #
 
-input <- readRDS("current.rds")
+input <- read.csv("current.csv")
 
 #
 
