@@ -63,7 +63,7 @@ src_all <-
   ,"FantasyData"
   ,"FantasyPros" 
   ,"FantasySharks" 
-#  ,"FFToday" 
+  ,"FFToday" 
   ,"FleaFlicker" 
   ,"NumberFire" 
   ,"Yahoo" 
@@ -79,7 +79,7 @@ if (current_week == 0){
 
   d_draft <-
     scrape_data(
-      src = src_current
+      src = src
       ,week = 0
       ,pos = c("QB","WR","RB","TE","DST")
     )
