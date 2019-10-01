@@ -14,8 +14,8 @@ weeks <-
   data.table(
     "date" = 
       seq(
-        as.Date("2019-09-05")
-        ,as.Date("2020-01-01")
+        as.Date("2019-09-03")
+        ,as.Date("2020-01-06")
       ,by = 1
       )
     ,"w" = rep(1:17,times = 1, each = 7)
