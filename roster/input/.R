@@ -532,7 +532,7 @@ View(
     (team != "FA")
     &(dp == 8)  ,
   ][
-    order(-score),
+    order(-floor),
   ][
     1:20
     ,.(
