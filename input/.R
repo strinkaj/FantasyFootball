@@ -132,7 +132,7 @@ rules <-
         ,pass_comp = 0
         ,pass_inc = 0
         ,pass_yds = 0.04
-        ,pass_tds = 4
+        ,pass_tds = 5
         ,pass_int = -2
         ,pass_40_yds = 0
         ,pass_300_yds = 0
@@ -218,12 +218,13 @@ rules <-
       
     ,pts_bracket =
       list(
-        list(threshold = 0, points = 7)
-        ,list(threshold = 6, points = 4)
+        list(threshold = 0, points = 20)
+        ,list(threshold = 6, points = 10)
+        ,list(threshold = 14, points = 5)
         ,list(threshold = 20, points = 1)
         ,list(threshold = 27, points = 0)
-        ,list(threshold = 34, points = -1)
-        ,list(threshold = 99, points = -4)
+        ,list(threshold = 34, points = -3)
+        ,list(threshold = 99, points = -6)
       )
 
 )
