@@ -491,6 +491,29 @@ View(
   ]
 )
 
+
+View(
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 2)
+    &(position == "QB")
+  ,
+  ][
+    order(-score),
+  ][
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
 View(
   d0[
     (team != "FA")
