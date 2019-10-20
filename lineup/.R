@@ -42,7 +42,7 @@ src_all <-
   ,"FleaFlicker" 
   ,"NumberFire" 
   ,"Yahoo" 
-  ,"FantasyFootballNerd" 
+#  ,"FantasyFootballNerd" 
   ,"NFL"
   ,"RTSports"
   ,"Walterfootball"
@@ -199,7 +199,7 @@ d0 <-
 
 d0[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
 
-input <- read.csv("../../roster/input/current.csv")
+input <- read.csv("../roster/input/current.csv")
 
 d0[,drafted:=0]
 
