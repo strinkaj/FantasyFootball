@@ -202,7 +202,7 @@ d0 <-
 
 d0[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
 
-input <- readRDS("../../roster/input/current.rds")
+input <- readRDS("../roster/input/current.rds")
 
 d0[,drafted:=0]
 
