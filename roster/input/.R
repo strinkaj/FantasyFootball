@@ -35,6 +35,23 @@ d <-
     )
   ]
 
+d1 <- 
+  p_future[
+    avg_type == "weighted"
+    & week == current_week + 1
+    ,.(
+    id
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,floor
+    ,points
+    ,ceiling
+    )
+  ]
+
+
 d0 <- 
   p_current[
     avg_type == "weighted"
@@ -71,6 +88,8 @@ d[ ,ceiling_disc := (0.85^(week - current_week)*ceiling) ]
 d[ ,floor_disc := (0.85^(week - current_week)*floor) ]
 
 d0[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
+
+d1[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
 
 d <-
   d[
@@ -227,6 +246,24 @@ d0[,drafted:=0]
 d0[,dp:=0]
 
 d0[
+  input
+  ,`:=`(
+    drafted = 1
+    ,dp = as.numeric(i.dp)
+  )
+  ,on = 
+    .(
+    first_name
+    ,last_name
+    ,position
+  )
+]
+
+d1[,drafted:=0]
+
+d1[,dp:=0]
+
+d1[
   input
   ,`:=`(
     drafted = 1
@@ -504,6 +541,30 @@ View(
 
 View(
   d0[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "DST")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d1[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "DST")
