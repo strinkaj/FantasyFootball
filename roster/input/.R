@@ -87,7 +87,7 @@ d[ ,ceiling_disc := (0.85^(week - current_week)*ceiling) ]
 
 d[ ,floor_disc := (0.85^(week - current_week)*floor) ]
 
-d0[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
+d0[ ,score := ceiling^(3/10)*floor^(7/10)]
 
 d1[ ,score := ceiling^(6/10)*points^(3/10)*floor^(1/10)]
 
@@ -591,7 +591,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(dp == 8)  ,
+    &(dp == 8|id =="14104")  ,
   ][
     order(-score),
   ][
