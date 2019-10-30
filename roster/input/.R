@@ -51,6 +51,22 @@ d1 <-
     )
   ]
 
+d2 <- 
+  p_future[
+    avg_type == "weighted"
+    & week == current_week + 2
+    ,.(
+    id
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,floor
+    ,points
+    ,ceiling
+    )
+  ]
+
 
 d0 <- 
   p_current[
@@ -384,6 +400,29 @@ View(
   ]
 )
 
+View(
+  d1[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "WR")
+  ,
+  ][
+    order(-score),
+  ][
+    1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
 
 
 rb_avail <- 
@@ -568,6 +607,30 @@ View(
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "DST")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d1[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "QB")
   ,
   ][
     order(-score),
