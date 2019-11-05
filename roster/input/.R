@@ -627,7 +627,7 @@ View(
 )
 
 View(
-  d1[
+  d0[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "QB")
@@ -654,7 +654,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(dp == 8|id =="14104")  ,
+    &(dp == 8)  ,
   ][
     order(-score),
   ][
