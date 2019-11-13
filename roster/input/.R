@@ -293,6 +293,24 @@ d1[
   )
 ]
 
+d2[,drafted:=0]
+
+d2[,dp:=0]
+
+d2[
+  input
+  ,`:=`(
+    drafted = 1
+    ,dp = as.numeric(i.dp)
+  )
+  ,on = 
+    .(
+    first_name
+    ,last_name
+    ,position
+  )
+]
+
 one_disc_point <- sum(0.85^seq(0,length(weeks_to_end)-1))/length(weeks_to_end)
 
 wr_avail <- 
@@ -532,6 +550,30 @@ View(
 )
 
 View(
+  d1[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "RB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+
+View(
   d[
     (team != "FA")
     &(drafted == 0|dp == 8)
@@ -555,13 +597,13 @@ View(
 )
 
 View(
-  d0[
+  d2[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "TE")
   ,
   ][
-    order(-score),
+    order(-floor),
   ][
     1:10
     ,.(
@@ -571,7 +613,7 @@ View(
       ,team
       ,position
       ,"floor" = round(floor, 2)
-      ,"score" = round(score, 2)
+     # ,"score" = round(score, 2)
       ,"ceiling" = round(ceiling, 2)
     )
   ]
