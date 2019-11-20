@@ -373,7 +373,7 @@ if (n == 0){
 }
 
 View(
-  d[
+  d0[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "WR")
@@ -381,7 +381,7 @@ View(
   ][
     order(-score),
   ][
-    1:15
+    1:20
     ,.(
     dp
     ,first_name
@@ -597,7 +597,7 @@ View(
 )
 
 View(
-  d2[
+  d0[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "TE")
@@ -623,7 +623,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+#    &(drafted == 0|dp == 8)
     &(position == "DST")
   ,
   ][
@@ -647,7 +647,7 @@ View(
 View(
   d1[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+#    &(drafted == 0|dp == 8)
     &(position == "DST")
   ,
   ][
