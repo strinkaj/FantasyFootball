@@ -373,7 +373,7 @@ if (n == 0){
 }
 
 View(
-  d0[
+  d[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "WR")
@@ -398,7 +398,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 8|last_name == "Pascal")
     &(position == "WR")
   ,
   ][
@@ -425,7 +425,7 @@ View(
     &(position == "WR")
   ,
   ][
-    order(-score),
+    order(-floor),
   ][
     1:15
     ,.(
@@ -556,7 +556,7 @@ View(
     &(position == "RB")
   ,
   ][
-    order(-score),
+    order(-floor),
   ][
     1:15
     ,.(
@@ -566,7 +566,6 @@ View(
     ,team
     ,position
     ,"floor" = round(floor, 2)
-    ,"score" = round(score, 2)
     ,"ceiling" = round(ceiling, 2)
     )
   ]
@@ -597,7 +596,7 @@ View(
 )
 
 View(
-  d0[
+  d1[
     (team != "FA")
     &(drafted == 0|dp == 8)
     &(position == "TE")
@@ -613,17 +612,16 @@ View(
       ,team
       ,position
       ,"floor" = round(floor, 2)
-     # ,"score" = round(score, 2)
+      ,"score" = round(score, 2)
       ,"ceiling" = round(ceiling, 2)
     )
   ]
 )
 
-
 View(
   d0[
     (team != "FA")
-#    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 8)
     &(position == "DST")
   ,
   ][
@@ -647,11 +645,11 @@ View(
 View(
   d1[
     (team != "FA")
-#    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 8)
     &(position == "DST")
   ,
   ][
-    order(-score),
+    order(-floor),
   ][
     1:20
     ,.(
@@ -662,11 +660,33 @@ View(
       ,position
       ,"floor" = round(floor, 2)
       ,"points" = round(points, 2)
-      ,"score" = round(score, 2)
       ,"ceiling" = round(ceiling, 2)
     )
   ]
 )
+
+View(
+  d1[
+    (team != "FA")
+    &(drafted == 0&position != "QB")
+  ,
+  ][
+    order(-floor),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
 
 View(
   d0[
@@ -692,9 +712,124 @@ View(
   ]
 )
 
+View(
+  d1[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "QB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+
+View(
+  d[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "QB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d1[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "QB")
+  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d2[
+    (team != "FA")
+    &(drafted == 0|dp == 8)
+    &(position == "QB")
+  ,
+  ][
+    order(-floor),
+  ][
+    1:20
+    ,.(
+      dp
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
 
 View(
   d0[
+    (team != "FA")
+    &(dp == 8)  ,
+  ][
+    order(-score),
+  ][
+    1:20
+    ,.(
+      dp
+      ,id
+      ,first_name
+      ,last_name
+      ,team
+      ,position
+      ,"floor" = round(floor, 2)
+      ,"points" = round(points, 2)
+      ,"score" = round(score, 2)
+      ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d1[
     (team != "FA")
     &(dp == 8)  ,
   ][
