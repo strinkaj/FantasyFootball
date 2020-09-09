@@ -67,36 +67,7 @@ ggplotly(gg, tooltip = c("name","y","group"))
 ```
 
 
-# Estimated Draft by Position and Pick
 
-```{r}
-
-yahoo[,pos_order := 1:.N,by=pos]
-
-g <- yahoo[pos_order < 50,]
-
-gg <-
-ggplot(
-  g
-  ,aes(
-    x = adp
-    ,y = pos_order
-    ,group = pos
-    ,color = pos
-    ,label = player
-  )
-) + 
-geom_line() +
-ylab(
-  "Number of Players Drafted by Position"
-) +
-xlab(
-  "Draft Pick"
-)  
-
-ggplotly(gg, tooltip = c("player","y","x","group"))
-
-```
 
 # Availability Likelihood by Average Draft Position
 

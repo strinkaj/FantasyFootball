@@ -47,30 +47,53 @@ for (i in 2:15){
 weights <-
   list(
   approxfun(
-    x = c(1,45,10000)
+    x = c(1,90,10000)
     ,y = c(1,0,0)
   ) 
   ,approxfun(
-    x = c(1,45,90,10000)
+    x = c(1,90,125,10000)
     ,y = c(0,1,0,0)
   )  
   ,approxfun(
-    x = c(1,45,90,140,10000)
+    x = c(1,90,125,150,10000)
     ,y = c(0,0,1,0,0)
   )
   ,approxfun(
-    x = c(1,90,140,150,10000)
+    x = c(1,125,150,160,10000)
     ,y = c(0,0,1,0,0)
   )
   ,approxfun(
-    x = c(1,140,150,170,10000)
+    x = c(1,150,160,170,10000)
     ,y = c(0,0,1,0,0)
   ) 
   ,approxfun(
-    x = c(1,150,170,10000)
+    x = c(1,160,170,10000)
     ,y = c(0,0,1,1)
   )
 )
+
+
+# plot(weights[[1]](seq(1,180)),type = "l")
+# lines(weights[[2]](seq(1,180)),col = "red")
+# lines(weights[[3]](seq(1,180)),col = "blue")
+# lines(weights[[4]](seq(1,180)),col = "green")
+# lines(weights[[5]](seq(1,180)),col = "black")
+# lines(weights[[6]](seq(1,180)),col = "blue")
+# abline(v = snake[11,1], lty = "dashed")
+# abline(v = snake[11,2], lty = "dashed")
+# abline(v = snake[11,3], lty = "dashed")
+# abline(v = snake[11,4], lty = "dashed")
+# abline(v = snake[11,5], lty = "dashed")
+# abline(v = snake[11,6], lty = "dashed")
+# abline(v = snake[11,7], lty = "dashed")
+# abline(v = snake[11,8], lty = "dashed")
+# abline(v = snake[11,9], lty = "dashed")
+# abline(v = snake[11,10], lty = "dashed")
+# abline(v = snake[11,11], lty = "dashed")
+# abline(v = snake[11,12], lty = "dashed")
+# abline(v = snake[11,13], lty = "dashed")
+# abline(v = snake[11,14], lty = "dashed")
+# abline(v = snake[11,15], lty = "dashed")
 
 
 # starting likelihood by position ----
@@ -480,9 +503,9 @@ draft[
   )
 ]
 
-pos_acc <- as.numeric(unlist(draft[dp==2,.N,by=position][,2]))
+pos_acc <- as.numeric(unlist(draft[dp==11,.N,by=position][,2]))
 
-names(pos_acc) <- as.character(unlist(draft[dp==2,.N,by=position][,1]))
+names(pos_acc) <- as.character(unlist(draft[dp==11,.N,by=position][,1]))
 
 for (j in c("RB","QB","WR","TE","DST")){
   

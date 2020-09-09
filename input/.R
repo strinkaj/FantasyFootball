@@ -14,8 +14,8 @@ weeks <-
   data.table(
     "date" = 
       seq(
-        as.Date("2019-09-03")
-        ,as.Date("2020-01-06")
+        as.Date("2020-09-06")
+        ,as.Date("2021-01-02")
       ,by = 1
       )
     ,"w" = rep(1:17,times = 1, each = 7)
@@ -59,9 +59,10 @@ src_current <-
 # only some sources forecast out - watch carefully
 src_future <- 
   c(
-  "FantasySharks" 
-  ,"Yahoo" 
-  ,"NFL" 
+  "FantasySharks"
+  ,"FantasyPros"
+  ,"FleaFlicker" 
+  ,"NumberFire" 
   )
 
 # data scrape ----
@@ -74,7 +75,25 @@ if (current_week == 0){
       ,week = 0
       ,pos = c("QB","WR","RB","TE","DST")
     )
-
+  
+  d_adp <- get_adp()
+  
+  d_current <- list()
+  
+  for (i in 1:3){
+    
+    Sys.sleep(500)
+    
+    d_current[[i]] <-
+      scrape_data(
+        src = src_future
+        ,week = i
+        ,pos = c("QB","WR","RB","TE","DST")
+      )
+    
+  }
+  
+  
 } else {
   
   d_current <-
@@ -93,7 +112,7 @@ if (current_week == 0){
       
     d_future[[i]] <-
       scrape_data(
-        src = src_current
+        src = src_future
         ,week = weeks_to_end[i]
         ,pos = c("QB","WR","RB","TE","DST")
       )
@@ -102,16 +121,30 @@ if (current_week == 0){
   
 }
 
-yahoo <-
-  scrape_data(
-    src = "Yahoo"
-    ,week = current_week
-    ,pos = c("QB","WR","RB","TE","DST")
-    )
-
 # save raw data ----
 
+if (current_week == 0){
+
+  save(d_draft,d_adp,d_current,file = paste0("../draft/draftday/.RData"))
+  
+  
+} else {
+
 save(d_current,d_future,player_table,file = paste0(Sys.Date(),".RData"))
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 # set leauge rules ---- 
 
@@ -128,7 +161,7 @@ rules <-
         ,pass_40_yds = 0
         ,pass_300_yds = 0
         ,pass_350_yds = 1
-        ,pass_400_yds = 1
+        ,pass_400_yds = 2
       )
     
     ,rush =
@@ -140,7 +173,7 @@ rules <-
         ,rush_tds = 6
         ,rush_100_yds = 0
         ,rush_150_yds = 1
-        ,rush_200_yds = 1
+        ,rush_200_yds = 2
       )
       
     ,rec = 
@@ -152,7 +185,7 @@ rules <-
         ,rec_40_yds = 0
         ,rec_100_yds = 0
         ,rec_150_yds = 1
-        ,rec_200_yds = 1
+        ,rec_200_yds = 2
       )
       
     ,misc = 
@@ -238,6 +271,24 @@ proj <-
 
   }
 
+if (current_week == 0){
+
+p <- proj(d_draft) 
+
+p_future <- lapply(X = d_current, FUN = proj)
+
+for (i in 1:3){
+  
+  p_future[[i]][ ,week := i ] 
+  
+}
+
+p_future <- rbindlist(p_future)
+
+save(current_week,weeks_to_end,p,d_draft,d_adp,p_future, file = "../draft/.RData")
+  
+} else {
+
 p_current <- proj(d_current)
 
 p_future <- lapply(X = d_future, FUN = proj)
@@ -251,3 +302,5 @@ for (i in 1:length(weeks_to_end)){
 p_future <- rbindlist(p_future)
 
 save(current_week,weeks_to_end,p_future,p_current, file = ".RData")
+
+}

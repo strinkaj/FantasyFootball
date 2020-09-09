@@ -10,7 +10,7 @@
   library(shiny)
   library(data.table)
   
-  source("../../.R")
+  source("../.R")
   
   # data load ----
   
@@ -102,8 +102,8 @@
   draft_input <- 
     data.table(
       cbind(
-        "pick" = seq(1,180)
-        ,"dp" = 0
+        "pick" = seq(1,192)
+        ,"dp" = rep(c(seq(1,12),rev(seq(1,12))),8)
         ,"first_name" = ""
         ,"last_name" = ""
         ,"position" = ""

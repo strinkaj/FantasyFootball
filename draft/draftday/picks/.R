@@ -21,6 +21,23 @@ p <- p[team != "FA",]
 p <- p[team != "FA*",]
 p <- p[last_name != "Luck",]
 
+# first three weeks
+
+p_future <- 
+  p_future[
+    avg_type == "weighted"
+    ,
+  ]
+
+p_future <-
+  dcast(
+    p_future
+    ,id ~ week
+    ,value.var = "points"
+    ,fun.aggregate = mean
+  )
+
+colnames(p_future) <- c("id","points_wk1","points_wk2","points_wk3")
   
 draft <- 
   p[
@@ -35,15 +52,14 @@ draft <-
     ,floor
     ,points
     ,ceiling
-    ,points_wk1
-    ,points_wk2
-    ,points_wk3
     )
   ]
 
+draft <- merge(draft,p_future, all.x = TRUE, by = "id")
+
 draft[
-  yahoo
-  ,`:=`(adp = i.adp)
+  d_adp
+  ,`:=`(adp = i.yahoo)
   ,on = "id"
 ]
 
@@ -57,55 +73,55 @@ draft[,dp:=0]
 
 # draft picks ----
 
-# pick #2 ROUND 1
+# pick #11 ROUND 1
 
 pos_accum <- update_draft()
 
 pos_accum <- c("RB" = 0,"QB" = 0,"WR" = 0,"TE" = 0,"DST" = 0)
 
-draft_pick(2)
+draft_pick(11)
 
-# pick #23 ROUND 2
-
-pos_accum <- update_draft()
-
-draft_pick()
-
-# pick #26 ROUND 3
+# pick #14 ROUND 2
 
 pos_accum <- update_draft()
 
-draft_pick(26)
+draft_pick(14)
 
-# pick #47 ROUND 4
-
-pos_accum <- update_draft()
-
-draft_pick(47)
-
-# pick #50 ROUND 5
+# pick #35 ROUND 3
 
 pos_accum <- update_draft()
 
-draft_pick(50)
+draft_pick(35)
 
-# pick #71 ROUND 6
-
-pos_accum <- update_draft()
-
-draft_pick(71)
-
-# pick #74 ROUND 7
+# pick #38 ROUND 4
 
 pos_accum <- update_draft()
 
-draft_pick(74)
+draft_pick(38)
 
-# pick #95 ROUND 8
+# pick #59 ROUND 5
 
 pos_accum <- update_draft()
 
-draft_pick(95)
+draft_pick(59)
+
+# pick #62 ROUND 6
+
+pos_accum <- update_draft()
+
+draft_pick(62)
+
+# pick #83 ROUND 7
+
+pos_accum <- update_draft()
+
+draft_pick(83)
+
+# pick #86 ROUND 8
+
+pos_accum <- update_draft()
+
+draft_pick(86)
 
 # pick #98 ROUND 9
 
