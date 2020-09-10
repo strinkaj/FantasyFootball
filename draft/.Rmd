@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 ```{r data_pull}
 
-load(file = ".RData")
+load(file = "office.RData")
 
 ```
 
@@ -36,7 +36,7 @@ g <-
   p[
     avg_type == "weighted"
     & rank < 201
-    & position %in% c("QB","WR","TE","RB")
+    & pos %in% c("QB","WR","TE","RB")
     ,
   ]
 
@@ -50,8 +50,8 @@ ggplot(
   ,aes(
     x = rank
     ,y = points
-    ,group = position
-    ,color = position
+    ,group = pos
+    ,color = pos
     ,label = name
   )
 ) + 

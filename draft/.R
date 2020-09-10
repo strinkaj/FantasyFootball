@@ -15,11 +15,11 @@ library(data.table)
 snake <- 
   matrix(
     NA
-    ,nrow = 12
+    ,nrow = 10
     ,ncol = 15
   )
 
-snake[,1] <- seq(1,12)
+snake[,1] <- seq(1,10)
 
 for (i in 2:15){
   
@@ -28,14 +28,14 @@ for (i in 2:15){
     rev(
       seq(
         max(snake[,i-1]) + 1
-        ,max(snake[,i-1]) + 12
+        ,max(snake[,i-1]) + 10
       )
     )
   } else {
   snake[,i] <- 
     seq(
       max(snake[,i-1]) + 1,
-      max(snake[,i-1]) + 12
+      max(snake[,i-1]) + 10
     )
   }
   
@@ -480,7 +480,7 @@ draft[
 update_draft <-
   function(){
 
-draft_input <- readRDS("current.rds")
+draft_input <- readRDS("currentoffice.rds")
 
 draft[,drafted:=0]
 
@@ -503,9 +503,9 @@ draft[
   )
 ]
 
-pos_acc <- as.numeric(unlist(draft[dp==11,.N,by=position][,2]))
+pos_acc <- as.numeric(unlist(draft[dp==8,.N,by=position][,2]))
 
-names(pos_acc) <- as.character(unlist(draft[dp==11,.N,by=position][,1]))
+names(pos_acc) <- as.character(unlist(draft[dp==8,.N,by=position][,1]))
 
 for (j in c("RB","QB","WR","TE","DST")){
   

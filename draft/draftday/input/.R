@@ -14,7 +14,7 @@
   
   # data load ----
   
-  load(file = "../../.RData")
+  load(file = "../../office.RData")
   
   # data entry dashboard ---
   
@@ -103,7 +103,7 @@
     data.table(
       cbind(
         "pick" = seq(1,192)
-        ,"dp" = rep(c(seq(1,12),rev(seq(1,12))),8)
+        ,"dp" = rep(c(seq(1,10),rev(seq(1,10))),8)
         ,"first_name" = ""
         ,"last_name" = ""
         ,"position" = ""
@@ -114,5 +114,5 @@
   draft_input[pick == i,dp := which(snake ==i,arr.ind = TRUE)[1] ]
   }
     
-  editTable(draft_input,outdir = "../picks/",outfilename = "current")
+  editTable(draft_input,outdir = "../picks/",outfilename = "currentoffice")
 

@@ -12,7 +12,7 @@ source("../../.R")
 
 # data load ----
 
-load(file = "../../.RData")
+load(file = "../../office.RData")
 
 # set up draft data ----
 
@@ -73,94 +73,89 @@ draft[,dp:=0]
 
 # draft picks ----
 
-# pick #11 ROUND 1
+# pick #8 ROUND 1
 
 pos_accum <- update_draft()
 
 pos_accum <- c("RB" = 0,"QB" = 0,"WR" = 0,"TE" = 0,"DST" = 0)
 
-draft_pick(11)
+draft_pick(8)
 
 # pick #14 ROUND 2
 
 pos_accum <- update_draft()
 
-draft_pick(14)
+draft_pick(13)
 
 # pick #35 ROUND 3
 
 pos_accum <- update_draft()
 
-draft_pick(35)
+draft_pick(28)
 
 # pick #38 ROUND 4
 
 pos_accum <- update_draft()
 
-draft_pick(38)
+draft_pick(33)
 
 # pick #59 ROUND 5
 
 pos_accum <- update_draft()
 
-draft_pick(59)
+draft_pick(48)
 
 # pick #62 ROUND 6
 
 pos_accum <- update_draft()
 
-draft_pick(62)
+draft_pick(53)
 
 # pick #83 ROUND 7
 
 pos_accum <- update_draft()
 
-draft_pick(83)
+draft_pick(68)
 
 # pick #86 ROUND 8
 
 pos_accum <- update_draft()
 
-draft_pick(86)
+draft_pick(73)
 
 # pick #98 ROUND 9
 
 pos_accum <- update_draft()
 
-draft_pick(98)
+draft_pick(88)
 
 # pick #119 ROUND 10
 
 pos_accum <- update_draft()
 
-draft_pick(119)
+draft_pick(93)
 
 # pick #122 ROUND 11
 
 pos_accum <- update_draft()
 
-draft_pick(122)
+draft_pick(108)
 
 # pick #143 ROUND 12
 
 pos_accum <- update_draft()
 
-draft_pick(143)
+draft_pick(113)
 
 # pick #146 ROUND 13
 
 pos_accum <- update_draft()
 
-draft_pick(146)
+draft_pick(128)
 
 # pick #167 ROUND 14
 
 pos_accum <- update_draft()
 
-draft_pick(167)
+draft_pick(133)
 
-# pick #170 ROUND 15
-
-pos_accum <- update_draft()
-
-draft_pick(170)
