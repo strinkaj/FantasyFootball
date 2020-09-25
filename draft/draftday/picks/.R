@@ -127,19 +127,19 @@ draft_pick(86)
 
 pos_accum <- update_draft()
 
-draft_pick(98)
+draft_pick(107)
 
 # pick #119 ROUND 10
 
 pos_accum <- update_draft()
 
-draft_pick(119)
+draft_pick(110)
 
 # pick #122 ROUND 11
 
 pos_accum <- update_draft()
 
-draft_pick(122)
+draft_pick(134)
 
 # pick #143 ROUND 12
 
@@ -151,16 +151,16 @@ draft_pick(143)
 
 pos_accum <- update_draft()
 
-draft_pick(146)
+draft_pick(155)
 
 # pick #167 ROUND 14
 
 pos_accum <- update_draft()
 
-draft_pick(167)
+draft_pick(158)
 
 # pick #170 ROUND 15
 
 pos_accum <- update_draft()
 
-draft_pick(170)
+draft_pick(1)

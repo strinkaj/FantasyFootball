@@ -353,12 +353,12 @@ if (n == 0){
   
   print(
     d[
-      dp == 8 & 
+      dp == 11 & 
       position == "WR" & 
       score + one_disc_point < 
       wr_avail[
-        i,round(score,1)],
-      ][order(score),
+        i,round(floor,1)],
+      ][order(floor),
       ][1:i, 
         .(
           first_name
@@ -375,36 +375,13 @@ if (n == 0){
 View(
   d[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+  #  &(drafted == 0|dp == 11)
     &(position == "WR")
   ,
   ][
-    order(-score),
+    order(-floor),
   ][
-    1:20
-    ,.(
-    dp
-    ,first_name
-    ,last_name
-    ,team
-    ,position
-    ,"floor" = round(floor, 2)
-    ,"score" = round(score, 2)
-    ,"ceiling" = round(ceiling, 2)
-    )
-  ]
-)
-
-View(
-  d0[
-    (team != "FA")
-    &(drafted == 0|dp == 8|last_name == "Pascal")
-    &(position == "WR")
-  ,
-  ][
-    order(-score),
-  ][
-    1:15
+ #   1:20
     ,.(
     dp
     ,first_name
@@ -421,13 +398,36 @@ View(
 View(
   d1[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+ #   &(drafted == 0|dp == 11|last_name == "Pascal")
+    &(position == "WR")
+  ,
+  ][
+    order(-score),
+  ][
+  #  1:15
+    ,.(
+    dp
+    ,first_name
+    ,last_name
+    ,team
+    ,position
+    ,"floor" = round(floor, 2)
+    ,"score" = round(score, 2)
+    ,"ceiling" = round(ceiling, 2)
+    )
+  ]
+)
+
+View(
+  d1[
+    (team != "FA")
+   # &(drafted == 0|dp == 11)
     &(position == "WR")
   ,
   ][
     order(-floor),
   ][
-    1:15
+ #   1:15
     ,.(
     dp
     ,first_name
@@ -506,7 +506,7 @@ if (n == 0){
 View(
   d[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 11)
     &(position == "RB")
   ,
   ][
@@ -529,7 +529,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 11)
     &(position == "RB")
   ,
   ][
@@ -621,7 +621,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 11)
     &(position == "DST")
   ,
   ][
@@ -691,7 +691,7 @@ View(
 View(
   d0[
     (team != "FA")
-    &(drafted == 0|dp == 8)
+    &(drafted == 0|dp == 11)
     &(position == "QB")
   ,
   ][

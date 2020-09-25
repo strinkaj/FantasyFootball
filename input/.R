@@ -41,28 +41,37 @@ weeks_to_end <- seq(current_week,16)
 src_current <- 
   c(
   "CBS" 
-  ,"ESPN"
-  ,"FantasyData"
+#  ,"ESPN"
+#  ,"FantasyData"
   ,"FantasyPros" 
   ,"FantasySharks" 
 #  ,"FFToday" 
   ,"FleaFlicker" 
   ,"NumberFire" 
-  ,"Yahoo" 
+#  ,"Yahoo" 
   ,"FantasyFootballNerd" 
-  ,"NFL"
-  ,"RTSports"
-  ,"Walterfootball"
+#  ,"NFL"
+#  ,"RTSports"
+#  ,"Walterfootball"
   )
 
 
 # only some sources forecast out - watch carefully
 src_future <- 
   c(
-  "FantasySharks"
-  ,"FantasyPros"
-  ,"FleaFlicker" 
-  ,"NumberFire" 
+    # "CBS" 
+    # ,"ESPN"
+    # ,"FantasyData"
+    "FantasyPros" 
+    ,"FantasySharks" 
+    # ,"FFToday" 
+    # ,"FleaFlicker" 
+    # ,"NumberFire" 
+    # ,"Yahoo" 
+    # ,"FantasyFootballNerd" 
+    # ,"NFL"
+    # ,"RTSports"
+    # ,"Walterfootball"
   )
 
 # data scrape ----
